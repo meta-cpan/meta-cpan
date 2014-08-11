@@ -1,6 +1,6 @@
-DESCRIPTION = "This module provides bare bones "try"/"catch"/"finally" statements that \
-are designed to minimize common mistakes with eval blocks, and NOTHING \
-else."
+DESCRIPTION = "This module provides bare bones \"try\"/\"catch\"/\"finally\" \
+statements that are designed to minimize common mistakes with eval \
+blocks, and NOTHING else."
 
 SECTION = "libs"
 LICENSE = "MIT"
@@ -10,12 +10,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Try-Tiny"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
-DEPENDS += "perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/D/DO/DOY/Try-Tiny-0.22.tar.gz"
 
 SRC_URI[md5sum] = "6769658bfbca241a470206c9a8819ff2"
 SRC_URI[sha256sum] = "60fba46f4693d33d54539104f9001df008dabb400b6837e9605c39a6ee6a1b19"
+RECOMMENDS_${PV} += "capture-tiny-perl"
+RECOMMENDS_${PV} += "sub-name-perl"
 
 S = "${WORKDIR}/Try-Tiny-${PV}"
 

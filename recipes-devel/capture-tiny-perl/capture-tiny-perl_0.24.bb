@@ -22,6 +22,8 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.24.t
 
 SRC_URI[md5sum] = "718e9d62c4a27a3207cf8506cb99d846"
 SRC_URI[sha256sum] = "9bcf6f8472f8ea50401536cb070ac0c7770837d155c4d6abe212759863aae065"
+RECOMMENDS_${PV} += "inline-perl"
+RECOMMENDS_${PV} += "perl"
 
 S = "${WORKDIR}/Capture-Tiny-${PV}"
 
