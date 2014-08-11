@@ -1,5 +1,5 @@
 DESCRIPTION = "This module makes it easy to install subroutines into packages without \
-the unsightly mess of "no strict" or typeglobs lying about where just \
+the unsightly mess of \"no strict\" or typeglobs lying about where just \
 anyone can \
 see them."
 

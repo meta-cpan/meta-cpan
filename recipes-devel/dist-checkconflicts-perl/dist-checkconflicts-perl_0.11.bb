@@ -15,12 +15,13 @@ HOMEPAGE=	"https://metacpan.org/release/Dist-CheckConflicts"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "module-runtime-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz"
 
 SRC_URI[md5sum] = "c8725a92b9169708b0f63036812070f2"
 SRC_URI[sha256sum] = "ea844b9686c94d666d9d444321d764490b2cde2f985c4165b4c2c77665caedc4"
+RDEPENDS_${PV} += "module-runtime-perl"
+DEPENDS += "test-fatal-perl"
 
 S = "${WORKDIR}/Dist-CheckConflicts-${PV}"
 

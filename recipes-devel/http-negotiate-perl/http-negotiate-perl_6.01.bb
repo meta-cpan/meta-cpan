@@ -14,12 +14,12 @@ HOMEPAGE=	"https://metacpan.org/release/HTTP-Negotiate"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "http-message-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz"
 
 SRC_URI[md5sum] = "1236195250e264d7436e7bb02031671b"
 SRC_URI[sha256sum] = "1c729c1ea63100e878405cda7d66f9adfd3ed4f1d6cacaca0ee9152df728e016"
+RDEPENDS_${PV} += "http-message-perl"
 
 S = "${WORKDIR}/HTTP-Negotiate-${PV}"
 

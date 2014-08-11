@@ -3,7 +3,7 @@ call stack. This is similar to exceptions, but exceptions don't stop \
 automatically at a target frame (and they can be caught by intermediate \
 stack frames). In other words, this is more like setjmp(3)/longjmp(3) \
 than \
-"die"."
+\"die\"."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"

@@ -15,6 +15,9 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-1.005004.ta
 
 SRC_URI[md5sum] = "1da9241286818e8d374fb9849d17a13d"
 SRC_URI[sha256sum] = "bbf066cfb37d3ae4b23d1fcf5c7aea276ae3b3b43c5fc7472e1d1880cc063879"
+RRECOMMENDS_${PV} += "bareword-filehandles-perl"
+RRECOMMENDS_${PV} += "indirect-perl"
+RRECOMMENDS_${PV} += "multidimensional-perl"
 
 S = "${WORKDIR}/strictures-${PV}"
 

@@ -14,6 +14,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.08
 
 SRC_URI[md5sum] = "339ec20fbbeaa904a968bdee629688a6"
 SRC_URI[sha256sum] = "e7b1b4b30b90d530aea68205c0e65cf7a784d6a218df5a2b41830cdb404d8221"
+DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-Requires-${PV}"
 

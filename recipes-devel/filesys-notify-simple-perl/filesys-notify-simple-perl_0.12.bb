@@ -21,6 +21,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Filesys-Notify-Simp
 
 SRC_URI[md5sum] = "d1886453241db0a034e5aacd02ee1f72"
 SRC_URI[sha256sum] = "ecafcdfdebd0706fdf1bb7ee1bbbc304a65d70c6cc05255d14fd133da6aca60d"
+DEPENDS += "test-sharedfork-perl"
 
 S = "${WORKDIR}/Filesys-Notify-Simple-${PV}"
 

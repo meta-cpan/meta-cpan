@@ -1,7 +1,7 @@
 DESCRIPTION = "This module provides methods for obtaining information about the \
 currently running perl interpreter. It originally began life as code in \
 the \
-"Module::Build" project, but has been externalized here for general \
+\"Module::Build\" project, but has been externalized here for general \
 use."
 
 SECTION = "libs"

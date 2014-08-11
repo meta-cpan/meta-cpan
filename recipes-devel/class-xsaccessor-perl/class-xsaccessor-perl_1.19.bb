@@ -1,9 +1,9 @@
 DESCRIPTION = "Class::XSAccessor implements fast read, write and read/write accessors \
-in XS. Additionally, it can provide predicates such as "has_foo()" for \
-testing \
-whether the attribute "foo" exists in the object (which is different \
+in XS. Additionally, it can provide predicates such as \"has_foo()\" \
+for testing \
+whether the attribute \"foo\" exists in the object (which is different \
 from \
-"is defined within the object"). It only works with objects that are \
+\"is defined within the object\"). It only works with objects that are \
 implemented as ordinary hashes. Class::XSAccessor::Array implements the \
 same \
 interface for objects that use arrays for their internal \

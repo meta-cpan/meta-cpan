@@ -17,6 +17,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz"
 
 SRC_URI[md5sum] = "52b7a0d5982d61be1edb217751d7daba"
 SRC_URI[sha256sum] = "e8b9941da0f9f0c9c01068401a5e81341f0e3707d1c754f8e11f42a7e629e333"
+RRECOMMENDS_${PV} += "libtimedate-perl"
 
 S = "${WORKDIR}/HTTP-Date-${PV}"
 

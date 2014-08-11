@@ -17,11 +17,17 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Comp
 
 SRC_URI[md5sum] = "5c73330baf3648c1aae63c0255c04fb0"
 SRC_URI[sha256sum] = "3bc5780f6057f4afb15c58d36846590ab6c1be7535e50890fd24b2c3f9a515d4"
+DEPENDS += "perl"
 
 S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
 
 EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
 
-inherit cpan_build
+inherit cpan
+
+do_compile() {
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	cpan_do_compile
+}
 
 BBCLASSEXTEND = "native"

@@ -1,5 +1,5 @@
-DESCRIPTION = "This module provides a "clone()" method which makes recursive copies of \
-nested hash, array, scalar and reference types, including tied \
+DESCRIPTION = "This module provides a \"clone()\" method which makes recursive copies \
+of nested hash, array, scalar and reference types, including tied \
 variables and \
 objects."
 

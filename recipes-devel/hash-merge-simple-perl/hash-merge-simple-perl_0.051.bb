@@ -18,12 +18,13 @@ HOMEPAGE=	"https://metacpan.org/release/Hash-Merge-Simple"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "clone-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz"
 
 SRC_URI[md5sum] = "f47b9b99794b1f958bcfa3e816ff4660"
 SRC_URI[sha256sum] = "1c56327873d2f04d5722777f044863d968910466997740d55a754071c6287b73"
+RDEPENDS_${PV} += "clone-perl"
+DEPENDS += "test-most-perl"
 
 S = "${WORKDIR}/Hash-Merge-Simple-${PV}"
 

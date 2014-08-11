@@ -18,6 +18,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.014.
 
 SRC_URI[md5sum] = "a6597bc25536a30476f0d75b64d35734"
 SRC_URI[sha256sum] = "4c44fe0ea255a9fd00741ee545063f6692d2a28e7ef2fbaad1b24a92803362a4"
+DEPENDS += "perl"
 
 S = "${WORKDIR}/Module-Runtime-${PV}"
 

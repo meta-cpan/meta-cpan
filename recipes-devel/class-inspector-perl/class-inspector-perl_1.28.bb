@@ -21,6 +21,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/A/AD/ADAMK/Class-Inspector-1.28.t
 
 SRC_URI[md5sum] = "7ab3ca22d3147236dddfb58f2366ad22"
 SRC_URI[sha256sum] = "3ca4b7a3ed1f4cc846c9a3c08f9a6e9ec07a9cbfd92510dea9513db61a923112"
+DEPENDS += "perl"
 
 S = "${WORKDIR}/Class-Inspector-${PV}"
 

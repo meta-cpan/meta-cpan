@@ -12,17 +12,25 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Params-Validate"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
-DEPENDS += "module-implementation-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.13.tar.gz"
 
 SRC_URI[md5sum] = "51061593757a172a98ce15097e2da5d6"
 SRC_URI[sha256sum] = "6aa31630329952e53e58a81d113995dfa11f786028a1c23892942598ee384be4"
+RDEPENDS_${PV} += "module-implementation-perl"
+DEPENDS += "perl"
+DEPENDS += "test-fatal-perl"
+DEPENDS += "test-requires-perl"
 
 S = "${WORKDIR}/Params-Validate-${PV}"
 
 EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
 
-inherit cpan_build
+inherit cpan
+
+do_compile() {
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	cpan_do_compile
+}
 
 BBCLASSEXTEND = "native"

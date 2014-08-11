@@ -1,4 +1,4 @@
-DESCRIPTION = ""Params::Util" provides a basic set of importable functions that makes \
+DESCRIPTION = ""Params::Util\" provides a basic set of importable functions that makes \
 checking parameters a hell of a lot easier"
 
 SECTION = "libs"

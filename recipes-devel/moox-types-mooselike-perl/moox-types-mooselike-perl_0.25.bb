@@ -12,12 +12,14 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-Types-MooseLike"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "module-runtime-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/M/MA/MATEU/MooX-Types-MooseLike-0.25.tar.gz"
 
 SRC_URI[md5sum] = "9047d7c5336d2a46bf4d7b67c6f5e84a"
 SRC_URI[sha256sum] = "33e26df9853ab429a2978d8131304b91b4baadce4b3a908863de44061e4b69c9"
+RDEPENDS_${PV} += "module-runtime-perl"
+DEPENDS += "moo-perl"
+DEPENDS += "test-fatal-perl"
 
 S = "${WORKDIR}/MooX-Types-MooseLike-${PV}"
 

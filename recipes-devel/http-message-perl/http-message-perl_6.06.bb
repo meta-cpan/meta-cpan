@@ -14,16 +14,16 @@ HOMEPAGE=	"https://metacpan.org/release/HTTP-Message"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "encode-locale-perl"
-DEPENDS += "http-date-perl"
-DEPENDS += "io-html-perl"
-DEPENDS += "liburi-perl"
-DEPENDS += "lwp-mediatypes-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Message-6.06.tar.gz"
 
 SRC_URI[md5sum] = "e563ac516e28d33f65bc0f295f625f85"
 SRC_URI[sha256sum] = "087e97009c5239dca4631cf433d836771b3fc5ba5685eef1965f9d3415cbad63"
+RDEPENDS_${PV} += "encode-locale-perl"
+RDEPENDS_${PV} += "http-date-perl"
+RDEPENDS_${PV} += "io-html-perl"
+RDEPENDS_${PV} += "liburi-perl"
+RDEPENDS_${PV} += "lwp-mediatypes-perl"
 
 S = "${WORKDIR}/HTTP-Message-${PV}"
 

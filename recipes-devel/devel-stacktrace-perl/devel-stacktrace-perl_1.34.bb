@@ -1,7 +1,7 @@
-DESCRIPTION = "The "Devel::StackTrace" module contains two classes, \
+DESCRIPTION = "The \"Devel::StackTrace\" module contains two classes, \
 C,Devel::StackTrace> and Devel::StackTrace::Frame. These objects \
 encapsulate the information that \
-can retrieved via Perl's "caller()" function, as well as providing a \
+can retrieved via Perl's \"caller()\" function, as well as providing a \
 simple \
 interface to this data."
 

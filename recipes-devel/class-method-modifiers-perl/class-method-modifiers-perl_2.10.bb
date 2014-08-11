@@ -15,6 +15,8 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers
 
 SRC_URI[md5sum] = "bd56ab860d1a24e6d9c7e87e36e2b09c"
 SRC_URI[sha256sum] = "420fb53f789f53ecddc17890b0f648289397cceeb2de05f0994999fdf329e7b6"
+DEPENDS += "test-fatal-perl"
+RECOMMENDS_${PV} += "perl"
 
 S = "${WORKDIR}/Class-Method-Modifiers-${PV}"
 

@@ -1,7 +1,9 @@
 DESCRIPTION = "This module decodes a URL-encoded parameter string in the manner of \
 CGI.pm. However, as it uses C code from libapreq to perform the task, \
-it's somewhere from slightly to much faster (depending on your strings) \
-than using CGI or a functionally similar module like CGI::Deurl."
+it's somewhere \
+from slightly to much faster (depending on your strings) than using CGI \
+or a \
+functionally similar module like CGI::Deurl."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"

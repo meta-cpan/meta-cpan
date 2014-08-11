@@ -14,13 +14,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Module-Implementation"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
-DEPENDS += "module-runtime-perl"
-DEPENDS += "try-tiny-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.07.tar.gz"
 
 SRC_URI[md5sum] = "55483fce4266747e823a1004499bd70c"
 SRC_URI[sha256sum] = "7349837153939d7f5777b28f49e2940a0aa003e75f587e1674da5bd5101d2997"
+RDEPENDS_${PV} += "module-runtime-perl"
+RDEPENDS_${PV} += "try-tiny-perl"
+DEPENDS += "test-fatal-perl"
+DEPENDS += "test-requires-perl"
 
 S = "${WORKDIR}/Module-Implementation-${PV}"
 

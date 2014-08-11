@@ -1,19 +1,18 @@
 DESCRIPTION = "This module allows you to run a subprocess and redirect stdin, stdout, \
 and/or stderr to files and perl data structures. It aims to satisfy 99% \
 of \
-the need for using "system", "qx", and "open3" with a simple, extremely \
+the need for using \"system\", \"qx\", and \"open3\" with a simple, \
+extremely \
 Perlish API."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0 | BSD-3-Clause"
+LICENSE = "unknown(open_source)"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/IPC-Run3"
 
-LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6 \
-file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec5312d6919e203a55f9"
+LIC_FILES_CHKSUM = "unknown(open_source)"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
 

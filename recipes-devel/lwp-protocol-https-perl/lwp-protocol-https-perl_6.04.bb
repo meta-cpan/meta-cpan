@@ -14,15 +14,15 @@ HOMEPAGE=	"https://metacpan.org/release/LWP-Protocol-https"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
-DEPENDS += "io-socket-ssl-perl"
-DEPENDS += "libwww-perl-perl"
-DEPENDS += "mozilla-ca-perl"
-DEPENDS += "net-http-perl"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/LWP-Protocol-https-6.04.tar.gz"
 
 SRC_URI[md5sum] = "1b422a7d3b5fed1eb4d748fdc9fd79a4"
 SRC_URI[sha256sum] = "1ef67750ee363525cf729b59afde805ac4dc80eaf8d36ca01082a4d78a7af629"
+RDEPENDS_${PV} += "io-socket-ssl-perl"
+RDEPENDS_${PV} += "libwww-perl-perl"
+RDEPENDS_${PV} += "mozilla-ca-perl"
+RDEPENDS_${PV} += "net-http-perl"
 
 S = "${WORKDIR}/LWP-Protocol-https-${PV}"
 
