@@ -17,12 +17,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.g
 
 SRC_URI[md5sum] = "ecfd0eeb88512033352c2f13c9580f03"
 SRC_URI[sha256sum] = "f5d3ade383ce6389d80cb0d0356b643af80435bb036afd8edce335215ec5eb20"
-RDEPENDS_${PV} += "http-date-perl"
-RDEPENDS_${PV} += "http-message-perl"
+RDEPENDS_${PN} += "http-date-perl"
+RDEPENDS_${PN} += "http-message-perl"
 
 S = "${WORKDIR}/HTTP-Cookies-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

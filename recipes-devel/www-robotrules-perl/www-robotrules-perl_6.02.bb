@@ -19,11 +19,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar
 
 SRC_URI[md5sum] = "b7186e8b8b3701e70c22abf430742403"
 SRC_URI[sha256sum] = "46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e"
-RDEPENDS_${PV} += "liburi-perl"
+RDEPENDS_${PN} += "liburi-perl"
 
 S = "${WORKDIR}/WWW-RobotRules-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

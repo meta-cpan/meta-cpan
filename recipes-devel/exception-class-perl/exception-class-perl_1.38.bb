@@ -15,12 +15,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.38
 
 SRC_URI[md5sum] = "4d7203a95893449f53ccacb385981569"
 SRC_URI[sha256sum] = "5c2cf90749c9f124118ad5846303c5463c9d6fa1f1c328a0085f6af2928c3900"
-RDEPENDS_${PV} += "class-data-inheritable-perl"
-RDEPENDS_${PV} += "devel-stacktrace-perl"
+RDEPENDS_${PN} += "class-data-inheritable-perl"
+RDEPENDS_${PN} += "devel-stacktrace-perl"
 
 S = "${WORKDIR}/Exception-Class-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

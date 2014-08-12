@@ -15,23 +15,23 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Co
 
 SRC_URI[md5sum] = "0abb3275f934c7ac41d7a83c7d0565ad"
 SRC_URI[sha256sum] = "bc112cdbc32f2e93c10bf661f39de509036e01c20c3a702a22cdb0be4426dd7f"
-RDEPENDS_${PV} += "posix-strftime-compiler-perl"
-DEPENDS += "http-message-perl"
-DEPENDS += "liburi-perl"
+RDEPENDS_${PN} += "posix-strftime-compiler-perl"
+DEPENDS += "http-message-perl-native"
+DEPENDS += "liburi-perl-native"
 DEPENDS += "perl"
-DEPENDS += "test-mocktime-perl"
-DEPENDS += "test-requires-perl"
-DEPENDS += "try-tiny-perl"
+DEPENDS += "test-mocktime-perl-native"
+DEPENDS += "test-requires-perl-native"
+DEPENDS += "try-tiny-perl-native"
 
 S = "${WORKDIR}/Apache-LogFormat-Compiler-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
 
-inherit cpan
+
+inherit cpan_build
 
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
+	cpan_build_do_compile
 }
 
 BBCLASSEXTEND = "native"

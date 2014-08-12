@@ -15,12 +15,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DO/DOY/Try-Tiny-0.22.tar.gz"
 
 SRC_URI[md5sum] = "6769658bfbca241a470206c9a8819ff2"
 SRC_URI[sha256sum] = "60fba46f4693d33d54539104f9001df008dabb400b6837e9605c39a6ee6a1b19"
-RECOMMENDS_${PV} += "capture-tiny-perl"
-RECOMMENDS_${PV} += "sub-name-perl"
+RECOMMENDS += "capture-tiny-perl-native"
+RECOMMENDS += "sub-name-perl-native"
 
 S = "${WORKDIR}/Try-Tiny-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

@@ -19,14 +19,14 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementatio
 
 SRC_URI[md5sum] = "55483fce4266747e823a1004499bd70c"
 SRC_URI[sha256sum] = "7349837153939d7f5777b28f49e2940a0aa003e75f587e1674da5bd5101d2997"
-RDEPENDS_${PV} += "module-runtime-perl"
-RDEPENDS_${PV} += "try-tiny-perl"
-DEPENDS += "test-fatal-perl"
-DEPENDS += "test-requires-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
+RDEPENDS_${PN} += "try-tiny-perl"
+DEPENDS += "test-fatal-perl-native"
+DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Module-Implementation-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

@@ -17,11 +17,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Import-Into-1.002004.t
 
 SRC_URI[md5sum] = "70f2f3b08a5b706ee382a8448c346cb1"
 SRC_URI[sha256sum] = "decb259bc2ff015fe3dac85e4a287d4128e9b0506a0b2c5fa7244836a68b1084"
-RDEPENDS_${PV} += "module-runtime-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
 
 S = "${WORKDIR}/Import-Into-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

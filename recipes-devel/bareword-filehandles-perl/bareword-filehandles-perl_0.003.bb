@@ -17,13 +17,13 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/I/IL/ILMARI/bareword-filehandles-
 
 SRC_URI[md5sum] = "1e0ec0e72c897b238b4f9d0eb71643a4"
 SRC_URI[sha256sum] = "be4334b476d6eead4d05b2e3587157c592470ef6dbff9298683ad7fee7a825fa"
-RDEPENDS_${PV} += "b-hooks-op-check-perl"
-RDEPENDS_${PV} += "lexical-sealrequirehints-perl"
-DEPENDS += "extutils-depends-perl"
+DEPENDS += "b-hooks-op-check-perl-native"
+RDEPENDS_${PN} += "b-hooks-op-check-perl"
+DEPENDS += "lexical-sealrequirehints-perl-native"
+RDEPENDS_${PN} += "lexical-sealrequirehints-perl"
+DEPENDS += "extutils-depends-perl-native"
 
 S = "${WORKDIR}/bareword-filehandles-${PV}"
-
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
 
 inherit cpan
 

@@ -14,20 +14,20 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/App-Cmd-0.323.tar.gz"
 
 SRC_URI[md5sum] = "2542e858a359b3ecdc8d2e7c60595902"
 SRC_URI[sha256sum] = "6d8e2837728f76154d277d98f8facfa5615676a4ee124bc7b818aa63337cd215"
-RDEPENDS_${PV} += "capture-tiny-perl"
-RDEPENDS_${PV} += "class-load-perl"
-RDEPENDS_${PV} += "data-optlist-perl"
-RDEPENDS_${PV} += "getopt-long-descriptive-perl"
-RDEPENDS_${PV} += "io-tiecombine-perl"
-RDEPENDS_${PV} += "perl"
-RDEPENDS_${PV} += "string-rewriteprefix-perl"
-RDEPENDS_${PV} += "sub-exporter-perl"
-RDEPENDS_${PV} += "sub-install-perl"
-DEPENDS += "test-fatal-perl"
+RDEPENDS_${PN} += "capture-tiny-perl"
+RDEPENDS_${PN} += "class-load-perl"
+RDEPENDS_${PN} += "data-optlist-perl"
+RDEPENDS_${PN} += "getopt-long-descriptive-perl"
+RDEPENDS_${PN} += "io-tiecombine-perl"
+RDEPENDS_${PN} += "perl"
+RDEPENDS_${PN} += "string-rewriteprefix-perl"
+RDEPENDS_${PN} += "sub-exporter-perl"
+RDEPENDS_${PN} += "sub-install-perl"
+DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/App-Cmd-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

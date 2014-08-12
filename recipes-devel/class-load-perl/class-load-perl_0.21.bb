@@ -16,19 +16,19 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Load-0.21.tar.gz
 
 SRC_URI[md5sum] = "67674318b7b47b519abfd9f16292dc35"
 SRC_URI[sha256sum] = "10d9bae402f7e67ef441af1d7222c9d09c2b0818b81c6752c383a2d924c8047c"
-RDEPENDS_${PV} += "data-optlist-perl"
-RDEPENDS_${PV} += "module-implementation-perl"
-RDEPENDS_${PV} += "module-runtime-perl"
-RDEPENDS_${PV} += "package-stash-perl"
-RDEPENDS_${PV} += "try-tiny-perl"
-DEPENDS += "module-build-tiny-perl"
-DEPENDS += "test-fatal-perl"
-DEPENDS += "test-requires-perl"
-RECOMMENDS_${PV} += "perl"
+RDEPENDS_${PN} += "data-optlist-perl"
+RDEPENDS_${PN} += "module-implementation-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
+RDEPENDS_${PN} += "package-stash-perl"
+RDEPENDS_${PN} += "try-tiny-perl"
+DEPENDS += "module-build-tiny-perl-native"
+DEPENDS += "test-fatal-perl-native"
+DEPENDS += "test-requires-perl-native"
+RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Class-Load-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

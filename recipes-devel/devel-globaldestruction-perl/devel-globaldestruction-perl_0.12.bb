@@ -16,11 +16,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestructio
 
 SRC_URI[md5sum] = "87382bd2f512b0703dd55da6b2b16ec4"
 SRC_URI[sha256sum] = "98a5b7668fc710e4c7ebe8860508fbebeea830eab6243d21ed8d7ac293278a70"
-RDEPENDS_${PV} += "sub-exporter-progressive-perl"
+RDEPENDS_${PN} += "sub-exporter-progressive-perl"
 
 S = "${WORKDIR}/Devel-GlobalDestruction-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

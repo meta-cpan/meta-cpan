@@ -15,11 +15,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/I/IN/INGY/YAML-1.01.tar.gz"
 
 SRC_URI[md5sum] = "274eb90f9d665dbef55219f4eea4d239"
 SRC_URI[sha256sum] = "5ddba9d8fa0bed7d944b8ec5df47366003d4e11afc36fc9a32ef4a1afd461192"
-DEPENDS += "test-yaml-perl"
+DEPENDS += "test-yaml-perl-native"
 
 S = "${WORKDIR}/YAML-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

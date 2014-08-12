@@ -15,12 +15,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/C/CH/CHANSEN/URL-Encode-XS-0.03.t
 
 SRC_URI[md5sum] = "1e587f85b6e65b5c4dbc148b57520d48"
 SRC_URI[sha256sum] = "d44f416bd3e58e3b3366ab420705da02c7118fc848a97ce089366ea0461fa823"
-RDEPENDS_${PV} += "url-encode-perl"
+RDEPENDS_${PN} += "url-encode-perl"
 DEPENDS += "perl"
 
 S = "${WORKDIR}/URL-Encode-XS-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

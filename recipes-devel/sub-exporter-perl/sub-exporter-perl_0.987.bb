@@ -17,13 +17,13 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Sub-Exporter-0.987.tar.
 
 SRC_URI[md5sum] = "5332d269a7ba387773fcd140b72a0ed2"
 SRC_URI[sha256sum] = "543cb2e803ab913d44272c7da6a70bb62c19e467f3b12aaac4c9523259b083d6"
-RDEPENDS_${PV} += "data-optlist-perl"
-RDEPENDS_${PV} += "params-util-perl"
-RDEPENDS_${PV} += "sub-install-perl"
+RDEPENDS_${PN} += "data-optlist-perl"
+RDEPENDS_${PN} += "params-util-perl"
+RDEPENDS_${PN} += "sub-install-perl"
 
 S = "${WORKDIR}/Sub-Exporter-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

@@ -17,12 +17,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/A/AD/ADAMK/Test-Script-1.07.tar.g
 
 SRC_URI[md5sum] = "f6b5baa6403cd24dac7f023e0ea22384"
 SRC_URI[sha256sum] = "e21e5ee43a27b4c51b54ded5c92e60b817309778117a1d98ae6354abff27eb96"
-RDEPENDS_${PV} += "ipc-run3-perl"
-RDEPENDS_${PV} += "probe-perl-perl"
+RDEPENDS_${PN} += "ipc-run3-perl"
+RDEPENDS_${PN} += "probe-perl-perl"
 
 S = "${WORKDIR}/Test-Script-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

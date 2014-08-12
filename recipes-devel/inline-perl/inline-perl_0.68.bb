@@ -18,11 +18,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-0.68.tar.gz"
 
 SRC_URI[md5sum] = "197a31c5b9b39cd830efc027ce5c1700"
 SRC_URI[sha256sum] = "ea34b6dcd5596de29645deb069192a4b0abaf142499956b6c622f4467df1cf9f"
-DEPENDS += "test-warn-perl"
+DEPENDS += "test-warn-perl-native"
 
 S = "${WORKDIR}/Inline-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

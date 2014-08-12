@@ -20,11 +20,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-1.997.ta
 
 SRC_URI[md5sum] = "2a6268bb42da81e69d1c1feb2fcb0eea"
 SRC_URI[sha256sum] = "acdb67b5b63aea5b7e70c3e4c70a16128810329592b63753a38c794aff76a1dd"
-RDEPENDS_${PV} += "net-ssleay-perl"
+RDEPENDS_${PN} += "net-ssleay-perl"
 
 S = "${WORKDIR}/IO-Socket-SSL-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

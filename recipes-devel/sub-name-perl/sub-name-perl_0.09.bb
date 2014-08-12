@@ -14,11 +14,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.09.tar.gz"
 
 SRC_URI[md5sum] = "24f2fadd4e4c42907cfcd7c03ee8f4c8"
 SRC_URI[sha256sum] = "8d70c6356db2db73c0ee9af7d346790874fa014fcf31bade404046b8ebf33efd"
-DEPENDS += "devel-checkbin-perl"
+DEPENDS += "devel-checkbin-perl-native"
 
 S = "${WORKDIR}/Sub-Name-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

@@ -18,13 +18,13 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
 
 SRC_URI[md5sum] = "ed0ae02d25d7f1e89456d4d69732adc2"
 SRC_URI[sha256sum] = "43fd867742701a3f9fcc7bd59838ab72c6490c0ebaf66901068ec6997514adc2"
-RDEPENDS_${PV} += "http-date-perl"
-RDEPENDS_${PV} += "http-message-perl"
-RDEPENDS_${PV} += "lwp-mediatypes-perl"
+RDEPENDS_${PN} += "http-date-perl"
+RDEPENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "lwp-mediatypes-perl"
 
 S = "${WORKDIR}/HTTP-Daemon-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

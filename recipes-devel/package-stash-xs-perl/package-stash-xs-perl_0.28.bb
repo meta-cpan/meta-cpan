@@ -17,12 +17,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DO/DOY/Package-Stash-XS-0.28.ta
 
 SRC_URI[md5sum] = "9664356ec3be02626cbd3081ec246b70"
 SRC_URI[sha256sum] = "23d8c5c25768ef1dc0ce53b975796762df0d6e244445d06e48d794886c32d486"
-DEPENDS += "test-fatal-perl"
-DEPENDS += "test-requires-perl"
+DEPENDS += "test-fatal-perl-native"
+DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Package-Stash-XS-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

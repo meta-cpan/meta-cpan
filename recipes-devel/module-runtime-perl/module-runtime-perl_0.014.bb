@@ -22,7 +22,7 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Module-Runtime-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan_build
 

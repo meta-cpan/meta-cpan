@@ -9,23 +9,23 @@ was \
 going on when the it occurred."
 
 SECTION = "libs"
-LICENSE = "unknown(open_source)"
+LICENSE = "LGPL-2.1"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-NoWarnings"
 
-LIC_FILES_CHKSUM = "unknown(open_source)"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/LGPL-2.1;md5=1a6d268fd218675ffea8be556788b780"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz"
 
 SRC_URI[md5sum] = "682ed043f7d3e38f3dfd8745fd21c49a"
 SRC_URI[sha256sum] = "638a57658cb119af1fe5b15e73d47c2544dcfef84af0c6b1b2e97f08202b686c"
-DEPENDS += "test-tester-perl"
+DEPENDS += "test-tester-perl-native"
 
 S = "${WORKDIR}/Test-NoWarnings-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

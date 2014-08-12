@@ -18,12 +18,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.102.
 
 SRC_URI[md5sum] = "553157f0e81cd2dabfe140ceb06cd03f"
 SRC_URI[sha256sum] = "7c7334b974882587fbd9bc135f6bc04ad197abe99e6f4761953fe9ca88c57411"
-RDEPENDS_${PV} += "class-inspector-perl"
-DEPENDS += "file-sharedir-install-perl"
+RDEPENDS_${PN} += "class-inspector-perl"
+DEPENDS += "file-sharedir-install-perl-native"
 
 S = "${WORKDIR}/File-ShareDir-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

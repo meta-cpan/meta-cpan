@@ -15,11 +15,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-SharedFork-0.
 SRC_URI[md5sum] = "6a31dad843c1f9919932d229963ef9ec"
 SRC_URI[sha256sum] = "4b2d2b7b0185689d143907089e5c526e4e4cc59abd17e342350209a5e1b8b867"
 DEPENDS += "perl"
-DEPENDS += "test-requires-perl"
+DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Test-SharedFork-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

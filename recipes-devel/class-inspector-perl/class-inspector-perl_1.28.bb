@@ -25,7 +25,7 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Class-Inspector-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

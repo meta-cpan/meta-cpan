@@ -14,11 +14,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/String-RewritePrefix-0.
 
 SRC_URI[md5sum] = "7135a69bd8cf74cf17dba857b2372d16"
 SRC_URI[sha256sum] = "5cbbccd5636315a90ddec3610c718411b971ae4b74d5e9e2c9a0b3f976a0dda2"
-RDEPENDS_${PV} += "sub-exporter-perl"
+RDEPENDS_${PN} += "sub-exporter-perl"
 
 S = "${WORKDIR}/String-RewritePrefix-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

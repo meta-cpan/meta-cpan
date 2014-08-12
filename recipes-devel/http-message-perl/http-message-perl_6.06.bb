@@ -19,15 +19,15 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Message-6.06.tar.g
 
 SRC_URI[md5sum] = "e563ac516e28d33f65bc0f295f625f85"
 SRC_URI[sha256sum] = "087e97009c5239dca4631cf433d836771b3fc5ba5685eef1965f9d3415cbad63"
-RDEPENDS_${PV} += "encode-locale-perl"
-RDEPENDS_${PV} += "http-date-perl"
-RDEPENDS_${PV} += "io-html-perl"
-RDEPENDS_${PV} += "liburi-perl"
-RDEPENDS_${PV} += "lwp-mediatypes-perl"
+RDEPENDS_${PN} += "encode-locale-perl"
+RDEPENDS_${PN} += "http-date-perl"
+RDEPENDS_${PN} += "io-html-perl"
+RDEPENDS_${PN} += "liburi-perl"
+RDEPENDS_${PN} += "lwp-mediatypes-perl"
 
 S = "${WORKDIR}/HTTP-Message-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

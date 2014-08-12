@@ -17,13 +17,13 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/M/MA/MATEU/MooX-Types-MooseLike-0
 
 SRC_URI[md5sum] = "9047d7c5336d2a46bf4d7b67c6f5e84a"
 SRC_URI[sha256sum] = "33e26df9853ab429a2978d8131304b91b4baadce4b3a908863de44061e4b69c9"
-RDEPENDS_${PV} += "module-runtime-perl"
-DEPENDS += "moo-perl"
-DEPENDS += "test-fatal-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
+DEPENDS += "moo-perl-native"
+DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/MooX-Types-MooseLike-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

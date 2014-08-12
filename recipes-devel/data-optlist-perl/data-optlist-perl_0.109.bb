@@ -17,12 +17,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-OptList-0.109.tar.
 
 SRC_URI[md5sum] = "de3f747d6b802ded363cf434a96dab8f"
 SRC_URI[sha256sum] = "1cd7c781c4c102810e4e0c878da3746fe8df46b49d01c4d6c034dfab45cd84c8"
-RDEPENDS_${PV} += "params-util-perl"
-RDEPENDS_${PV} += "sub-install-perl"
+RDEPENDS_${PN} += "params-util-perl"
+RDEPENDS_${PN} += "sub-install-perl"
 
 S = "${WORKDIR}/Data-OptList-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

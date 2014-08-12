@@ -23,12 +23,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RO/ROKR/Hash-Merge-Simple-0.051
 
 SRC_URI[md5sum] = "f47b9b99794b1f958bcfa3e816ff4660"
 SRC_URI[sha256sum] = "1c56327873d2f04d5722777f044863d968910466997740d55a754071c6287b73"
-RDEPENDS_${PV} += "clone-perl"
-DEPENDS += "test-most-perl"
+RDEPENDS_${PN} += "clone-perl"
+DEPENDS += "test-most-perl-native"
 
 S = "${WORKDIR}/Hash-Merge-Simple-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

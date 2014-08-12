@@ -24,11 +24,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/A/AB/ABW/Template-Toolkit-2.25.ta
 
 SRC_URI[md5sum] = "6be78743caf5fafe8de4a17c2d0c72ff"
 SRC_URI[sha256sum] = "f423763b01604dcf27902cc6fdb22a6d1e5d3f2f72044fd9e83123220f781e11"
-RDEPENDS_${PV} += "appconfig-perl"
+RDEPENDS_${PN} += "appconfig-perl"
 
 S = "${WORKDIR}/Template-Toolkit-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

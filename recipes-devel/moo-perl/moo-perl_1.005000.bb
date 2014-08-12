@@ -17,19 +17,20 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-1.005000.tar.gz"
 
 SRC_URI[md5sum] = "78f920761631450d9a905725968a501c"
 SRC_URI[sha256sum] = "73865789520f1ab72518d3c712e79a33d283e4166be5e949bc23ab79a7184ea4"
-RDEPENDS_${PV} += "class-method-modifiers-perl"
-RDEPENDS_${PV} += "devel-globaldestruction-perl"
-RDEPENDS_${PV} += "import-into-perl"
-RDEPENDS_${PV} += "module-runtime-perl"
-RDEPENDS_${PV} += "role-tiny-perl"
-RDEPENDS_${PV} += "strictures-perl"
-RRECOMMENDS_${PV} += "class-xsaccessor-perl"
-DEPENDS += "test-fatal-perl"
-RECOMMENDS_${PV} += "perl"
+RDEPENDS_${PN} += "class-method-modifiers-perl"
+RDEPENDS_${PN} += "devel-globaldestruction-perl"
+RDEPENDS_${PN} += "import-into-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
+RDEPENDS_${PN} += "role-tiny-perl"
+RDEPENDS_${PN} += "strictures-perl"
+RRECOMMENDS_${PN} += "class-xsaccessor-perl"
+RRECOMMENDS_${PN} += "sub-name-perl"
+DEPENDS += "test-fatal-perl-native"
+RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Moo-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

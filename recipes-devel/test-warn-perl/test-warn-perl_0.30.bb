@@ -15,12 +15,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/C/CH/CHORNY/Test-Warn-0.30.tar.gz
 
 SRC_URI[md5sum] = "8306b998a96d2cc69266b5248d550472"
 SRC_URI[sha256sum] = "8197555b94189d919349a03f7058f83861f145af9bee59f505bfe47562144e41"
-RDEPENDS_${PV} += "perl"
-RDEPENDS_${PV} += "sub-uplevel-perl"
+RDEPENDS_${PN} += "perl"
+RDEPENDS_${PN} += "sub-uplevel-perl"
 
 S = "${WORKDIR}/Test-Warn-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

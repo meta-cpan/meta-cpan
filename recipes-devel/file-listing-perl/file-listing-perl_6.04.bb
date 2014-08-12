@@ -15,11 +15,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.g
 
 SRC_URI[md5sum] = "83f636b477741f3a014585bb9cc079a6"
 SRC_URI[sha256sum] = "1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5"
-RDEPENDS_${PV} += "http-date-perl"
+RDEPENDS_${PN} += "http-date-perl"
 
 S = "${WORKDIR}/File-Listing-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

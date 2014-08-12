@@ -19,25 +19,25 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 
 SRC_URI[md5sum] = "1fec97d69a0b3684897a981847cc4d91"
 SRC_URI[sha256sum] = "318caccfac13f265d098a34ec7493a557f7a867d41939edfa3491c3374bf776f"
-RDEPENDS_${PV} += "apache-logformat-compiler-perl"
-RDEPENDS_${PV} += "devel-stacktrace-ashtml-perl"
-RDEPENDS_${PV} += "devel-stacktrace-perl"
-RDEPENDS_${PV} += "file-sharedir-perl"
-RDEPENDS_${PV} += "filesys-notify-simple-perl"
-RDEPENDS_${PV} += "hash-multivalue-perl"
-RDEPENDS_${PV} += "http-body-perl"
-RDEPENDS_${PV} += "http-message-perl"
-RDEPENDS_${PV} += "liburi-perl"
-RDEPENDS_${PV} += "perl"
-RDEPENDS_${PV} += "stream-buffered-perl"
-RDEPENDS_${PV} += "test-tcp-perl"
-RDEPENDS_${PV} += "try-tiny-perl"
-DEPENDS += "file-sharedir-install-perl"
-DEPENDS += "test-requires-perl"
+RDEPENDS_${PN} += "apache-logformat-compiler-perl"
+RDEPENDS_${PN} += "devel-stacktrace-ashtml-perl"
+RDEPENDS_${PN} += "devel-stacktrace-perl"
+RDEPENDS_${PN} += "file-sharedir-perl"
+RDEPENDS_${PN} += "filesys-notify-simple-perl"
+RDEPENDS_${PN} += "hash-multivalue-perl"
+RDEPENDS_${PN} += "http-body-perl"
+RDEPENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "liburi-perl"
+RDEPENDS_${PN} += "perl"
+RDEPENDS_${PN} += "stream-buffered-perl"
+RDEPENDS_${PN} += "test-tcp-perl"
+RDEPENDS_${PN} += "try-tiny-perl"
+DEPENDS += "file-sharedir-install-perl-native"
+DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Plack-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

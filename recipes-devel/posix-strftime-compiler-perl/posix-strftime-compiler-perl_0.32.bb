@@ -21,13 +21,13 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
 
-inherit cpan
+
+inherit cpan_build
 
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
+	cpan_build_do_compile
 }
 
 BBCLASSEXTEND = "native"

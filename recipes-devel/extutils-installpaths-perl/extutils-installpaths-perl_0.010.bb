@@ -14,11 +14,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-
 
 SRC_URI[md5sum] = "f0b00cc6c04653588a6298fa1f16c07f"
 SRC_URI[sha256sum] = "d14cbff118e467900c2c488b55b83ef697d6eb1b8f592c0521f1d82848bf2156"
-RDEPENDS_${PV} += "extutils-config-perl"
+RDEPENDS_${PN} += "extutils-config-perl"
 
 S = "${WORKDIR}/ExtUtils-InstallPaths-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

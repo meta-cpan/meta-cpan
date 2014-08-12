@@ -19,14 +19,14 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/LWP-Protocol-https-6.04
 
 SRC_URI[md5sum] = "1b422a7d3b5fed1eb4d748fdc9fd79a4"
 SRC_URI[sha256sum] = "1ef67750ee363525cf729b59afde805ac4dc80eaf8d36ca01082a4d78a7af629"
-RDEPENDS_${PV} += "io-socket-ssl-perl"
-RDEPENDS_${PV} += "libwww-perl-perl"
-RDEPENDS_${PV} += "mozilla-ca-perl"
-RDEPENDS_${PV} += "net-http-perl"
+RDEPENDS_${PN} += "io-socket-ssl-perl"
+RDEPENDS_${PN} += "libwww-perl-perl"
+RDEPENDS_${PN} += "mozilla-ca-perl"
+RDEPENDS_${PN} += "net-http-perl"
 
 S = "${WORKDIR}/LWP-Protocol-https-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

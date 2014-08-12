@@ -14,12 +14,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-1.003003.tar
 
 SRC_URI[md5sum] = "f8c04c43b28824589f560d029e497119"
 SRC_URI[sha256sum] = "b712cadb6eecb7777278be79b5ffc55b613c0e75b9872dba474179cbc91b02cd"
-RRECOMMENDS_${PV} += "class-method-modifiers-perl"
-DEPENDS += "test-fatal-perl"
+RRECOMMENDS_${PN} += "class-method-modifiers-perl"
+DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Role-Tiny-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

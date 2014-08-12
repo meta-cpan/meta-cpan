@@ -17,14 +17,14 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive
 
 SRC_URI[md5sum] = "b349698c5addd07a8355a8ee56891bf4"
 SRC_URI[sha256sum] = "a6e484962727ae2d882d5d35c5bedd48bc13730a7e4c739a7daa74f525422883"
-RDEPENDS_${PV} += "params-validate-perl"
-RDEPENDS_${PV} += "sub-exporter-perl"
-DEPENDS += "test-fatal-perl"
-DEPENDS += "test-warnings-perl"
+RDEPENDS_${PN} += "params-validate-perl"
+RDEPENDS_${PN} += "sub-exporter-perl"
+DEPENDS += "test-fatal-perl-native"
+DEPENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/Getopt-Long-Descriptive-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

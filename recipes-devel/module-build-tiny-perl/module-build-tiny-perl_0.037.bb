@@ -18,20 +18,20 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.03
 
 SRC_URI[md5sum] = "d1449ad9e7039407bd3edf632b115849"
 SRC_URI[sha256sum] = "25dd7246b071d7a4e62a410ca3fc18c3e2cfb82440324fa97d472b493dd60ec0"
-RDEPENDS_${PV} += "extutils-config-perl"
-RDEPENDS_${PV} += "extutils-helpers-perl"
-RDEPENDS_${PV} += "extutils-installpaths-perl"
-RDEPENDS_${PV} += "perl"
+RDEPENDS_${PN} += "extutils-config-perl"
+RDEPENDS_${PN} += "extutils-helpers-perl"
+RDEPENDS_${PN} += "extutils-installpaths-perl"
+DEPENDS += "extutils-config-perl-native"
+DEPENDS += "extutils-helpers-perl-native"
+DEPENDS += "extutils-installpaths-perl-native"
 
 S = "${WORKDIR}/Module-Build-Tiny-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
-
-inherit cpan
+inherit cpan_build
 
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
+	cpan_build_do_compile
 }
 
 BBCLASSEXTEND = "native"

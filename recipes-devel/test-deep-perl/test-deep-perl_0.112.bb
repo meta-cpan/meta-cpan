@@ -17,12 +17,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-0.112.tar.gz"
 
 SRC_URI[md5sum] = "8568575c2ebfd793574250ddb7da6ac8"
 SRC_URI[sha256sum] = "56696a09a221b03b56e7203d84e27a6af0496e9c1e8d33fb05f2e24bc35ae1ed"
-RDEPENDS_${PV} += "test-nowarnings-perl"
-RDEPENDS_${PV} += "test-tester-perl"
+RDEPENDS_${PN} += "test-nowarnings-perl"
+RDEPENDS_${PN} += "test-tester-perl"
 
 S = "${WORKDIR}/Test-Deep-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

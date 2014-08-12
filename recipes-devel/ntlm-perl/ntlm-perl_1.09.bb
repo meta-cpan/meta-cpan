@@ -18,11 +18,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/N/NB/NBEBOUT/NTLM-1.09.tar.gz"
 
 SRC_URI[md5sum] = "da314ee94b14af2a2f39b6f2c0046e73"
 SRC_URI[sha256sum] = "c823e30cda76bc15636e584302c960e2b5eeef9517c2448f7454498893151f85"
-RDEPENDS_${PV} += "digest-hmac-perl"
+RDEPENDS_${PN} += "digest-hmac-perl"
 
 S = "${WORKDIR}/NTLM-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

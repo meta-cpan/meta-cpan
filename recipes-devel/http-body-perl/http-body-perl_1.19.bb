@@ -16,12 +16,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.19.tar.gz"
 
 SRC_URI[md5sum] = "bf0cc34b32a42eab9ce5f1748262d0ec"
 SRC_URI[sha256sum] = "01506ac3a19ac96083e0aa3881378fb934bf466e7dca4b9fc1dcbc0fa49e102a"
-RDEPENDS_${PV} += "http-message-perl"
-DEPENDS += "test-deep-perl"
+RDEPENDS_${PN} += "http-message-perl"
+DEPENDS += "test-deep-perl-native"
 
 S = "${WORKDIR}/HTTP-Body-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

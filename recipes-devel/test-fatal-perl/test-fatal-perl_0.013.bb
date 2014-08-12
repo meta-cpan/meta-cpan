@@ -17,11 +17,11 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.013.tar.gz
 
 SRC_URI[md5sum] = "e3d13b3c7e42f4574c843aca5d9f4570"
 SRC_URI[sha256sum] = "02fb13eea43a9eb0df84919c2a1415243c0bdd68dae9f63f6d6b3827e76f36e7"
-RDEPENDS_${PV} += "try-tiny-perl"
+RDEPENDS_${PN} += "try-tiny-perl"
 
 S = "${WORKDIR}/Test-Fatal-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

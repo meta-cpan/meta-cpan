@@ -20,12 +20,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11
 
 SRC_URI[md5sum] = "c8725a92b9169708b0f63036812070f2"
 SRC_URI[sha256sum] = "ea844b9686c94d666d9d444321d764490b2cde2f985c4165b4c2c77665caedc4"
-RDEPENDS_${PV} += "module-runtime-perl"
-DEPENDS += "test-fatal-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
+DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Dist-CheckConflicts-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

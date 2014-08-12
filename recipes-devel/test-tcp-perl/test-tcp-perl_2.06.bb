@@ -14,12 +14,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-TCP-2.06.tar.
 
 SRC_URI[md5sum] = "ab8f2025180c91eca7f7cbf90c3c7784"
 SRC_URI[sha256sum] = "714956bb012536f617988e9cfb588253e908144e9169e5862356091f44e59229"
-RDEPENDS_${PV} += "test-sharedfork-perl"
+RDEPENDS_${PN} += "test-sharedfork-perl"
 DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-TCP-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

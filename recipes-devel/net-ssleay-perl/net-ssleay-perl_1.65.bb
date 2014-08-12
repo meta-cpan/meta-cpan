@@ -19,9 +19,15 @@ SRC_URI[sha256sum] = "2fb1371120b85f018944d95736c107163f04ba56b6029c0709a2c3d624
 
 S = "${WORKDIR}/Net-SSLeay-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+INSANE_SKIP_${PN} += "rpaths"
 
 inherit cpan
+
+do_configure() {
+	export OPENSSL_PREFIX="${STAGING_DIR_TARGET}/usr"
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	cpan_do_configure
+}
 
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"

@@ -19,15 +19,15 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/O/OV/OVID/Test-Most-0.34.tar.gz"
 
 SRC_URI[md5sum] = "6fa1f097bedbc18f46b08ac9eb79bba9"
 SRC_URI[sha256sum] = "c2820c8de65f5fa59f218ac2be9be98b22cc1bb1a1f371e04375aa3b6054e244"
-RDEPENDS_${PV} += "exception-class-perl"
-RDEPENDS_${PV} += "test-deep-perl"
-RDEPENDS_${PV} += "test-differences-perl"
-RDEPENDS_${PV} += "test-exception-perl"
-RDEPENDS_${PV} += "test-warn-perl"
+RDEPENDS_${PN} += "exception-class-perl"
+RDEPENDS_${PN} += "test-deep-perl"
+RDEPENDS_${PN} += "test-differences-perl"
+RDEPENDS_${PN} += "test-exception-perl"
+RDEPENDS_${PN} += "test-warn-perl"
 
 S = "${WORKDIR}/Test-Most-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

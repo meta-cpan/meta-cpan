@@ -20,12 +20,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Devel-StackTrace-As
 
 SRC_URI[md5sum] = "232c8b4d639adfbcf98e3fe92337756c"
 SRC_URI[sha256sum] = "89056a3d5ec559c8fac35890f1ad50452ec18524ed4bfc245f9e3b0cbc49827a"
-RDEPENDS_${PV} += "devel-stacktrace-perl"
+RDEPENDS_${PN} += "devel-stacktrace-perl"
 DEPENDS += "perl"
 
 S = "${WORKDIR}/Devel-StackTrace-AsHTML-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 

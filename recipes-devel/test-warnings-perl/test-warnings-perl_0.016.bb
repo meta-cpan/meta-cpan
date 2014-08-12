@@ -23,12 +23,12 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.016.ta
 
 SRC_URI[md5sum] = "5608b3f8dbdd65d0251200754d97863a"
 SRC_URI[sha256sum] = "09ebc9afa29eb4d1d44fbd974dfcd52e0a2d9ce7ec3e3ee7602394157831aba9"
-RECOMMENDS_${PV} += "perl"
-RECOMMENDS_${PV} += "test-tester-perl"
+RECOMMENDS += "perl"
+RECOMMENDS += "test-tester-perl-native"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
-EXTRA_CPANFLAGS = "EXPATLIBPATH=${STAGING_LIBDIR} EXPATINCPATH=${STAGING_INCDIR}"
+
 
 inherit cpan
 
