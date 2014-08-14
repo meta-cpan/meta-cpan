@@ -21,8 +21,6 @@ RRECOMMENDS_${PN} += "multidimensional-perl"
 
 S = "${WORKDIR}/strictures-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

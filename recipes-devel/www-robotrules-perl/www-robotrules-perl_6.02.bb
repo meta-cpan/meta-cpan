@@ -23,8 +23,6 @@ RDEPENDS_${PN} += "liburi-perl"
 
 S = "${WORKDIR}/WWW-RobotRules-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -22,8 +22,6 @@ RDEPENDS_${PN} += "http-message-perl"
 
 S = "${WORKDIR}/HTTP-Cookies-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

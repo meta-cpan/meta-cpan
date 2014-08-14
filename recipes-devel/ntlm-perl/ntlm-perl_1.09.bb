@@ -22,8 +22,6 @@ RDEPENDS_${PN} += "digest-hmac-perl"
 
 S = "${WORKDIR}/NTLM-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

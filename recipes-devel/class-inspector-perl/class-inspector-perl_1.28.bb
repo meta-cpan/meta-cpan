@@ -25,8 +25,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Class-Inspector-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

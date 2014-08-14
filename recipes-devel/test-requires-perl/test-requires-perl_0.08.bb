@@ -18,8 +18,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-Requires-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

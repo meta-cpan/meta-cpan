@@ -22,8 +22,6 @@ RDEPENDS_${PN} += "probe-perl-perl"
 
 S = "${WORKDIR}/Test-Script-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -19,8 +19,6 @@ RDEPENDS_${PN} += "http-date-perl"
 
 S = "${WORKDIR}/File-Listing-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

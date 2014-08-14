@@ -27,8 +27,6 @@ DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/App-Cmd-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

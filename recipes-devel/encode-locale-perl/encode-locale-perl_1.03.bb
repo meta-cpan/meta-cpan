@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "f76337e0933225914111fcc3319ff4db359b1abfd1aa56dff2df5378db
 
 S = "${WORKDIR}/Encode-Locale-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

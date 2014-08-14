@@ -26,8 +26,6 @@ RDEPENDS_${PN} += "net-http-perl"
 
 S = "${WORKDIR}/LWP-Protocol-https-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

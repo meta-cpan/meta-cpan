@@ -24,8 +24,6 @@ RDEPENDS_${PN} += "net-ssleay-perl"
 
 S = "${WORKDIR}/IO-Socket-SSL-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -18,8 +18,6 @@ SRC_URI[sha256sum] = "073e062c630b51dfb725cd6485a329155cb72d5c596e8cb698eb67c456
 
 S = "${WORKDIR}/Template-Tiny-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

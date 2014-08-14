@@ -25,8 +25,6 @@ DEPENDS += "test-sharedfork-perl-native"
 
 S = "${WORKDIR}/Filesys-Notify-Simple-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

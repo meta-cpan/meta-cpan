@@ -20,8 +20,6 @@ RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Class-Method-Modifiers-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

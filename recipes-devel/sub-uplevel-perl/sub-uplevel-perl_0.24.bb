@@ -20,8 +20,6 @@ SRC_URI[sha256sum] = "0f93f6e9c80b8dcb22c60d0e9df2c2c6d7db10d4d37151f1dfea6e54a3
 
 S = "${WORKDIR}/Sub-Uplevel-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

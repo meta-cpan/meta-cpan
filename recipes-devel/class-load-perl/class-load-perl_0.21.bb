@@ -28,8 +28,6 @@ RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Class-Load-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

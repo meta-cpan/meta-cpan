@@ -22,8 +22,6 @@ RDEPENDS_${PN} += "test-tester-perl"
 
 S = "${WORKDIR}/Test-Deep-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

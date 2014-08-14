@@ -19,8 +19,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/URL-Encode-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -20,8 +20,6 @@ SRC_URI[sha256sum] = "ea78d2d743794adc028bc9589538eb867174b4e165d7d8b5f63486e6b8
 
 S = "${WORKDIR}/IO-HTML-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

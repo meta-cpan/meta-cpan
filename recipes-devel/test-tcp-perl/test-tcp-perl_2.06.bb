@@ -19,8 +19,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-TCP-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

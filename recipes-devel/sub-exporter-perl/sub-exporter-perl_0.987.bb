@@ -23,8 +23,6 @@ RDEPENDS_${PN} += "sub-install-perl"
 
 S = "${WORKDIR}/Sub-Exporter-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

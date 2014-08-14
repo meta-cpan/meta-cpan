@@ -30,8 +30,6 @@ RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Moo-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

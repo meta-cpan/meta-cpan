@@ -26,8 +26,6 @@ SRC_URI[sha256sum] = "99c56b395f1239af19901f2feeb125d9ecb4e351a0d80daa9529211a47
 
 S = "${WORKDIR}/Class-XSAccessor-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

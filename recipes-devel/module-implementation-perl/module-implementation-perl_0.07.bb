@@ -26,8 +26,6 @@ DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Module-Implementation-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

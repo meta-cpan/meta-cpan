@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "cf62e01cb7aaecfd51bfd1222dcd58c85c02399f078243220b79160ef1
 
 S = "${WORKDIR}/Crypt-URandom-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

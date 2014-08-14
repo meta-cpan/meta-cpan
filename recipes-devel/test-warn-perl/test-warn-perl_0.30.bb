@@ -20,8 +20,6 @@ RDEPENDS_${PN} += "sub-uplevel-perl"
 
 S = "${WORKDIR}/Test-Warn-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

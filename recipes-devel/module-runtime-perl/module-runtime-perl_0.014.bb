@@ -22,8 +22,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Module-Runtime-${PV}"
 
-
-
 inherit cpan_build
 
 do_compile() {

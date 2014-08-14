@@ -32,8 +32,6 @@ RRECOMMENDS_${PN} += "ntlm-perl"
 
 S = "${WORKDIR}/libwww-perl-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

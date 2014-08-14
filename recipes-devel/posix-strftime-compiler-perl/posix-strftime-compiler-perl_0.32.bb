@@ -21,8 +21,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
 
-
-
 inherit cpan_build
 
 do_compile() {

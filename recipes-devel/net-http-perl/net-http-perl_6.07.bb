@@ -23,8 +23,6 @@ RRECOMMENDS_${PN} += "io-socket-ssl-perl"
 
 S = "${WORKDIR}/Net-HTTP-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

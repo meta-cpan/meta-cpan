@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "9b2d4390b5de6b0cf4558e4ad04317a73c5e13dd19af29149c4e47c37f
 
 S = "${WORKDIR}/Stream-Buffered-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

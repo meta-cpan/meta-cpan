@@ -25,8 +25,6 @@ DEPENDS += "test-tester-perl-native"
 
 S = "${WORKDIR}/Test-NoWarnings-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

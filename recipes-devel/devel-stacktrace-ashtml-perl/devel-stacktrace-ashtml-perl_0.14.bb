@@ -25,8 +25,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Devel-StackTrace-AsHTML-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

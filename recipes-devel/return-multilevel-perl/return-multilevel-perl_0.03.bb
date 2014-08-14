@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "b62a0a04a77578f878d8a57d568b74cdfc4a5ff7439e8620c7f9016856
 
 S = "${WORKDIR}/Return-MultiLevel-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

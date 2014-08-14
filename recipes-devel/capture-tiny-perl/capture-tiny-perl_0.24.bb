@@ -27,8 +27,6 @@ RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Capture-Tiny-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

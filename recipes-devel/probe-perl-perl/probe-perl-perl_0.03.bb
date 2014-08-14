@@ -21,8 +21,6 @@ SRC_URI[sha256sum] = "d9e4d21e2e77638559045fa09046b1b6fff6c403b949929db213e30abe
 
 S = "${WORKDIR}/Probe-Perl-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

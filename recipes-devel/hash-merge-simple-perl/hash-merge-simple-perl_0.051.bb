@@ -28,8 +28,6 @@ DEPENDS += "test-most-perl-native"
 
 S = "${WORKDIR}/Hash-Merge-Simple-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

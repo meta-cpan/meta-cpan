@@ -23,8 +23,6 @@ DEPENDS += "test-nowarnings-perl-native"
 
 S = "${WORKDIR}/Math-Random-ISAAC-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

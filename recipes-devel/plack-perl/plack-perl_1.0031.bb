@@ -37,8 +37,6 @@ DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Plack-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

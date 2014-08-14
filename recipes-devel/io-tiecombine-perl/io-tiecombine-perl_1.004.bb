@@ -17,8 +17,6 @@ SRC_URI[sha256sum] = "60106b571448f598706d6df4214ab4f7d4391d942e23a0ff6c5c49b99a
 
 S = "${WORKDIR}/IO-TieCombine-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

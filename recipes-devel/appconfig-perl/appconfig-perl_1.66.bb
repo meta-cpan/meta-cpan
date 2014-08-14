@@ -19,8 +19,6 @@ SRC_URI[sha256sum] = "8b402de20569e6499e55bd36bd2264d964a41218f75fde6ac29902d16f
 
 S = "${WORKDIR}/AppConfig-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

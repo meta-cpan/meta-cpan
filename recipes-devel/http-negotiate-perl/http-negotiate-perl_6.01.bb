@@ -23,8 +23,6 @@ RDEPENDS_${PN} += "http-message-perl"
 
 S = "${WORKDIR}/HTTP-Negotiate-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

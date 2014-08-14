@@ -20,8 +20,6 @@ RDEPENDS_${PN} += "sub-exporter-progressive-perl"
 
 S = "${WORKDIR}/Devel-GlobalDestruction-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

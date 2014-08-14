@@ -25,8 +25,6 @@ DEPENDS += "try-tiny-perl-native"
 
 S = "${WORKDIR}/Apache-LogFormat-Compiler-${PV}"
 
-
-
 inherit cpan_build
 
 do_compile() {

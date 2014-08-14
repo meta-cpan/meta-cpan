@@ -26,8 +26,6 @@ SRC_URI[sha256sum] = "0618c6e69c6c0540c41e7560d51981407a6a0768f1330bef6d6ac3c6f1
 
 S = "${WORKDIR}/Sub-Exporter-Progressive-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

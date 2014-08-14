@@ -24,8 +24,6 @@ DEPENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/Getopt-Long-Descriptive-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

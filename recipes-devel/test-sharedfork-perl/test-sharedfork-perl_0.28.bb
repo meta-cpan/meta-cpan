@@ -19,8 +19,6 @@ DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Test-SharedFork-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

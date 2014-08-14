@@ -27,8 +27,6 @@ RDEPENDS_${PN} += "test-warn-perl"
 
 S = "${WORKDIR}/Test-Most-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

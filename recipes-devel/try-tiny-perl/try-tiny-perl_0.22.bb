@@ -20,8 +20,6 @@ RECOMMENDS += "sub-name-perl-native"
 
 S = "${WORKDIR}/Try-Tiny-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

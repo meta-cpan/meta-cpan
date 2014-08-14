@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "18790b0cc5f0a51468495c3847b16738f785a2d460403595001e0b932e
 
 S = "${WORKDIR}/LWP-MediaTypes-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

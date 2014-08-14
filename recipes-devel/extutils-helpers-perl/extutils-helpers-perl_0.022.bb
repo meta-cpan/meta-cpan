@@ -18,8 +18,6 @@ SRC_URI[sha256sum] = "d3f8cf700fb3414ca1260089755cbf64041455e4b744110677b1ba5bb9
 
 S = "${WORKDIR}/ExtUtils-Helpers-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

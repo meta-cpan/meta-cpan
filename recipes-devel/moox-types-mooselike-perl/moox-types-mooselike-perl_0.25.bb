@@ -23,8 +23,6 @@ DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/MooX-Types-MooseLike-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

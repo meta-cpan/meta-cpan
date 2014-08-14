@@ -28,8 +28,6 @@ RDEPENDS_${PN} += "appconfig-perl"
 
 S = "${WORKDIR}/Template-Toolkit-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -28,8 +28,6 @@ RECOMMENDS += "test-tester-perl-native"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

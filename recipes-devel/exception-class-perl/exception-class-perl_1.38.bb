@@ -20,8 +20,6 @@ RDEPENDS_${PN} += "devel-stacktrace-perl"
 
 S = "${WORKDIR}/Exception-Class-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

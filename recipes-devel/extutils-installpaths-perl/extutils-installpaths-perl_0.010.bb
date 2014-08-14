@@ -18,8 +18,6 @@ RDEPENDS_${PN} += "extutils-config-perl"
 
 S = "${WORKDIR}/ExtUtils-InstallPaths-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

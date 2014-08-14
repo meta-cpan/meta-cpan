@@ -24,8 +24,6 @@ SRC_URI[sha256sum] = "a67f50a48e313c1680cc662109ce5f913ea71454db355d0cf4db87ac89
 
 S = "${WORKDIR}/Text-Diff-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

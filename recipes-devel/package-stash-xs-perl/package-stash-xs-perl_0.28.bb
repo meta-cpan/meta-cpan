@@ -22,8 +22,6 @@ DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Package-Stash-XS-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

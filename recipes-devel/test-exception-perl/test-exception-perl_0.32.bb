@@ -22,8 +22,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-Exception-${PV}"
 
-
-
 inherit cpan_build
 
 do_compile() {

@@ -19,8 +19,6 @@ DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Role-Tiny-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

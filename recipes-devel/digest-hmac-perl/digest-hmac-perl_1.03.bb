@@ -17,8 +17,6 @@ SRC_URI[sha256sum] = "3bc72c6d3ff144d73aefb90e9a78d33612d58cf1cd1631ecfb8985ba96
 
 S = "${WORKDIR}/Digest-HMAC-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

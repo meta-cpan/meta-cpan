@@ -21,8 +21,6 @@ DEPENDS += "test-deep-perl-native"
 
 S = "${WORKDIR}/HTTP-Body-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

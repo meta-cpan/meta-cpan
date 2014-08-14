@@ -19,8 +19,6 @@ SRC_URI[sha256sum] = "22b6069d372d587b1f2ecc6d0aaf50fb5c64920caed8c214b9884e6453
 
 S = "${WORKDIR}/MIME-Types-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

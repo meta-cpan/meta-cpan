@@ -21,8 +21,6 @@ RDEPENDS_${PN} += "try-tiny-perl"
 
 S = "${WORKDIR}/Test-Fatal-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

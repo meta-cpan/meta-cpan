@@ -22,8 +22,6 @@ SRC_URI[sha256sum] = "2a11df18781c18081784cada4eeface010ef317a8505901e2b8a01ba76
 
 S = "${WORKDIR}/CGI-Deurl-XS-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

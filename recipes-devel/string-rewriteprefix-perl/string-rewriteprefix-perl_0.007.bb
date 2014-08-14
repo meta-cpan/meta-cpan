@@ -18,8 +18,6 @@ RDEPENDS_${PN} += "sub-exporter-perl"
 
 S = "${WORKDIR}/String-RewritePrefix-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

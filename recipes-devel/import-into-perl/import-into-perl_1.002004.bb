@@ -21,8 +21,6 @@ RDEPENDS_${PN} += "module-runtime-perl"
 
 S = "${WORKDIR}/Import-Into-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

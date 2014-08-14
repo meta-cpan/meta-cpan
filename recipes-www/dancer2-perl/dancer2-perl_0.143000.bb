@@ -49,8 +49,6 @@ DEPENDS += "test-tcp-perl-native"
 
 S = "${WORKDIR}/Dancer2-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

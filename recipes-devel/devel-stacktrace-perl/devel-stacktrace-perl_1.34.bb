@@ -21,8 +21,6 @@ SRC_URI[sha256sum] = "e882ccd7f4cbab0d0cdad53897f3f3bf29bdcf47d2bdfde1ac07f1bc7d
 
 S = "${WORKDIR}/Devel-StackTrace-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

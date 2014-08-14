@@ -18,8 +18,6 @@ SRC_URI[sha256sum] = "805d0eba514f18d9af60f7d8baf50b5b6e004bbaa12da43642d40575f9
 
 S = "${WORKDIR}/Hash-MultiValue-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

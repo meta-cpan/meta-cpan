@@ -18,8 +18,6 @@ DEPENDS += "devel-checkbin-perl-native"
 
 S = "${WORKDIR}/Sub-Name-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

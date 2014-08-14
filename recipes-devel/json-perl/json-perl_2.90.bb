@@ -64,8 +64,6 @@ SRC_URI[sha256sum] = "4ddbb3cb985a79f69a34e7c26cde1c81120d03487e87366f9a119f90f7
 
 S = "${WORKDIR}/JSON-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

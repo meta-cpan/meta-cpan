@@ -22,8 +22,6 @@ DEPENDS += "test-warn-perl-native"
 
 S = "${WORKDIR}/Inline-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

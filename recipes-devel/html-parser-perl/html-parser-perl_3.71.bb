@@ -24,8 +24,6 @@ RRECOMMENDS_${PN} += "http-message-perl"
 
 S = "${WORKDIR}/HTML-Parser-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

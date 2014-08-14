@@ -19,8 +19,6 @@ DEPENDS += "test-yaml-perl-native"
 
 S = "${WORKDIR}/YAML-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

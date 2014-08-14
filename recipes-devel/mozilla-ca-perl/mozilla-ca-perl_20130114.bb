@@ -20,8 +20,6 @@ SRC_URI[sha256sum] = "82342614add1dbca8a00daa1ee55af3e0036245aed7d445537918c0450
 
 S = "${WORKDIR}/Mozilla-CA-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

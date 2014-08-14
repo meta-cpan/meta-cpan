@@ -33,8 +33,6 @@ DEPENDS += "perl"
 
 S = "${WORKDIR}/Lexical-SealRequireHints-${PV}"
 
-
-
 inherit cpan_build
 
 do_compile() {

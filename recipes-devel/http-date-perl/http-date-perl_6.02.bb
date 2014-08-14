@@ -21,8 +21,6 @@ RRECOMMENDS_${PN} += "libtimedate-perl"
 
 S = "${WORKDIR}/HTTP-Date-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

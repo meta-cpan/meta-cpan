@@ -24,8 +24,6 @@ RDEPENDS_${PN} += "text-diff-perl"
 
 S = "${WORKDIR}/Test-Differences-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

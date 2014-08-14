@@ -18,8 +18,6 @@ SRC_URI[sha256sum] = "139bb3715bc6735c147a18446d149fcf0ce3c236edfc4b4be204279e5e
 
 S = "${WORKDIR}/YAML-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

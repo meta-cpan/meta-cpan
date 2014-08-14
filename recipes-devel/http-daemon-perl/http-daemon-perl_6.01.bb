@@ -24,8 +24,6 @@ RDEPENDS_${PN} += "lwp-mediatypes-perl"
 
 S = "${WORKDIR}/HTTP-Daemon-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

@@ -25,8 +25,6 @@ DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Dist-CheckConflicts-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

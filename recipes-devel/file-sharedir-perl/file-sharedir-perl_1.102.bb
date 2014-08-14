@@ -23,8 +23,6 @@ DEPENDS += "file-sharedir-install-perl-native"
 
 S = "${WORKDIR}/File-ShareDir-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {

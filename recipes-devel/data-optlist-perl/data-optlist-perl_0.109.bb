@@ -22,8 +22,6 @@ RDEPENDS_${PN} += "sub-install-perl"
 
 S = "${WORKDIR}/Data-OptList-${PV}"
 
-
-
 inherit cpan
 
 do_compile() {
