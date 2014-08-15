@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/LWP-Protocol-https"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/LWP-Protocol-https-6.04.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz"
 
-SRC_URI[md5sum] = "1b422a7d3b5fed1eb4d748fdc9fd79a4"
-SRC_URI[sha256sum] = "1ef67750ee363525cf729b59afde805ac4dc80eaf8d36ca01082a4d78a7af629"
+SRC_URI[md5sum] = "06f5dfd33b07f6594a429dbbd5e6a2d1"
+SRC_URI[sha256sum] = "b86c83cc1dcf4a6f84e2fbe32f9c39591a36e6e418af00533505f3452496adef"
 RDEPENDS_${PN} += "io-socket-ssl-perl"
 RDEPENDS_${PN} += "libwww-perl-perl"
 RDEPENDS_${PN} += "mozilla-ca-perl"
