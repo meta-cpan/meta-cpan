@@ -26,6 +26,8 @@ S = "${WORKDIR}/Params-Validate-${PV}"
 
 inherit cpan_build
 
+EXTRA_BUILDFLAGS="--pp"
+
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
 	cpan_build_do_compile
