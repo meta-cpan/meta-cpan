@@ -18,7 +18,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/Net-HTTP-6.07.tar.g
 
 SRC_URI[md5sum] = "b6da691523456089d7a812ac398bc77e"
 SRC_URI[sha256sum] = "9f31e0325a5a0930ad309fa019da9d208e57e236fb0598675ed883c820240364"
-RDEPENDS_${PN} += "liburi-perl"
+RDEPENDS_${PN} += "uri-perl"
 RRECOMMENDS_${PN} += "io-socket-ssl-perl"
 
 S = "${WORKDIR}/Net-HTTP-${PV}"
