@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Class-Load"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Load-0.21.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Load-0.22.tar.gz"
 
-SRC_URI[md5sum] = "67674318b7b47b519abfd9f16292dc35"
-SRC_URI[sha256sum] = "10d9bae402f7e67ef441af1d7222c9d09c2b0818b81c6752c383a2d924c8047c"
+SRC_URI[md5sum] = "ad59087e70b0df76d718c90b53e209d5"
+SRC_URI[sha256sum] = "be52db6081b565002d68a1578ed06c7777b8845e92597be47f1c22e90b123111"
 RDEPENDS_${PN} += "data-optlist-perl"
 RDEPENDS_${PN} += "module-implementation-perl"
 RDEPENDS_${PN} += "module-runtime-perl"

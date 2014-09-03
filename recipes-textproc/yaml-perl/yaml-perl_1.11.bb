@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/YAML"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/I/IN/INGY/YAML-1.01.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/I/IN/INGY/YAML-1.11.tar.gz"
 
-SRC_URI[md5sum] = "274eb90f9d665dbef55219f4eea4d239"
-SRC_URI[sha256sum] = "5ddba9d8fa0bed7d944b8ec5df47366003d4e11afc36fc9a32ef4a1afd461192"
+SRC_URI[md5sum] = "be1adf76064537fe4730f52aa9e02127"
+SRC_URI[sha256sum] = "af447af7abfaf292df820a3289493286ec4911c9f4c0129a84ed2a765ad718f9"
 DEPENDS += "test-yaml-perl-native"
 
 S = "${WORKDIR}/YAML-${PV}"

@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Devel-GlobalDestruction"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestruction-0.12.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz"
 
-SRC_URI[md5sum] = "87382bd2f512b0703dd55da6b2b16ec4"
-SRC_URI[sha256sum] = "98a5b7668fc710e4c7ebe8860508fbebeea830eab6243d21ed8d7ac293278a70"
+SRC_URI[md5sum] = "e7be00040827e204b2b6cba2f3166074"
+SRC_URI[sha256sum] = "b29824dc0d322e56da325f05185367eb443694716010b36693dd52ffbe8ec462"
 RDEPENDS_${PN} += "sub-exporter-progressive-perl"
 
 S = "${WORKDIR}/Devel-GlobalDestruction-${PV}"
