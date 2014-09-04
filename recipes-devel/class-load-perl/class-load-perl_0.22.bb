@@ -19,6 +19,7 @@ SRC_URI[sha256sum] = "be52db6081b565002d68a1578ed06c7777b8845e92597be47f1c22e90b
 RDEPENDS_${PN} += "data-optlist-perl"
 RDEPENDS_${PN} += "module-implementation-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
+RDEPENDS_${PN} += "namespace-clean-perl"
 RDEPENDS_${PN} += "package-stash-perl"
 RDEPENDS_${PN} += "try-tiny-perl"
 DEPENDS += "module-build-tiny-perl-native"
