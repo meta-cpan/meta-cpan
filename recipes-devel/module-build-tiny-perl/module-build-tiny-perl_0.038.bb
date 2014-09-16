@@ -14,16 +14,17 @@ HOMEPAGE=	"https://metacpan.org/release/Module-Build-Tiny"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.037.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.038.tar.gz"
 
-SRC_URI[md5sum] = "d1449ad9e7039407bd3edf632b115849"
-SRC_URI[sha256sum] = "25dd7246b071d7a4e62a410ca3fc18c3e2cfb82440324fa97d472b493dd60ec0"
+SRC_URI[md5sum] = "89f79a97b3ab7c8e14fbe285e4d0b758"
+SRC_URI[sha256sum] = "8d1814f5e7cdb1cb166ad1403101d3ff2f672997e2afe22007a0944f80469be5"
 RDEPENDS_${PN} += "extutils-config-perl"
 RDEPENDS_${PN} += "extutils-helpers-perl"
 RDEPENDS_${PN} += "extutils-installpaths-perl"
 DEPENDS += "extutils-config-perl-native"
 DEPENDS += "extutils-helpers-perl-native"
 DEPENDS += "extutils-installpaths-perl-native"
+RDEPENDS_${PN} += "perl"
 
 S = "${WORKDIR}/Module-Build-Tiny-${PV}"
 

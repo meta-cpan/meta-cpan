@@ -10,11 +10,12 @@ HOMEPAGE=	"https://metacpan.org/release/Sub-Name"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.09.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.12.tar.gz"
 
-SRC_URI[md5sum] = "24f2fadd4e4c42907cfcd7c03ee8f4c8"
-SRC_URI[sha256sum] = "8d70c6356db2db73c0ee9af7d346790874fa014fcf31bade404046b8ebf33efd"
+SRC_URI[md5sum] = "421afad5e34c0b4f753d578d99be535f"
+SRC_URI[sha256sum] = "06c4a2fcfb7223eeea6cc2b3f507e51f02fbf982e0c0ff1061deefb32f62b4e9"
 DEPENDS += "devel-checkbin-perl-native"
+RECOMMENDS += "perl"
 
 S = "${WORKDIR}/Sub-Name-${PV}"
 
