@@ -20,6 +20,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-1.998.ta
 
 SRC_URI[md5sum] = "00e23adb0bd80f4fa9c4336109e4f9db"
 SRC_URI[sha256sum] = "73c976ec288341f5ab30305590658b563a91f1af1ec3c3f531adbb434741711c"
+RDEPENDS_${PN} += "socket-perl"
 RDEPENDS_${PN} += "net-ssleay-perl"
 
 S = "${WORKDIR}/IO-Socket-SSL-${PV}"
