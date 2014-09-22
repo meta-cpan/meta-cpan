@@ -10,11 +10,11 @@ HOMEPAGE=	"https://metacpan.org/release/Test-SharedFork"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-SharedFork-0.28.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-SharedFork-0.29.tar.gz"
 
-SRC_URI[md5sum] = "6a31dad843c1f9919932d229963ef9ec"
-SRC_URI[sha256sum] = "4b2d2b7b0185689d143907089e5c526e4e4cc59abd17e342350209a5e1b8b867"
-DEPENDS += "perl"
+SRC_URI[md5sum] = "acbc5baf82d78edf3771dfecaacd2345"
+SRC_URI[sha256sum] = "63af7788cc35b9b7e6fa37c61220ca66abd6364d8bb90c20038e3d8241988a6e"
+DEPENDS += "extutils-makemaker-perl-native"
 DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Test-SharedFork-${PV}"
