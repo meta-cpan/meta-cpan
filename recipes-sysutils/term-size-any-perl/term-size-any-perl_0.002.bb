@@ -19,6 +19,8 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/F/FE/FERREIRA/Term-Size-Any-0.002
 
 SRC_URI[md5sum] = "f9e3fde1e494c908369dc3ce7e9b19a1"
 SRC_URI[sha256sum] = "64fa5fdb1ae3a823134aaa95aec75354bc17bdd9ca12ba0a7ae34a7e51b3ded2"
+RDEPENDS_${PN} += "devel-hide-perl"
+RDEPENDS_${PN} += "term-size-perl-perl"
 
 S = "${WORKDIR}/Term-Size-Any-${PV}"
 
