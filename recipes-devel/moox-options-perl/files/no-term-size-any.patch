@@ -1,0 +1,25 @@
+--- a/lib/MooX/Options/Descriptive/Usage.pm	2014-09-24 19:06:37.458690441 +0200
++++ b/lib/MooX/Options/Descriptive/Usage.pm	2014-09-24 19:08:40.905765590 +0200
+@@ -15,10 +15,12 @@
+ our $VERSION = '4.010';    # VERSION
+ use feature 'say', 'state';
+ use Text::LineFold;
+-use Term::Size::Any qw/chars/;
+ use Getopt::Long::Descriptive;
+ use Scalar::Util qw/blessed/;
+ 
++my $have_chars;
++eval "use Term::Size::Any; \$have_chars = 1;" and Term::Size::Any->import(qw(chars));
++
+ my %format_doc = (
+     's'  => 'String',
+     's@' => '[Strings]',
+@@ -71,7 +73,7 @@
+ 
+ # set the column size of your terminal into the wrapper
+ sub _get_line_fold {
+-    my ($columns) = chars();
++    my ($columns) = ( $have_chars ? chars() : (78) );
+     $columns //= 78;
+     $columns = $ENV{TEST_FORCE_COLUMN_SIZE}
+         if defined $ENV{TEST_FORCE_COLUMN_SIZE};
