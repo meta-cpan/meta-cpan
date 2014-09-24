@@ -12,6 +12,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c195
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-2.09.tar.gz"
+SRC_URI += "file://no-eumm-version.patch"
 
 SRC_URI[md5sum] = "5ebf339c409d99cdfa6f96974ef96780"
 SRC_URI[sha256sum] = "99c439e568869bc9e65601a9ff16a38fbd6eafd17c81bd4d88eafa2ef9fb123a"

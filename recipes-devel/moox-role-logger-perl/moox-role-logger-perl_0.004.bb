@@ -17,6 +17,8 @@ SRC_URI[md5sum] = "033bff45d3e8bb1e6f2214c784aa45fb"
 SRC_URI[sha256sum] = "f4d8ec8898fd796ad85e2adc733711d3e8e9477d467b8e4d05b6b2097be454e9"
 RDEPENDS_${PN} += "log-any-perl"
 RDEPENDS_${PN} += "moo-perl"
+RDEPENDS_${PN} += "type-tiny-perl"
+DEPENDS += "test-failwarnings-perl-native"
 RECOMMENDS += "perl"
 
 S = "${WORKDIR}/MooX-Role-Logger-${PV}"

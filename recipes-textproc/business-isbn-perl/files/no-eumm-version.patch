@@ -1,0 +1,10 @@
+--- a/Makefile.PL	2014-09-24 15:19:34.344207814 +0200
++++ b/Makefile.PL	2014-09-24 15:19:58.197130668 +0200
+@@ -1,6 +1,6 @@
+ require 5.008;
+ 
+-use ExtUtils::MakeMaker 6.65;
++use ExtUtils::MakeMaker;
+ 
+ eval "use Test::Manifest 1.21";
+ 	
