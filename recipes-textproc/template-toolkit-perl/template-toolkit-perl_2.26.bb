@@ -20,10 +20,10 @@ HOMEPAGE=	"https://metacpan.org/release/Template-Toolkit"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/A/AB/ABW/Template-Toolkit-2.25.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/A/AB/ABW/Template-Toolkit-2.26.tar.gz"
 
-SRC_URI[md5sum] = "6be78743caf5fafe8de4a17c2d0c72ff"
-SRC_URI[sha256sum] = "f423763b01604dcf27902cc6fdb22a6d1e5d3f2f72044fd9e83123220f781e11"
+SRC_URI[md5sum] = "4c289856ebee446ebbe2629b24f0734b"
+SRC_URI[sha256sum] = "e7e1cf36026f1ef96d8233e18a3fb39e1eafe9109edc639ecf25b20651cd76be"
 RDEPENDS_${PN} += "appconfig-perl"
 
 S = "${WORKDIR}/Template-Toolkit-${PV}"

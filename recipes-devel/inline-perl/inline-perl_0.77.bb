@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Inline"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/I/IN/INGY/Inline-0.76.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/I/IN/INGY/Inline-0.77.tar.gz"
 
-SRC_URI[md5sum] = "e1782466361b8c74b7ddf0cb18d3198a"
-SRC_URI[sha256sum] = "3ad79b6cc5a24134809d889f705f3aad0ee1a1964b6fc49174bc857f473aaa65"
+SRC_URI[md5sum] = "8519c81a93e4a7ea374dc2c20ccb2666"
+SRC_URI[sha256sum] = "8d5ec3bdf18930ec9dedbbbf949f468eef8142458bc57946b34c89aea3cabc2b"
 DEPENDS += "test-warn-perl-native"
 
 S = "${WORKDIR}/Inline-${PV}"
