@@ -14,6 +14,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c195
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
 SRC_URI = "http://cpan.metacpan.org/authors/id/J/JS/JSWARTZ/Log-Any-Adapter-0.11.tar.gz"
+SRC_URI += "file://no-guard.patch"
 
 SRC_URI[md5sum] = "53ddc8bd4998cdb0ba0a49516a0e089c"
 SRC_URI[sha256sum] = "9ebb9969b7efbc68de1e829e42cca2486d97a574d586f86bcb4d83ecff6ae66e"
