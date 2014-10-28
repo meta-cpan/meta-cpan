@@ -11,17 +11,16 @@ HOMEPAGE=	"https://metacpan.org/release/Type-Tiny"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-1.000004.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-1.000005.tar.gz"
 
-SRC_URI[md5sum] = "3fab2a0ec2634d1fa057d6254678b79f"
-SRC_URI[sha256sum] = "d294b54b9177ad4fcbfd1ec868228dea7c4f49cd19a9b5dff763d61fcee144ba"
+SRC_URI[md5sum] = "2914b0e6b35c35f657d426fba29b4520"
+SRC_URI[sha256sum] = "42ed36c011825aa1e6995a4e8638621a1b2103a0970b15764ca3919368042365"
 RDEPENDS_${PN} += "exporter-tiny-perl"
 RRECOMMENDS_${PN} += "devel-lexalias-perl"
 RRECOMMENDS_${PN} += "devel-stacktrace-perl"
 RRECOMMENDS_${PN} += "sub-name-perl"
 RRECOMMENDS_${PN} += "type-tie-perl"
 RRECOMMENDS_${PN} += "type-tiny-xs-perl"
-DEPENDS += "perl"
 RECOMMENDS += "test-tester-perl-native"
 RECOMMENDS += "test-warnings-perl-native"
 
