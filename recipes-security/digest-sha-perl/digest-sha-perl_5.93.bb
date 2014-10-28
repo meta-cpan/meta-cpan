@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Digest-SHA"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA-5.92.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA-5.93.tar.gz"
 
-SRC_URI[md5sum] = "f6de59c9f7e23c3a46eedc0c20f56559"
-SRC_URI[sha256sum] = "9f31ea3aadd6521dbe3495acc784edc4d50f76fc3e36019dfadc64ee45181287"
+SRC_URI[md5sum] = "d3cc8a7af2b04d3d10f4202874cc6659"
+SRC_URI[sha256sum] = "ffa160468332bf2c8e7183e39e54ecfeb65149e46e63065091001e8c00f4f28f"
 
 S = "${WORKDIR}/Digest-SHA-${PV}"
 
