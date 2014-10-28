@@ -20,12 +20,12 @@ HOMEPAGE=	"https://metacpan.org/release/IO-Async"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.63.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.64.tar.gz"
 
-SRC_URI[md5sum] = "ce1664b4e5960f0620c8f1260698ae39"
-SRC_URI[sha256sum] = "d6789de8a08b89ac99479bf3fa32ab2a7f412a86db107ebbba646248b18d6766"
+SRC_URI[md5sum] = "52a52cd31d70bbd7d9a2e3dfc18d3853"
+SRC_URI[sha256sum] = "d7eb7d20e5aea739bcb4c2a4b439ab929c1c84036d3e84ed5befdb2d863d7523"
 RDEPENDS_${PN} += "future-perl"
-RDEPENDS_${PN} += "perl"
+RDEPENDS_${PN} += "struct-dumb-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-refcount-perl-native"
