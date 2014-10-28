@@ -18,10 +18,10 @@ HOMEPAGE=	"https://metacpan.org/release/Exporter-Tiny"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.040.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz"
 
-SRC_URI[md5sum] = "d3e0fc25ee5e704f52640967c9d862b1"
-SRC_URI[sha256sum] = "f9b7ab58514d6dcce27543c8ab007ed510d05e138262a23a91d289474cc308a6"
+SRC_URI[md5sum] = "77ba432037f35bc9b84b717639075fc6"
+SRC_URI[sha256sum] = "8f1622c5ebbfbcd519ead81df7917e48cb16cc527b1c46737b0459c3908a023f"
 RECOMMENDS += "test-fatal-perl-native"
 RECOMMENDS += "test-warnings-perl-native"
 
