@@ -18,15 +18,14 @@ HOMEPAGE=	"https://metacpan.org/release/Net-Async-HTTP"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.35.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.36.tar.gz"
 
-SRC_URI[md5sum] = "772dcf2a8c5212f614aad070137f855d"
-SRC_URI[sha256sum] = "022b9bb5aa9d6f8c6ede818dfa01be262fce723fb8bd496fb6851b6f3bddb3d3"
+SRC_URI[md5sum] = "b486a9c647f082d015d71a59a4ca146d"
+SRC_URI[sha256sum] = "729bd09d488e3f0d5abc77bc6f45eca84ae08ccf9ba35af578dd1ee69cc059d6"
 RDEPENDS_${PN} += "future-perl"
 RDEPENDS_${PN} += "http-message-perl"
 RDEPENDS_${PN} += "io-async-perl"
 RDEPENDS_${PN} += "struct-dumb-perl"
-RRECOMMENDS_${PN} += "perl"
 DEPENDS += "http-cookies-perl-native"
 DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-refcount-perl-native"
