@@ -28,8 +28,6 @@ inherit cpan pkgconfig
 do_configure() {
         export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
         cpan_do_configure
-	# sed -i -e "s,\-lstatgrab,-L${STAGING_DIR_TARGET}/usr/lib -lstatgrab,g" ${S}/Makefile
-	sed -i -e "s,\-lstatgrab,-v -lstatgrab,g" ${S}/Makefile
 }
 
 do_compile() {
