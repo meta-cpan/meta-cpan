@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Trap"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EB/EBHANSSEN/Test-Trap-v0.2.5.tar.gz"
 
-SRC_URI[md5sum] = "c7c361af839703ff38046e740071261b"
-SRC_URI[sha256sum] = "9ec18229bbe918f424786fe4bde57f374359dd988d25433bb325b3d994f67ce0"
+SRC_URI[md5sum] = "040815f3121e2bea887461c623a806a4"
+SRC_URI[sha256sum] = "f899287a063d306226b78fd55eaf7ae570d3a1e5dcee51539ff1b2299bbf4257"
 RDEPENDS_${PN} += "data-dump-perl"
 RDEPENDS_${PN} += "test-tester-perl"
 DEPENDS += "perl"
