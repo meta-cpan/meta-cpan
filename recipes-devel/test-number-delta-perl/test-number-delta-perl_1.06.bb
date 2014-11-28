@@ -19,11 +19,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Number-Delta"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Test-Number-Delta-1.04.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Test-Number-Delta-1.06.tar.gz"
 
-SRC_URI[md5sum] = "59eb83a84abec511c265b42b444002e8"
-SRC_URI[sha256sum] = "883fd8a4a71e867f3bb30879f4c2d91e75610a7bb9822370743be377c3de4dbd"
-RECOMMENDS += "perl"
+SRC_URI[md5sum] = "f0d420e7f679a0bc593713d21c25f51e"
+SRC_URI[sha256sum] = "535430919e6fdf6ce55ff76e9892afccba3b7d4160db45f3ac43b0f92ffcd049"
 
 S = "${WORKDIR}/Test-Number-Delta-${PV}"
 
