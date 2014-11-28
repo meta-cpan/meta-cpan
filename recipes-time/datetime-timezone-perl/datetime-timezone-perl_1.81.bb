@@ -13,26 +13,21 @@ HOMEPAGE=	"https://metacpan.org/release/DateTime-TimeZone"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.76.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.81.tar.gz"
 
-SRC_URI[md5sum] = "9aeccf8c911c8e3ec18c8194de3a3840"
-SRC_URI[sha256sum] = "6e96779ed04c81979d72b1a02bf12726b408e4b99169d4c9882414a19ebbb2b0"
-RDEPENDS_${PN} += "class-load-perl"
+SRC_URI[md5sum] = "62d4153bfb175ee3b04482b2f4b0b177"
+SRC_URI[sha256sum] = "62f74919227aa996600ab508b999c658e3aa5789098ade189cf82dd2d9e6833d"
 RDEPENDS_${PN} += "class-singleton-perl"
 RDEPENDS_${PN} += "list-allutils-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "params-validate-perl"
+RDEPENDS_${PN} += "try-tiny-perl"
 DEPENDS += "extutils-makemaker-perl-native"
 DEPENDS += "test-fatal-perl-native"
-DEPENDS += "test-output-perl-native"
 DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/DateTime-TimeZone-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
