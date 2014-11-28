@@ -18,11 +18,10 @@ HOMEPAGE=	"https://metacpan.org/release/Capture-Tiny"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.27.tar.gz"
 
-SRC_URI[md5sum] = "8cbf69b1ceb10899308ac1f57a28c8a8"
-SRC_URI[sha256sum] = "577f88cfddf7707aad242c6b398a304d224433def2a16051f2d28a351558f489"
-RECOMMENDS += "perl"
+SRC_URI[md5sum] = "63ee233f1dfaa75c5233839407b87ae3"
+SRC_URI[sha256sum] = "ba54bc0305eb91ee2b0d769470d6bc62edb5b18d9c75b7ea709ea6b31e9bab21"
 
 S = "${WORKDIR}/Capture-Tiny-${PV}"
 
