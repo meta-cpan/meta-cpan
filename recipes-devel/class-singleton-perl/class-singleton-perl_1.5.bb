@@ -19,10 +19,10 @@ HOMEPAGE=	"https://metacpan.org/release/Class-Singleton"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/A/AB/ABW/Class-Singleton-1.4.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz"
 
-SRC_URI[md5sum] = "a18b108ab97e2107cbbe816d2b3e2ee3"
-SRC_URI[sha256sum] = "cfafc6e7c842e04fc11cc3e700551461a6aaa0b139470273aea2f29026e79150"
+SRC_URI[md5sum] = "6a2524f590eda075f4bc929598119241"
+SRC_URI[sha256sum] = "38220d04f02e3a803193c2575a1644cce0b95ad4b95c19eb932b94e2647ef678"
 
 S = "${WORKDIR}/Class-Singleton-${PV}"
 
