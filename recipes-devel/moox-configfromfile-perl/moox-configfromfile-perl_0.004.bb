@@ -15,10 +15,11 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-ConfigFromFile"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-ConfigFromFile-0.003.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-ConfigFromFile-0.004.tar.gz"
 
-SRC_URI[md5sum] = "fd6cfde23c66b201970a2f252aae172d"
-SRC_URI[sha256sum] = "835bcc117b3c8d345f5ccd73f7f0cfa2186011adf80a871eb859c6c333225562"
+SRC_URI[md5sum] = "11685be9a514d9c07bcdc3318ea4a32b"
+SRC_URI[sha256sum] = "7c21c049dd615841a643a3070b9de9b3642b46f59e9dd050c1b2ab76dc7cec11"
+RDEPENDS_${PN} += "config-any-perl"
 RDEPENDS_${PN} += "file-find-rule-perl"
 RDEPENDS_${PN} += "moo-perl"
 RDEPENDS_${PN} += "moox-file-configdir-perl"
