@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/App-Cmd"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/App-Cmd-0.324.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/App-Cmd-0.326.tar.gz"
 
-SRC_URI[md5sum] = "8ecf23e21d9e604bfcc474a019fb68e9"
-SRC_URI[sha256sum] = "7f21e03794a05f6d1a5ea51eccacfdc8a46dc163a5ef8114e45c4c8ad5893291"
+SRC_URI[md5sum] = "283452726557f7e6cdb55bdc9998f121"
+SRC_URI[sha256sum] = "2b6ddd498dd8d8b28b9a4656a6c69479b5bc5b1e46660dd8670e9c5055b8dbfc"
 RDEPENDS_${PN} += "capture-tiny-perl"
 RDEPENDS_${PN} += "class-load-perl"
 RDEPENDS_${PN} += "data-optlist-perl"
