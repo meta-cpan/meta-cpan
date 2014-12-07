@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Devel-MAT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.19.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.20.tar.gz"
 
-SRC_URI[md5sum] = "4200b95ea2489acb73c33704c4a4f018"
-SRC_URI[sha256sum] = "6d6bd9aacc996a2a391d01a25a8f15b3ee5f8d59ef9c01f03e7b37ffe00b187b"
+SRC_URI[md5sum] = "68d885b06fa113e4eb5a9cdef550063e"
+SRC_URI[sha256sum] = "ba610857f2d98e7b5b230003fe46f57386e2c443d04ca725b6937111c7b096a8"
 RDEPENDS_${PN} += "file-sharedir-perl"
 RDEPENDS_${PN} += "list-moreutils-perl"
 RDEPENDS_${PN} += "list-utilsby-perl"
@@ -29,5 +29,10 @@ DEPENDS += "test-identity-perl-native"
 S = "${WORKDIR}/Devel-MAT-${PV}"
 
 inherit cpan
+
+do_compile() {
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	cpan_do_compile
+}
 
 BBCLASSEXTEND = "native"
