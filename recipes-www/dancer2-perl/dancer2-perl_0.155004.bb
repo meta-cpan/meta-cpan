@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Dancer2"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Dancer2-0.155001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Dancer2-0.155004.tar.gz"
 
-SRC_URI[md5sum] = "21cbfcc1f93d75e3146d872a03012f38"
-SRC_URI[sha256sum] = "1f90a23885b1ba676658a25aa7aad8191a8f2c662d342e34f7bf1def7193bef3"
+SRC_URI[md5sum] = "4ae17108fadc56b2f785f623862c3bcf"
+SRC_URI[sha256sum] = "0a2a3613a0e2793e5bc0a5d17b2b41fb432b19c85c3e4e413f6b5cbd4a4f94f7"
 RDEPENDS_${PN} += "app-cmd-perl"
 RDEPENDS_${PN} += "class-load-perl"
 RDEPENDS_${PN} += "config-any-perl"
