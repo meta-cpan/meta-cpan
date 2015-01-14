@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Digest-SHA3"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA3-0.22.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA3-0.24.tar.gz"
 
-SRC_URI[md5sum] = "dd99a53c6950b6845cda7e6b929b25d5"
-SRC_URI[sha256sum] = "f2718f10b0acf5e5bd55c0e472115cf65c92f234984b018567329b5f1096ea2b"
+SRC_URI[md5sum] = "4d3a5d8e71485955bab65755ade0d3b0"
+SRC_URI[sha256sum] = "49a7aa146f720877d557cf4c74c03c76ebf01c6dce94d374edb2610176941f5f"
 
 S = "${WORKDIR}/Digest-SHA3-${PV}"
 
