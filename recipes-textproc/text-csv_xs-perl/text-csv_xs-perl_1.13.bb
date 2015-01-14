@@ -13,12 +13,11 @@ HOMEPAGE=	"https://metacpan.org/release/Text-CSV_XS"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.12.tgz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.13.tgz"
 
-SRC_URI[md5sum] = "b91f2d806054b68c2a29d3da5821fe87"
-SRC_URI[sha256sum] = "8643940eb65a1d9126fc230698b8a24aa6c05db6ca70d2248426412bae38fd7c"
-RRECOMMENDS_${PN} += "perl"
-DEPENDS += "extutils-makemaker-perl-native"
+SRC_URI[md5sum] = "c1e560fa74af21c7eb6b07c5a6d9b3d6"
+SRC_URI[sha256sum] = "6d92a83b3be6c47cb1bc8d4079173f5c2913655aed070eb69a9c015a4e14d923"
+RRECOMMENDS_${PN} += "encode-perl"
 
 S = "${WORKDIR}/Text-CSV_XS-${PV}"
 
