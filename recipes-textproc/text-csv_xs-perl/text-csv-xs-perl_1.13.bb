@@ -17,6 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.13.tg
 
 SRC_URI[md5sum] = "c1e560fa74af21c7eb6b07c5a6d9b3d6"
 SRC_URI[sha256sum] = "6d92a83b3be6c47cb1bc8d4079173f5c2913655aed070eb69a9c015a4e14d923"
+RECOMMENDS_${PN} += "encode-perl-native"
 RRECOMMENDS_${PN} += "encode-perl"
 
 S = "${WORKDIR}/Text-CSV_XS-${PV}"
