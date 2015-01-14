@@ -19,12 +19,11 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Warnings"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.016.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.020.tar.gz"
 
-SRC_URI[md5sum] = "5608b3f8dbdd65d0251200754d97863a"
-SRC_URI[sha256sum] = "09ebc9afa29eb4d1d44fbd974dfcd52e0a2d9ce7ec3e3ee7602394157831aba9"
-RECOMMENDS += "perl"
-RECOMMENDS += "test-tester-perl-native"
+SRC_URI[md5sum] = "c5d923fd727fea3f4b3aa91bad5ccf47"
+SRC_URI[sha256sum] = "514730ae3e8e53546f855ad49a96d39440ffc9ed2ad451788ccbb6bcfc1446f4"
+RECOMMENDS += "test-simple-perl-native"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
