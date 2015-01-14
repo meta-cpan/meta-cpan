@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Fatal"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.013.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz"
 
-SRC_URI[md5sum] = "e3d13b3c7e42f4574c843aca5d9f4570"
-SRC_URI[sha256sum] = "02fb13eea43a9eb0df84919c2a1415243c0bdd68dae9f63f6d6b3827e76f36e7"
+SRC_URI[md5sum] = "7954f6d2e3607be10c0fbd69063a3d1b"
+SRC_URI[sha256sum] = "bcdcef5c7b2790a187ebca810b0a08221a63256062cfab3c3b98685d91d1cbb0"
 RDEPENDS_${PN} += "try-tiny-perl"
 
 S = "${WORKDIR}/Test-Fatal-${PV}"
