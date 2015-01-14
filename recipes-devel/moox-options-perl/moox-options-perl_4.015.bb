@@ -10,12 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-Options"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/C/CE/CELOGEEK/MooX-Options-4.013.tar.gz \
-          file://no-term-size-any.patch \
-	 "
+SRC_URI = "https://cpan.metacpan.org/authors/id/C/CE/CELOGEEK/MooX-Options-4.015.tar.gz"
 
-SRC_URI[md5sum] = "e541f8875e6564032c26ec32595302b8"
-SRC_URI[sha256sum] = "71fdff54c03c3bebae84f673a1434f2b395975e6e100038dc7b4916ee20da786"
+SRC_URI[md5sum] = "cd2b948ae1c6f29ffc2739a99abe11d4"
+SRC_URI[sha256sum] = "9189991b71e2333bac3d5df0815c3bf874b30397861f8c434b0780d99caed1a7"
 RDEPENDS_${PN} += "data-record-perl"
 RDEPENDS_${PN} += "getopt-long-descriptive-perl"
 RDEPENDS_${PN} += "json-perl"
