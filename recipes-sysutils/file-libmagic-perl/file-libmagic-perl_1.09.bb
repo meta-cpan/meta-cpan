@@ -15,10 +15,10 @@ file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "perl file"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.02.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.09.tar.gz"
 
-SRC_URI[md5sum] = "e1a0409baab867ac476d741950943837"
-SRC_URI[sha256sum] = "0c7515ce904982f931fca324bacb41e863f1d90566bb1b4a05985c04b4d8d6a2"
+SRC_URI[md5sum] = "812a174944533c00740e06780f771118"
+SRC_URI[sha256sum] = "8d49b89bd56451653f35ba6981b7f3a0e61293a4d7ec9acc86fa2e0c97874b03"
 
 S = "${WORKDIR}/File-LibMagic-${PV}"
 
