@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/POSIX-strftime-Compiler"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Compiler-0.41.tar.gz"
 
-SRC_URI[md5sum] = "6b6fb6e767c42443c0bf91ccd82e34d3"
-SRC_URI[sha256sum] = "7b4abbe793acc920b10ed14f9e430c69ef778e28fd59e4046d6c35d1c24b6c99"
+SRC_URI[md5sum] = "3cb849778e00f5d3894e7e78c2e629ce"
+SRC_URI[sha256sum] = "670b89e11500f3808c9e21b1c300089622f68906ff12b1cbfba8e30d3a1c3739"
 DEPENDS += "perl"
 
 S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
