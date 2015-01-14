@@ -14,7 +14,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/J/JS/JSWARTZ/Log-Any-Adapter-Disp
 
 SRC_URI[md5sum] = "0e9ab09ed5d55922bdd6cccd065a4b4a"
 SRC_URI[sha256sum] = "baa4c2812f9540b0f0baff810fe46a4e921a411129a4c8ccb09510aef122d89b"
-RDEPENDS_${PN} += "log-any-adapter-perl"
+RDEPENDS_${PN} += "log-any-perl"
 RDEPENDS_${PN} += "log-dispatch-perl"
 
 S = "${WORKDIR}/Log-Any-Adapter-Dispatch-${PV}"
