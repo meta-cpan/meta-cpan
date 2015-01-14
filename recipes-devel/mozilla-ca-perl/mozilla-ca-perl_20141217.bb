@@ -13,10 +13,10 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MPL-1.1;md5=1d38e87ed8d522c49f0
     file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6 \
     file://${COMMON_LICENSE_DIR}/LGPL-2.1;md5=1a6d268fd218675ffea8be556788b780"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-20130114.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-20141217.tar.gz"
 
-SRC_URI[md5sum] = "45a42082dbd68cf25869ceb2aa49d5b2"
-SRC_URI[sha256sum] = "82342614add1dbca8a00daa1ee55af3e0036245aed7d445537918c045008ccd7"
+SRC_URI[md5sum] = "e0e5646886aeb3f71fb593f536295e2c"
+SRC_URI[sha256sum] = "b753c9aceb20388482eb7f371b86e9e7bbc43feb0f87b3d9e10f7728d1720d30"
 
 S = "${WORKDIR}/Mozilla-CA-${PV}"
 
