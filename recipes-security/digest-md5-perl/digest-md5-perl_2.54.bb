@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Digest-MD5"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/G/GA/GAAS/Digest-MD5-2.53.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Digest-MD5-2.54.tar.gz"
 
-SRC_URI[md5sum] = "affc629d05c4c7b3efe4b3b874bce528"
-SRC_URI[sha256sum] = "cde667c0c0c8a4d819d332ba9a4cad7e9f75fc7cabd490aae405ce7bc54d5152"
+SRC_URI[md5sum] = "bb2c9e79a8fd181abcb3071e94d7c099"
+SRC_URI[sha256sum] = "90de11e3743ef1c753a5c2032b434e09472046fbcf346996cbe5d135b217f390"
 
 S = "${WORKDIR}/Digest-MD5-${PV}"
 
