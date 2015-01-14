@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/File-ShareDir-Install"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/G/GW/GWYN/File-ShareDir-Install-0.10.tar.gz"
 
-SRC_URI[md5sum] = "508fd1f977f2e160e7e756c9c73868df"
-SRC_URI[sha256sum] = "ed4fdbbd691726d45b78538c63eb1b08a7b0853cf07ec327256d0dd590acc0dc"
+SRC_URI[md5sum] = "37fb7fa72ce7184516dd022aba62f524"
+SRC_URI[sha256sum] = "708af71dec4dfb5a8cf9a5e863b566714c3f65f0a76722302de5a07ee202e6f7"
 
 S = "${WORKDIR}/File-ShareDir-Install-${PV}"
 
