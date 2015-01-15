@@ -29,13 +29,14 @@ inherit cpan pkgconfig
 
 do_configure() {
         export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${CCLD}"
         cpan_do_configure
 }
 
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${CCLD}"
 	cpan_do_compile
 }
-
 
 BBCLASSEXTEND = "native"

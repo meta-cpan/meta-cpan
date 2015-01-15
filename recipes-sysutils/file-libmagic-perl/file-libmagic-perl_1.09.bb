@@ -24,9 +24,22 @@ S = "${WORKDIR}/File-LibMagic-${PV}"
 
 inherit cpan
 
+do_configure() {
+        export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${CCLD}"
+        cpan_do_configure
+}
+
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${CCLD}"
 	cpan_do_compile
+}
+
+do_install() {
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${CCLD}"
+	cpan_do_install
 }
 
 BBCLASSEXTEND = "native"
