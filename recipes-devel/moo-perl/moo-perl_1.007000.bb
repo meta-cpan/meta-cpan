@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Moo"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-1.006001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-1.007000.tar.gz"
 
-SRC_URI[md5sum] = "814b4b4f465a1d3c84f91bd0f30f1fbf"
-SRC_URI[sha256sum] = "0956a26a678f28eb7b04c3e165ca3edbc2a582172d002ff49ebfd0ec7ce62965"
+SRC_URI[md5sum] = "45dfb1157721f15d1f80b6514031d4f6"
+SRC_URI[sha256sum] = "c51e0ae6044d00435b284b3e64ddce4d69d262629c1aaa1e4fa1342993363a79"
 RDEPENDS_${PN} += "class-method-modifiers-perl"
 RDEPENDS_${PN} += "devel-globaldestruction-perl"
 RDEPENDS_${PN} += "import-into-perl"
