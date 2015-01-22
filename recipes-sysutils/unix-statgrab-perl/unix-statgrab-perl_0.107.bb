@@ -5,7 +5,7 @@ operating system, CPU, memory usage, network interfaces, hard-disks etc."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
-PR = "r1"
+PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Unix-Statgrab"
@@ -13,15 +13,15 @@ HOMEPAGE=	"https://metacpan.org/release/Unix-Statgrab"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.106.tar.gz \
-	file://eliminate-weird-new.patch"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.107.tar.gz"
 
-SRC_URI[md5sum] = "c42d2c96cf966dc02eecd86e27617b50"
-SRC_URI[sha256sum] = "a0a64a9cfe4b07019d096eb5b9d5e605c49a256243864f5c1faa3420939edbfe"
+SRC_URI[md5sum] = "001a5d472657ca01c34d65a11a769835"
+SRC_URI[sha256sum] = "c5cc68690c31f8fea9b60bb6948b1afb4549aed55c238319e52dfdeb170cd828"
 RRECOMMENDS_${PN} += "test-leaktrace-perl"
 DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "extutils-makemaker-perl-native"
+DEPENDS += "libstatgrab"
 RDEPENDS_${PN} += "perl libstatgrab"
 
 S = "${WORKDIR}/Unix-Statgrab-${PV}"
@@ -33,7 +33,6 @@ do_configure() {
 	export LD="${CCLD}"
         cpan_do_configure
 }
-
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
 	export LD="${CCLD}"
