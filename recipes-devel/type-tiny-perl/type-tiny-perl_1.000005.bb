@@ -3,7 +3,7 @@ objects which are compatible with Moo, Moose and Mouse."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
-PR = "r0"
+PR = "r1"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Type-Tiny"
@@ -21,7 +21,7 @@ RRECOMMENDS_${PN} += "devel-stacktrace-perl"
 RRECOMMENDS_${PN} += "sub-name-perl"
 RRECOMMENDS_${PN} += "type-tie-perl"
 RRECOMMENDS_${PN} += "type-tiny-xs-perl"
-RECOMMENDS += "test-tester-perl-native"
+RECOMMENDS += "test-simple-perl-native"
 RECOMMENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/Type-Tiny-${PV}"

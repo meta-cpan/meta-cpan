@@ -1,11 +1,10 @@
 DESCRIPTION = "Test::Output provides a simple interface for testing output sent to \
 STDOUT or STDERR. A number of different utilities are included to try \
-and be as \
-flexible as possible to the tester."
+and be as flexible as possible to the tester."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
-PR = "r0"
+PR = "r1"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-Output"
@@ -19,7 +18,7 @@ SRC_URI[md5sum] = "903485edb382f5a18a5029978d1febf6"
 SRC_URI[sha256sum] = "3110af65c6fc59b9fa46b08a47508c5e85f6edc6355f0879e28b11f9ad0c2989"
 RDEPENDS_${PN} += "capture-tiny-perl"
 RDEPENDS_${PN} += "sub-exporter-perl"
-RDEPENDS_${PN} += "test-tester-perl"
+RDEPENDS_${PN} += "test-simple-perl"
 
 S = "${WORKDIR}/Test-Output-${PV}"
 

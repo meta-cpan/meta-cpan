@@ -1,11 +1,10 @@
 DESCRIPTION = "If you don't know anything about automated testing in Perl then you \
-should probably read about Test::Simple and Test::More before \
-preceding. Test::Deep \
-uses the Test::Builder framework."
+should probably read about Test::Simple and Test::More before preceding. \
+Test::Deep uses the Test::Builder framework."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
-PR = "r0"
+PR = "r1"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-Deep"
@@ -17,10 +16,8 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-0.115.tar.gz
 
 SRC_URI[md5sum] = "63bf86f7cddb09320c846acb1a1ec263"
 SRC_URI[sha256sum] = "0f2f5d41e4c4454b01dedf3fa753cd51001b16e5336702e1b2c5b206a1bdc39c"
-DEPENDS += "test-tester-perl-native"
 DEPENDS += "test-nowarnings-perl-native"
-RDEPENDS_${PN} += "test-nowarnings-perl"
-RDEPENDS_${PN} += "test-tester-perl"
+DEPENDS += "test-simple-perl-native"
 
 S = "${WORKDIR}/Test-Deep-${PV}"
 
