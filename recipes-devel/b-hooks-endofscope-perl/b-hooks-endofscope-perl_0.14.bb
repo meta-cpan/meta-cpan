@@ -11,14 +11,14 @@ HOMEPAGE=	"https://metacpan.org/release/B-Hooks-EndOfScope"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.14.tar.gz"
 
-SRC_URI[md5sum] = "6cdaaa88a39054cd13aacad7bd2171da"
-SRC_URI[sha256sum] = "f17ef12e1ea7667dc072edb2ee5bcfc54359ad77e60163a56b43383e1705adb8"
+SRC_URI[md5sum] = "9380361535fdade817fa5544df579f31"
+SRC_URI[sha256sum] = "dfec3f1282ce51566005bc5bc8793325d820ab25902d5ef765f50b678076552f"
+RDEPENDS_${PN} += "module-implementation-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "sub-exporter-progressive-perl"
 RRECOMMENDS_${PN} += "variable-magic-perl"
-RECOMMENDS += "perl"
 
 S = "${WORKDIR}/B-Hooks-EndOfScope-${PV}"
 
