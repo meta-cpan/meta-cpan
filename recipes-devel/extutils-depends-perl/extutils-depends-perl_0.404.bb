@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/ExtUtils-Depends"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/X/XA/XAOC/ExtUtils-Depends-0.403.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/X/XA/XAOC/ExtUtils-Depends-0.404.tar.gz"
 
-SRC_URI[md5sum] = "bf28c1aad4e1d8761f598ab0b0531dd9"
-SRC_URI[sha256sum] = "3963e9bc3910b38f402bfdc97fff1f2c87a38db8e5efc20f75f080358bc0594c"
+SRC_URI[md5sum] = "2b66dbb4bcfc2639c6b26309569471ad"
+SRC_URI[sha256sum] = "8bec0a8f67ac7cf5c7bc48aff4b7cf8a771ef97f0ea7894bcdd0e9079ba24fec"
 RECOMMENDS += "test-number-delta-perl-native"
 
 S = "${WORKDIR}/ExtUtils-Depends-${PV}"
