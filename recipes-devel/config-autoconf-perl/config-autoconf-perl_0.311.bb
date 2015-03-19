@@ -1,4 +1,6 @@
-DESCRIPTION = "A module to implement some of AutoConf macros in pure perl."
+DESCRIPTION = "Config::AutoConf is intended to provide the same opportunities to Perl \
+developers as GNU Autoconf <http://www.gnu.org/software/autoconf/> does \
+for Shell developers."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
@@ -10,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Config-AutoConf"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.309.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.311.tar.gz"
 
-SRC_URI[md5sum] = "a3c6370a7501725e109ea8179c510424"
-SRC_URI[sha256sum] = "b86d8f24d6520fb8fd6a85b51c6732ce96d2b7a6fe7ce87813c15b47153b0cdb"
+SRC_URI[md5sum] = "fa19f46bbd5bb0bd23ee41e8fd7b533f"
+SRC_URI[sha256sum] = "80151a8f1346e61f66523f33c783962e23c8bd66a7b93dca79fe531dd075bc50"
 RDEPENDS_${PN} += "capture-tiny-perl"
 RRECOMMENDS_${PN} += "extutils-cbuilder-perl"
 RRECOMMENDS_${PN} += "file-slurp-tiny-perl"
