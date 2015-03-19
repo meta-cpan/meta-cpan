@@ -12,10 +12,11 @@ HOMEPAGE=	"https://metacpan.org/release/AppConfig"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-1.67.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-1.71.tar.gz"
 
-SRC_URI[md5sum] = "3c84263a88c66779df3f0948a8c6786b"
-SRC_URI[sha256sum] = "6065f9662ea9e74ebe17564b07d918043bb1cf0ae88b15201d0feeb0791b2207"
+SRC_URI[md5sum] = "7747d9241561ed5567d5e134b8648707"
+SRC_URI[sha256sum] = "1177027025ecb09ee64d9f9f255615c04db5e14f7536c344af632032eb887b0f"
+DEPENDS += "test-pod-perl-native"
 
 S = "${WORKDIR}/AppConfig-${PV}"
 
