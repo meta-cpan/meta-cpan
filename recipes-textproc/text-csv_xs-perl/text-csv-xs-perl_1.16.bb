@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Text-CSV_XS"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.14.tgz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.16.tgz"
 
-SRC_URI[md5sum] = "d4a198b0c0252392d378db7b323695d7"
-SRC_URI[sha256sum] = "6d7cb089843e47e3fdc234a5141efd50ee3cc8b5d29bd41be8eef751b851af29"
+SRC_URI[md5sum] = "62fadae9a88cc9fc921280a5bf1ff161"
+SRC_URI[sha256sum] = "dcdf3f9c527e64b3448c93157700631b6cbc4c28346991f2c2eb001e999bc3b1"
 RRECOMMENDS_${PN} += "encode-perl"
 
 S = "${WORKDIR}/Text-CSV_XS-${PV}"
