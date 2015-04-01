@@ -13,12 +13,11 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Exception"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.36.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Exception-0.38.tar.gz"
 
-SRC_URI[md5sum] = "778c498989fdfb8b5cf5b37bd41fb7ab"
-SRC_URI[sha256sum] = "b30bf587fdb6904e9dcfd6b21296ea7f2975c2c4019148b3e421e075758dfcfe"
+SRC_URI[md5sum] = "12b8c744ea5caad443b8dee31be16859"
+SRC_URI[sha256sum] = "7c6aa4c208c043c38631e2af8d28abf76d32a3dcd2ff4a94591f009a6ed3eab5"
 RDEPENDS_${PN} += "sub-uplevel-perl"
-DEPENDS += "perl"
 
 S = "${WORKDIR}/Test-Exception-${PV}"
 
