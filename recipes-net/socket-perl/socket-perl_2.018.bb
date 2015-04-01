@@ -15,11 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Socket"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.016.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.018.tar.gz"
 
-SRC_URI[md5sum] = "979f2ba42f5b624013cf0e395b44a1d5"
-SRC_URI[sha256sum] = "5e7abfa0515a14f22e24ddc21e68984d9827962a2dd348751dfe968e3c2070bf"
-DEPENDS += "extutils-makemaker-perl-native"
+SRC_URI[md5sum] = "d735fd2a339c4676e0e3733af327cc09"
+SRC_URI[sha256sum] = "77c13e040b0f897dc89855318ca6435d2ded0fab190bf6b1e9a8a4d707c37a88"
 
 S = "${WORKDIR}/Socket-${PV}"
 
