@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Scope-Upper"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/V/VP/VPIT/Scope-Upper-0.25.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Scope-Upper-0.26.tar.gz"
 
-SRC_URI[md5sum] = "5bbb92a8a63689e81efed1460ab6a13d"
-SRC_URI[sha256sum] = "dcd956aa221167b6996797dde6ec8a0ed57a7246b27e50595dd55a2f3895d756"
+SRC_URI[md5sum] = "1da9e90c8739eaf92790db7ba342b294"
+SRC_URI[sha256sum] = "682b4c39065098ffd26ccfb2477734320184b9f480b8245daae2f81729eaa3f6"
 
 S = "${WORKDIR}/Scope-Upper-${PV}"
 
