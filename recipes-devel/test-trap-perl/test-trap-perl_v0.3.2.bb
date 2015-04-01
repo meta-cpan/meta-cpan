@@ -13,21 +13,15 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Trap"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EB/EBHANSSEN/Test-Trap-v0.3.0.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EB/EBHANSSEN/Test-Trap-v0.3.2.tar.gz"
 
-SRC_URI[md5sum] = "9e3a3bd809a81f4b5bd40107511c9709"
-SRC_URI[sha256sum] = "7c840e7dd83369d5d50b60c4bcb6f2a97fc8c8d3d3134de1e5351e0408fb6415"
+SRC_URI[md5sum] = "5ba3fd70ad9776adf972f734872b4760"
+SRC_URI[sha256sum] = "399b9309c669d161dcd9ee2e1377aa4027e7428ff4f5ffd07cc16852e725054b"
 RDEPENDS_${PN} += "data-dump-perl"
 RDEPENDS_${PN} += "test-simple-perl"
-RDEPENDS_${PN} += "perl"
 
 S = "${WORKDIR}/Test-Trap-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
