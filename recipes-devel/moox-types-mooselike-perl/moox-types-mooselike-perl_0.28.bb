@@ -1,7 +1,7 @@
-DESCRIPTION = "See MooX::Types::MooseLike::Base for a list of available base types. \
-Its source also provides an example of how to build base types, along \
-with both \
-parameterizable and non-parameterizable."
+DESCRIPTION = "This module provides a possibility to build your own set of Moose-like \
+types. These custom types can then be used to describe fields in \
+Moo-based \
+classes."
 
 SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
@@ -13,12 +13,11 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-Types-MooseLike"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MATEU/MooX-Types-MooseLike-0.28.tar.gz"
 
-SRC_URI[md5sum] = "049e99292aa848454ae1e42b09603fa9"
-SRC_URI[sha256sum] = "ee35e2d85d48bb2785449a4fa42c67513e843c803a0d5074665f54a52b550991"
+SRC_URI[md5sum] = "ba30a142740694c3a01457c452dc5fa6"
+SRC_URI[sha256sum] = "635e57c26cacbf30647418eb1895c8d33927bf4f35d8ce25df2466756b174e95"
 RDEPENDS_${PN} += "module-runtime-perl"
-DEPENDS += "moo-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/MooX-Types-MooseLike-${PV}"
