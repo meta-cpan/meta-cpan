@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Hash-MultiValue"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/Hash-MultiValue-0.16.tar.gz"
 
-SRC_URI[md5sum] = "eb7df1402b774b07a305dbb67873817a"
-SRC_URI[sha256sum] = "805d0eba514f18d9af60f7d8baf50b5b6e004bbaa12da43642d40575f93c83c9"
+SRC_URI[md5sum] = "508015312eb08cd2bcea987c4efbb93d"
+SRC_URI[sha256sum] = "66181df7aa68e2786faf6895c88b18b95c800a8e4e6fb4c07fd176410a3c73f4"
 
 S = "${WORKDIR}/Hash-MultiValue-${PV}"
 
