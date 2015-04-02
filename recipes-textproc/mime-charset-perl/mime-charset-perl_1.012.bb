@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/MIME-Charset"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.011.3.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.tar.gz"
 
-SRC_URI[md5sum] = "962f6c962b238d34c1cc0f52efc21b24"
-SRC_URI[sha256sum] = "b3a0542b1aacf74ca3f787e00d28a8b3e3a162486213d141657e1ee4fa4ff1e7"
+SRC_URI[md5sum] = "1762b0d9e9379be684b704c247317276"
+SRC_URI[sha256sum] = "cee5d1d4184ad46ca17d995335bc8d9b6d95e1e64584079d032cf5f0c82dcccd"
 
 S = "${WORKDIR}/MIME-Charset-${PV}"
 
