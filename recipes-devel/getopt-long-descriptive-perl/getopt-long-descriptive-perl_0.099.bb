@@ -17,6 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptiv
 
 SRC_URI[md5sum] = "7e0f6e033c01a10b7e7907f1a75c0691"
 SRC_URI[sha256sum] = "fc4d1ed0bf12abc3d01ba38b0376c1b0fe6c6e59152b61b5f500a1e3f7c8c5e9"
+RDEPENDS_${PN} += "getopt-long-perl"
 RDEPENDS_${PN} += "params-validate-perl"
 RDEPENDS_${PN} += "sub-exporter-perl"
 DEPENDS += "test-fatal-perl-native"
