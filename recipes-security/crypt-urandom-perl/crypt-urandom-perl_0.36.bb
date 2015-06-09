@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Crypt-URandom"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/D/DD/DDICK/Crypt-URandom-0.34.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Crypt-URandom-0.36.tar.gz"
 
-SRC_URI[md5sum] = "d8f1bed6d188a1e1898a14c55db7617c"
-SRC_URI[sha256sum] = "cf62e01cb7aaecfd51bfd1222dcd58c85c02399f078243220b79160ef140f934"
+SRC_URI[md5sum] = "d19cdb64e3db13fdf32542c51eaaa79c"
+SRC_URI[sha256sum] = "81fec9921adc5d3c91cbe0ad8cb2bb89b045c4fb0de9cb3c43f17e58e477f8a1"
 
 S = "${WORKDIR}/Crypt-URandom-${PV}"
 
