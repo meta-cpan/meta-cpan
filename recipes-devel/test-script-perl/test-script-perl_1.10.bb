@@ -13,12 +13,13 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Script"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/A/AD/ADAMK/Test-Script-1.07.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Test-Script-1.10.tar.gz"
 
-SRC_URI[md5sum] = "f6b5baa6403cd24dac7f023e0ea22384"
-SRC_URI[sha256sum] = "e21e5ee43a27b4c51b54ded5c92e60b817309778117a1d98ae6354abff27eb96"
+SRC_URI[md5sum] = "011e805ea9967aab5d685b33e7d2e9be"
+SRC_URI[sha256sum] = "d61db6a6b98aba023da5f8c7aac6bb30ce43ca76a7a03d73b1e3d85a8b8aab73"
 RDEPENDS_${PN} += "ipc-run3-perl"
 RDEPENDS_${PN} += "probe-perl-perl"
+DEPENDS += "test-simple-perl-native"
 
 S = "${WORKDIR}/Test-Script-${PV}"
 
