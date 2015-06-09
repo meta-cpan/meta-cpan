@@ -14,17 +14,18 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-Cmd"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-Cmd-0.013.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-Cmd-0.015.tar.gz"
 
-SRC_URI[md5sum] = "52352d6c275ada3ba30d58ee384d5c3c"
-SRC_URI[sha256sum] = "dec801693bfbd66a867f9e95edcccd90874cc8905ceff5bbe729ff56dd45ddbf"
+SRC_URI[md5sum] = "cef328aaec48414a399a9d2a4380fbc5"
+SRC_URI[sha256sum] = "5569bb60f722caa4e23ac5d4aab0c0f62f138ee426e92bd05bda30bb91828504"
+RDEPENDS_${PN} += "list-moreutils-perl"
 RDEPENDS_${PN} += "module-pluggable-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "moo-perl"
 RDEPENDS_${PN} += "package-stash-perl"
 RDEPENDS_${PN} += "params-util-perl"
 RDEPENDS_${PN} += "regexp-common-perl"
-DEPENDS += "io-tiecombine-perl-native"
+DEPENDS += "capture-tiny-perl-native"
 
 S = "${WORKDIR}/MooX-Cmd-${PV}"
 
