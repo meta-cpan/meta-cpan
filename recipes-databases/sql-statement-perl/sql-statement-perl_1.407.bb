@@ -14,12 +14,16 @@ HOMEPAGE=	"https://metacpan.org/release/SQL-Statement"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/R/RE/REHSACK/SQL-Statement-1.405.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/SQL-Statement-1.407.tar.gz"
 
-SRC_URI[md5sum] = "22231c2e28996b5bfea9925d49c11de1"
-SRC_URI[sha256sum] = "239094b6f18c36d174a7a9aa73c13cbaf9fec83d68dce5a2226a6120bb673026"
+SRC_URI[md5sum] = "abeedda4a2c085613cb77fb01631e5de"
+SRC_URI[sha256sum] = "f6e0c82b924a9eb983ad1561cad8bdd10f50fef97e53696e948ae167bd33b4d0"
 RDEPENDS_${PN} += "clone-perl"
+RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "params-util-perl"
+RDEPENDS_${PN} += "perl"
+DEPENDS += "perl"
+DEPENDS += "test-deep-perl-native"
 
 S = "${WORKDIR}/SQL-Statement-${PV}"
 
