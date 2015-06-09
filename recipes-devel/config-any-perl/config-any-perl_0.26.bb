@@ -15,11 +15,11 @@ HOMEPAGE=	"https://metacpan.org/release/Config-Any"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/B/BR/BRICAS/Config-Any-0.24.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/B/BR/BRICAS/Config-Any-0.26.tar.gz"
 
-SRC_URI[md5sum] = "bf58a5cbd8b809886bd0459986e55ad7"
-SRC_URI[sha256sum] = "710f8fc8f9414205cb58399bfbb4d9aaf7883f8ce046cee22913f6818795c61a"
-RDEPENDS_${PN} += "perl"
+SRC_URI[md5sum] = "5c5ac3e32674a98681da85a56424847a"
+SRC_URI[sha256sum] = "f9ae12d5c1f084385dd9d55dd25c09a6f69f1a76c938d4d06ea3c6d85710a594"
+RDEPENDS_${PN} += "module-pluggable-perl"
 
 S = "${WORKDIR}/Config-Any-${PV}"
 
