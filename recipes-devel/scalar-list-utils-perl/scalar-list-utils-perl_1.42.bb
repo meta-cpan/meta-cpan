@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Scalar-List-Utils"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.41.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.42.tar.gz"
 
-SRC_URI[md5sum] = "01fefd526d2e031efd0f78264c77eb7e"
-SRC_URI[sha256sum] = "471e307e7d04dbf2dd59be399de83d35facc02bbefce346158c8267d21c18112"
+SRC_URI[md5sum] = "a76768c6e0f92eefb6d4b3b779469c3d"
+SRC_URI[sha256sum] = "3507f72541f66a2dce850b9b56771e5fccda3d215c52f74946c6e370c0f4a4da"
 
 S = "${WORKDIR}/Scalar-List-Utils-${PV}"
 
