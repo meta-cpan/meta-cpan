@@ -14,20 +14,15 @@ HOMEPAGE=	"https://metacpan.org/release/IO-Socket-SSL"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.012.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.016.tar.gz"
 
-SRC_URI[md5sum] = "e8d6584271b8c9421115eede83d42182"
-SRC_URI[sha256sum] = "02bd7f17ceb492e396eca6627f50aaa2a3ddfcb5bfa3889ddf145383b0b179d9"
+SRC_URI[md5sum] = "a71e9f0f76c7a15a11fef14ca8ef8aa8"
+SRC_URI[sha256sum] = "936268b3c152a4900f9c1762ab2e0aa3f84ed3a988e8e60aaad604beda7bfe41"
 DEPENDS += "extutils-makemaker-perl-native"
 RDEPENDS_${PN} += "net-ssleay-perl"
 
 S = "${WORKDIR}/IO-Socket-SSL-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
