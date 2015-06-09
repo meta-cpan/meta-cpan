@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-Log-Any"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/C/CA/CAZADOR/MooX-Log-Any-0.004001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/C/CA/CAZADOR/MooX-Log-Any-0.004002.tar.gz"
 
-SRC_URI[md5sum] = "8d2619c73e0d221d71cb9526bae8c9f9"
-SRC_URI[sha256sum] = "4d2c8c82900484080fc0d11f772f12beb2d9eb59a8c9e592d6e340582853c9bd"
+SRC_URI[md5sum] = "52679d5016c933ac1a5b0da88308ab58"
+SRC_URI[sha256sum] = "27c363c199e3e6284f6d90640e9e4d1839216d04f5133b183ddd324589f14690"
 RDEPENDS_${PN} += "log-any-perl"
 RDEPENDS_${PN} += "moo-perl"
 
