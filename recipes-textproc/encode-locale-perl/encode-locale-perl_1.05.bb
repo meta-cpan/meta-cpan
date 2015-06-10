@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Encode-Locale"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.04.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz"
 
-SRC_URI[md5sum] = "0565984b048732e4fd1315212f21d462"
-SRC_URI[sha256sum] = "33aca4aa35829bd5c8c5e64ebfde86d0a2e8cd59dac2c4de707ffe9dc10bfbd4"
+SRC_URI[md5sum] = "fcfdb8e4ee34bcf62aed429b4a23db27"
+SRC_URI[sha256sum] = "176fa02771f542a4efb1dbc2a4c928e8f4391bf4078473bd6040d8f11adb0ec1"
 
 S = "${WORKDIR}/Encode-Locale-${PV}"
 
