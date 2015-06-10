@@ -39,10 +39,10 @@ HOMEPAGE=	"https://metacpan.org/release/Crypt-RIPEMD160"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TODDR/Crypt-RIPEMD160-0.05.tar.gz"
+SRC_URI = "http://cpan.metacpan.org/authors/id/T/TO/TODDR/Crypt-RIPEMD160-0.06.tar.gz"
 
-SRC_URI[md5sum] = "08e7ded22a090a6583756df8e1cf1597"
-SRC_URI[sha256sum] = "ec8987517d138ac8a4be3c72ba36d69e06f18378a284f6df03c4f954ceaedaa8"
+SRC_URI[md5sum] = "f37eae17af81b230104f9d0aca1b2327"
+SRC_URI[sha256sum] = "ea64a1e9eb42f3d79855a392e7cca6b86e8e0bcc9aabcc5efa5fa32415b67dba"
 
 S = "${WORKDIR}/Crypt-RIPEMD160-${PV}"
 
