@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/DateTime-TimeZone"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.86.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.90.tar.gz"
 
-SRC_URI[md5sum] = "e27d97c13988d70e44b61668d14c6f40"
-SRC_URI[sha256sum] = "df085d848dd9b68458c6523c8fa07a8f1765f14b1bb3a44564fe68957ca445aa"
+SRC_URI[md5sum] = "2bd62199216bd3cb744e11610f837cf8"
+SRC_URI[sha256sum] = "de49bfbd3c475b7143564e72ac0f237ceef4d35566e415038fa3674ad6145f17"
 RDEPENDS_${PN} += "class-singleton-perl"
 RDEPENDS_${PN} += "list-allutils-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
