@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Dancer2"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Dancer2-0.159003.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Dancer2-0.160003.tar.gz"
 
-SRC_URI[md5sum] = "27e9bc4f0a33f418f80e056176a554ee"
-SRC_URI[sha256sum] = "85edf3f307c15eac8fe42ac08a4a684b522ca2ce27e6668ba7bdccaf7b87071a"
+SRC_URI[md5sum] = "44f8e0b10b26452dd02816ff667a8334"
+SRC_URI[sha256sum] = "43373271bb560e4b8f30594c65160ddc6e6032f67a4fe5d17700ca1734a41ed5"
 RDEPENDS_${PN} += "app-cmd-perl"
 RDEPENDS_${PN} += "class-load-perl"
 RDEPENDS_${PN} += "config-any-perl"
@@ -22,17 +22,14 @@ RDEPENDS_${PN} += "file-sharedir-perl"
 RDEPENDS_${PN} += "hash-merge-simple-perl"
 RDEPENDS_${PN} += "http-body-perl"
 RDEPENDS_${PN} += "http-date-perl"
-RDEPENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "http-headers-fast-perl"
 RDEPENDS_${PN} += "import-into-perl"
 RDEPENDS_${PN} += "json-perl"
-RDEPENDS_${PN} += "libwww-perl-perl"
-RDEPENDS_${PN} += "mime-types-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "moo-perl"
 RDEPENDS_${PN} += "moox-types-mooselike-perl"
 RDEPENDS_${PN} += "plack-middleware-fixmissingbodyinredirect-perl"
 RDEPENDS_${PN} += "plack-middleware-removeredundantbody-perl"
-RDEPENDS_${PN} += "plack-perl"
 RDEPENDS_${PN} += "return-multilevel-perl"
 RDEPENDS_${PN} += "role-tiny-perl"
 RDEPENDS_${PN} += "safe-isa-perl"
@@ -48,6 +45,7 @@ RRECOMMENDS_${PN} += "url-encode-xs-perl"
 DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "file-sharedir-install-perl-native"
 DEPENDS += "http-cookies-perl-native"
+DEPENDS += "http-message-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-memory-cycle-perl-native"
 DEPENDS += "test-mocktime-perl-native"
@@ -55,10 +53,5 @@ DEPENDS += "test-mocktime-perl-native"
 S = "${WORKDIR}/Dancer2-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
