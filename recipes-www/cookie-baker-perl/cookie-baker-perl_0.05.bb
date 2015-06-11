@@ -16,6 +16,7 @@ SRC_URI[md5sum] = "69ae3400d69762ea0e2de8a1ee2769af"
 SRC_URI[sha256sum] = "28c0e2bcda793a55d77ab166e6ab6b5eb5c69c58f326d2b550f32a0b9520a98c"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-time-perl-native"
+RRECOMMENDS_${PN} += "cookie-baker-xs-perl"
 
 S = "${WORKDIR}/Cookie-Baker-${PV}"
 
