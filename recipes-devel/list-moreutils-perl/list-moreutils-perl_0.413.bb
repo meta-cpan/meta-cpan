@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/List-MoreUtils"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.412.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.413.tar.gz"
 
-SRC_URI[md5sum] = "2ab2b8f27f7a6a4389898a7a383aadb3"
-SRC_URI[sha256sum] = "66d31289647761e772fa26baa14e513e34c4186af7e5ee8a1bc13c79d1ee15b3"
+SRC_URI[md5sum] = "bc577c86455e2d1397187bce286a53b9"
+SRC_URI[sha256sum] = "4d6429d5672ce74a59d6490320252cb8b5b8285db8fe9c6551a4162e5375ef37"
 RDEPENDS_${PN} += "exporter-tiny-perl"
 RECOMMENDS += "config-autoconf-perl-native"
 RECOMMENDS += "inc-latest-perl-native"
