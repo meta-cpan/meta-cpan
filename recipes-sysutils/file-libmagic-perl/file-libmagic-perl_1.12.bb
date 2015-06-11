@@ -12,13 +12,13 @@ HOMEPAGE=	"https://metacpan.org/release/File-LibMagic"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.12.tar.gz"
+
+SRC_URI[md5sum] = "817bcbc86708f3f7618b69771d75a855"
+SRC_URI[sha256sum] = "e206e0b82a56afb74bcf4db705c8ec68ad2c5ff13dd73d2ce041752741428bab"
+DEPENDS += "test-fatal-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "perl file"
-
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.09.tar.gz"
-
-SRC_URI[md5sum] = "812a174944533c00740e06780f771118"
-SRC_URI[sha256sum] = "8d49b89bd56451653f35ba6981b7f3a0e61293a4d7ec9acc86fa2e0c97874b03"
 
 S = "${WORKDIR}/File-LibMagic-${PV}"
 
