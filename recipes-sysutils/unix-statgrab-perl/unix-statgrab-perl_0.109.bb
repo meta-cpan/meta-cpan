@@ -13,18 +13,18 @@ HOMEPAGE=	"https://metacpan.org/release/Unix-Statgrab"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.108_001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.109.tar.gz"
 
-SRC_URI[md5sum] = "85237681718f0b08fe072e98aaf4160c"
-SRC_URI[sha256sum] = "8d2b9510d1d2857f3a636ee7e5d80a5eee0f654115ad76e76061bdcbc564e3d6"
-RRECOMMENDS_${PN} += "test-leaktrace-perl"
+SRC_URI[md5sum] = "e1a084a220d7c7cb46cb1e06957fab3f"
+SRC_URI[sha256sum] = "261a214030b4fc4e0a111742caff603ce4248d369e57359ef45bc72534c03e34"
 DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
-DEPENDS += "extutils-makemaker-perl-native"
 DEPENDS += "libstatgrab"
 RDEPENDS_${PN} += "perl libstatgrab"
+RECOMMENDS += "extutils-makemaker-perl-native"
+RECOMMENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/Unix-Statgrab-0.108_001"
+S = "${WORKDIR}/Unix-Statgrab-${PV}"
 
 inherit cpan pkgconfig
 
