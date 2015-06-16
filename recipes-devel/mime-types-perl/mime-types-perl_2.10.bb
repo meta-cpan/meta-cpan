@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/MIME-Types"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-2.09.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-2.10.tar.gz"
 
-SRC_URI[md5sum] = "99952df4f4a1e2e31eb80d98b6197774"
-SRC_URI[sha256sum] = "2cccaf8fa5e3963f45106188923c98666402948a00cd9c0a15cc06d6d317fa68"
+SRC_URI[md5sum] = "640d6a1f83a6513946fb9a856e40bc1e"
+SRC_URI[sha256sum] = "a0e235f28382cec414ef4d0a95b4d40e2a359ce23184600a1ab6313feb267b05"
 
 S = "${WORKDIR}/MIME-Types-${PV}"
 
