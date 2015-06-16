@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Bzip2-2.0
 SRC_URI[md5sum] = "3a8368a3254bbdfca9eaf30788b54342"
 SRC_URI[sha256sum] = "0f63f9e0a2d10e960714c8e0b9f99f5edd576868d1b75fc06f74b27b3b2a149a"
 DEPENDS = "bzip2 perl"
-RDEPENDS_${PN} += "libbz2"
+#RDEPENDS_${PN} += "libbz2"
 
 S = "${WORKDIR}/Compress-Raw-Bzip2-${PV}"
 
