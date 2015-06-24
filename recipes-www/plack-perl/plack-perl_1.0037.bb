@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Plack"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0036.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0037.tar.gz"
 
-SRC_URI[md5sum] = "046f9326e558abccb68c9330ea419b8d"
-SRC_URI[sha256sum] = "4a28c1d5de1125e02b9cf94587a0a89420b2b939e2752671d5c7c953d65b56ac"
+SRC_URI[md5sum] = "bb6e8a7520524f2c40d0c322c90562ba"
+SRC_URI[sha256sum] = "70be5f33d011b9ffa2b3a6fc7ce0aa15df53f8974e46b2e8e5af5131b1d41c62"
 RDEPENDS_${PN} += "apache-logformat-compiler-perl"
 RDEPENDS_${PN} += "cookie-baker-perl"
 RDEPENDS_${PN} += "devel-stacktrace-ashtml-perl"
