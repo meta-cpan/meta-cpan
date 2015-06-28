@@ -14,10 +14,10 @@ file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 DEPENDS = "zlib openssl"
 RDEPENDS_${PN} += "zlib openssl"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.69.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.70.tar.gz"
 
-SRC_URI[md5sum] = "dc5898c227198bd0cd9a7c66279a5c7c"
-SRC_URI[sha256sum] = "bad0fdd74ee0e2153f817574c109ff0d4d8bedf2518e3244191f6b800e543db2"
+SRC_URI[md5sum] = "511cc451a64b0c5051bd9167f37051a0"
+SRC_URI[sha256sum] = "05eaaa29b8f67778040eee53150ba702fc0ce49420ddd0f1ca68d082f4ee9f4a"
 
 S = "${WORKDIR}/Net-SSLeay-${PV}"
 
