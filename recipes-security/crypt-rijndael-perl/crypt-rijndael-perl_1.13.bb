@@ -2,13 +2,13 @@ DESCRIPTION = "This module implements the Rijndael cipher, which has just been \
 selected as the Advanced Encryption Standard."
 
 SECTION = "libs"
-LICENSE = "unknown(open_source)"
+LICENSE = "LGPL-3.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Crypt-Rijndael"
 
-LIC_FILES_CHKSUM = "unknown(open_source)"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/LGPL-3.0;md5=bfccfe952269fff2b407dd11f2f3083b"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.13.tar.gz"
 
