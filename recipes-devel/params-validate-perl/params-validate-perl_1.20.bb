@@ -26,6 +26,9 @@ S = "${WORKDIR}/Params-Validate-${PV}"
 
 inherit cpan_build
 
+# daisy
 EXTRA_BUILDFLAGS="--pp"
+# fido
+EXTRA_CPAN_BUILD_FLAGS="--pp"
 
 BBCLASSEXTEND = "native"
