@@ -1,0 +1,21 @@
+--- a/Makefile.PL	2015-07-06 18:21:37.095308731 +0200
++++ b/Makefile.PL	2015-07-06 18:24:08.031309300 +0200
+@@ -4,15 +4,15 @@
+
+ use strict;
+ use warnings;
+-use lib qw( inc );
++#use lib qw( inc );
+ 
+ use Config qw(%Config);
+ use ExtUtils::MakeMaker;
+ use File::Spec;
+-use Devel::CheckLib;
++#use Devel::CheckLib;
+ 
+ # Check that we have a C compiler
+-check_lib_or_exit();
++#check_lib_or_exit();
+ 
+ my @extra = ();
+ if ( $^O eq 'VMS' ) {
