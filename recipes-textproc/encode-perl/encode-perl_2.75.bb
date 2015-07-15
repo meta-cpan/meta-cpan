@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Encode"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.74.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.75.tar.gz"
 
-SRC_URI[md5sum] = "1ae3b5db831c024c00e6e28b550b873d"
-SRC_URI[sha256sum] = "aa3c832a0478dae1da4e4ac8b12de0d2460c95964ae5d600f6af12f5c9afa6c0"
+SRC_URI[md5sum] = "e6ed28199c0cb423516b88a0698db0ec"
+SRC_URI[sha256sum] = "9686e9469b999923207383086324b90769f35191e5adbeb02269bd1b989534b9"
 
 S = "${WORKDIR}/Encode-${PV}"
 
