@@ -18,10 +18,10 @@ HOMEPAGE=	"https://metacpan.org/release/Net-Async-HTTP"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.38.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.39.tar.gz"
 
-SRC_URI[md5sum] = "18f2f14111d6e578910c7888694665bd"
-SRC_URI[sha256sum] = "2abefd7ba4f51e58805172d9abb435385f945e9342083d3bbf65726ed2b83470"
+SRC_URI[md5sum] = "f36b1d443105f9ca87b9bad0a0315faf"
+SRC_URI[sha256sum] = "ca3eead114ee855313aab8f26e340dafcb26830cb693eba10533aeb602a8a631"
 RDEPENDS_${PN} += "future-perl"
 RDEPENDS_${PN} += "http-message-perl"
 RDEPENDS_${PN} += "io-async-perl"
