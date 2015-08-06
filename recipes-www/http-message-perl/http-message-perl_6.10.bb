@@ -11,10 +11,11 @@ HOMEPAGE=	"https://metacpan.org/release/HTTP-Message"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/HTTP-Message-6.08.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/HTTP-Message-6.10.tar.gz"
 
-SRC_URI[md5sum] = "63d77640024896c72c59616c3fa9726e"
-SRC_URI[sha256sum] = "7e45b3013e2099a56b50f28bd880cafadfbc603025c0ebde761898bac3f14324"
+SRC_URI[md5sum] = "b8a68ce1898691c536714eeae3f963d4"
+SRC_URI[sha256sum] = "bd990d3ce6545b8499ca69790847e248cf402614b48f975f8d2ef48cb8cf4c68"
+
 RDEPENDS_${PN} += "encode-locale-perl"
 RDEPENDS_${PN} += "http-date-perl"
 RDEPENDS_${PN} += "io-compress-perl"
@@ -25,10 +26,5 @@ RDEPENDS_${PN} += "uri-perl"
 S = "${WORKDIR}/HTTP-Message-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
