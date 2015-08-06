@@ -15,14 +15,10 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-TCP-2.13.tar
 SRC_URI[md5sum] = "e0006119a9c1008d0bcf210afd1ed165"
 SRC_URI[sha256sum] = "226383c0a6de901f43ed5b011308fa229d7d6cd5e32aaa6095cddcd3d030ed7a"
 RDEPENDS_${PN} += "test-sharedfork-perl"
+DEPENDS += "extutils-makemaker-perl-native"
 
 S = "${WORKDIR}/Test-TCP-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
