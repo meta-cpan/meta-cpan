@@ -12,14 +12,14 @@ HOMEPAGE=	"https://metacpan.org/release/Module-Pluggable"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.1.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz"
 
-SRC_URI[md5sum] = "1b71ed7a67ad8c048d1499540bc892ba"
-SRC_URI[sha256sum] = "e2dc354043bb16f1f3df8c4bb26070b26e594819f218cf8b8ac19e79c720916f"
-DEPENDS += "perl"
+SRC_URI[md5sum] = "87ce2971662efd0b69a81bb4dc9ea76c"
+SRC_URI[sha256sum] = "b3f2ad45e4fd10b3fb90d912d78d8b795ab295480db56dc64e86b9fa75c5a6df"
+RRECOMMENDS_${PN} += "module-runtime-perl"
 
 S = "${WORKDIR}/Module-Pluggable-${PV}"
 
-inherit cpan_build
+inherit cpan
 
 BBCLASSEXTEND = "native"
