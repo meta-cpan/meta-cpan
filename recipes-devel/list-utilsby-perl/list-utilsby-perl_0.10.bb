@@ -21,10 +21,11 @@ HOMEPAGE=	"https://metacpan.org/release/List-UtilsBy"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.09.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.10.tar.gz"
 
-SRC_URI[md5sum] = "ed80e57fb37bf929c641b8a43470e488"
-SRC_URI[sha256sum] = "41e52a159af343af5b529ba17fb04d5ea861dd57a8615e3f3806a284d07f9af5"
+SRC_URI[md5sum] = "2b4e2ffdfa99ab3eba8e221545c67522"
+SRC_URI[sha256sum] = "bed74094c625aa34a5ae94a7e1fe1856f08e1bd26b8ba152bfe7a51d3277192e"
+DEPENDS += "module-build-perl-native"
 
 S = "${WORKDIR}/List-UtilsBy-${PV}"
 
