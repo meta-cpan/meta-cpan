@@ -19,8 +19,11 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Net-Async-HTTP-0.40.
 
 SRC_URI[md5sum] = "f82a3fd6aa77a55fbead83321255b965"
 SRC_URI[sha256sum] = "63a91721161a85c055779288f11cd3c0a1b848bb4509fa6fd0e325cb11790b45"
+RDEPENDS_${PN} += "future-perl"
 RDEPENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "io-async-perl"
 RDEPENDS_${PN} += "struct-dumb-perl"
+RDEPENDS_${PN} += "uri-perl"
 DEPENDS += "http-cookies-perl-native"
 DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-refcount-perl-native"
