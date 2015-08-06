@@ -14,14 +14,10 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.1
 
 SRC_URI[md5sum] = "0d5da779609d0c8fa6f796b45ff8c6f3"
 SRC_URI[sha256sum] = "2768a391d50ab94b95cefe540b9232d7046c13ee86d01859e04c044903222eb5"
+DEPENDS += "extutils-makemaker-perl-native"
 
 S = "${WORKDIR}/Test-Requires-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
