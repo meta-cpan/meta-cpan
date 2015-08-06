@@ -17,10 +17,10 @@ HOMEPAGE=	"https://metacpan.org/release/Variable-Magic"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.57.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.58.tar.gz"
 
-SRC_URI[md5sum] = "d208dd12d0835f518784f83f48a24e02"
-SRC_URI[sha256sum] = "4dc0427c08f608473f84e890d50363ee0f8b271283841f977a3e2dc5b7ad5ca2"
+SRC_URI[md5sum] = "2aa222874ba69fc49ea39c88047e7122"
+SRC_URI[sha256sum] = "036d6a18b2014fbe3a9e2c033157bd62dd82b175dbe63e12d7c874aed61f10fa"
 
 S = "${WORKDIR}/Variable-Magic-${PV}"
 
