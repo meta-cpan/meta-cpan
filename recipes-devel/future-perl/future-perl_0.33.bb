@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Future"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Future-0.32.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Future-0.33.tar.gz"
 
-SRC_URI[md5sum] = "9aa4aa6a3876397d015688f56eed0689"
-SRC_URI[sha256sum] = "39418065446e15dd579f2359094efe04b1f836a5805c4ce4e8287b05de27b58d"
+SRC_URI[md5sum] = "edaee68f962c0e74758cc6053723389f"
+SRC_URI[sha256sum] = "2fa237430b86cdc3561356e643fb1d09199f2335c6e98210116c7d944b5dd846"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-identity-perl-native"
