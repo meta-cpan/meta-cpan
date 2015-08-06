@@ -16,10 +16,10 @@ HOMEPAGE=	"https://metacpan.org/release/IO-Async"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.67.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.68.tar.gz"
 
-SRC_URI[md5sum] = "ce6f002ba0bc0e1ec3a58100d0e28823"
-SRC_URI[sha256sum] = "4e4325d29db4d4aa25a3e1727597547007cb829a7d5f433d66d9f146bc90a46e"
+SRC_URI[md5sum] = "4d5177c823d17cecb6c4f9588ac80d9d"
+SRC_URI[sha256sum] = "8879a934e59ced892354820583b4d1d5c8a9786ca2180951a8cf98e15936e7d6"
 RDEPENDS_${PN} += "future-perl"
 RDEPENDS_${PN} += "socket-perl"
 RDEPENDS_${PN} += "struct-dumb-perl"
