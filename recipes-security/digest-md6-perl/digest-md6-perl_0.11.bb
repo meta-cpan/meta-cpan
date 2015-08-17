@@ -21,6 +21,7 @@ SRC_URI[md5sum] = "7118d9bf9d7ad4db5c73e5a4f9112fc8"
 SRC_URI[sha256sum] = "4360c89cbf5d81f41c67ecc0a1f8ee7b07f85bbdd81ac8a8eeb1cd0678ac796f"
 
 S = "${WORKDIR}/Digest-MD6-${PV}"
+PARALLEL_MAKE = " "
 
 inherit cpan
 
