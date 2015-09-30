@@ -27,7 +27,6 @@ SRC_URI[md5sum] = "20e12ab8b6d4f8370a9d3d89b587040a"
 SRC_URI[sha256sum] = "65bec0368e8f0631a24bf6dc6dd24d2d8d485350e406d20005db2c6aa1c0445d"
 RDEPENDS_${PN} += "try-tiny-perl"
 RRECOMMENDS_${PN} += "devel-lexalias-perl"
-RRECOMMENDS_${PN} += "perl-tidy-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
