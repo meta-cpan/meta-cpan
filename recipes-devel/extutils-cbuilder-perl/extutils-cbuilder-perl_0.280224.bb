@@ -17,10 +17,10 @@ HOMEPAGE=	"https://metacpan.org/release/ExtUtils-CBuilder"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-CBuilder-0.280224.tar.gz"
 
-SRC_URI[md5sum] = "54269e7cb7a5d995d28fc46933c6e045"
-SRC_URI[sha256sum] = "116cb3ec29f42d9d03c1b06eb5c7382ae121f32e83b73fd8fc226c6275f15a33"
+SRC_URI[md5sum] = "1cc071ccb01ea19bef12a8540f64c7b8"
+SRC_URI[sha256sum] = "383131e112a3b953d699ee5e89e05580dbb08b8f62a67ff029545943d9883a6a"
 
 S = "${WORKDIR}/ExtUtils-CBuilder-${PV}"
 
