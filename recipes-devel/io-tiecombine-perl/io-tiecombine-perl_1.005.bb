@@ -10,18 +10,13 @@ HOMEPAGE=	"https://metacpan.org/release/IO-TieCombine"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/R/RJ/RJBS/IO-TieCombine-1.004.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/IO-TieCombine-1.005.tar.gz"
 
-SRC_URI[md5sum] = "c36ad78c5787e064f94d8a3018193432"
-SRC_URI[sha256sum] = "60106b571448f598706d6df4214ab4f7d4391d942e23a0ff6c5c49b99af49e2b"
+SRC_URI[md5sum] = "9538a96407b32d697a4244959a9f0a7a"
+SRC_URI[sha256sum] = "402d4db8300b3d271632f4995e0ade329d89280a7e47f2badf8b38af6e5569af"
 
 S = "${WORKDIR}/IO-TieCombine-${PV}"
 
-inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
+inherit cpan allarch
 
 BBCLASSEXTEND = "native"
