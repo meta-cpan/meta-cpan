@@ -12,13 +12,13 @@ HOMEPAGE=	"https://metacpan.org/release/MIME-Types"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-2.11.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-2.12.tar.gz"
 
-SRC_URI[md5sum] = "f9b354b7d16c4b6a4d40744fcc208484"
-SRC_URI[sha256sum] = "8c51fd21d5c5c5b3469672faeb76caa02c77f537a3139e018ffed0e521956dec"
+SRC_URI[md5sum] = "bbd17e44183d0e958edd27ebf4673272"
+SRC_URI[sha256sum] = "065886901cff18cbb10df13551d48214c880e45564220ab77d4772abf065969f"
 
 S = "${WORKDIR}/MIME-Types-${PV}"
 
-inherit cpan
+inherit cpan allarch
 
 BBCLASSEXTEND = "native"
