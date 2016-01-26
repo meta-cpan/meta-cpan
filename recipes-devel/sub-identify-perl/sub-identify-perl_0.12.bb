@@ -1,4 +1,4 @@
-DESCRIPTION = ""Sub::Identify\" allows you to retrieve the real name of code \
+DESCRIPTION = ""Sub::Identify" allows you to retrieve the real name of code \
 references."
 
 SECTION = "libs"
@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Sub-Identify"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.10.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.12.tar.gz"
 
-SRC_URI[md5sum] = "08bb2f22c85007d2cbb0eb9541c77355"
-SRC_URI[sha256sum] = "55586b9cb3c0e63b6c6dede5a8c00af48de6643592ea100fe1e6146e1e93ee20"
+SRC_URI[md5sum] = "e9223e830bfdfbd6f40675e3bec76688"
+SRC_URI[sha256sum] = "83bb785a66113b4a966db0a4186fd1dd07987acdacb4502b1e1558f817dde825"
 
 S = "${WORKDIR}/Sub-Identify-${PV}"
 
