@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Moose"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Moose-2.1600.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Moose-2.1604.tar.gz"
 
-SRC_URI[md5sum] = "e9dd95ed064624a6321f8e6c12b11e3a"
-SRC_URI[sha256sum] = "239c69193abdbcc51ce9c1c93dbfe610afbf842662629bed7974b403577dd650"
+SRC_URI[md5sum] = "25776b282dd23067449dc0e885b681bc"
+SRC_URI[sha256sum] = "3fee73c316046597d61cde3a82a55d7b521ed54392c20ee4637578955ceaaa5f"
 RDEPENDS_${PN} += "class-load-perl"
 RDEPENDS_${PN} += "class-load-xs-perl"
 RDEPENDS_${PN} += "data-optlist-perl"
