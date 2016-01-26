@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/PadWalker"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.1.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.2.tar.gz"
 
-SRC_URI[md5sum] = "fdd962c6e519aad58606997d11448fd3"
-SRC_URI[sha256sum] = "fd5bed56543c46ea27a04a690c0504c72192235516fd9fa9af6fd6e220555a6e"
+SRC_URI[md5sum] = "6bcc741f77b1831a893b2a22c785e31a"
+SRC_URI[sha256sum] = "fc1df2084522e29e892da393f3719d2c1be0da022fdd89cff4b814167aecfea3"
 
 S = "${WORKDIR}/PadWalker-${PV}"
 
