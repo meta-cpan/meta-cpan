@@ -13,13 +13,14 @@ HOMEPAGE=	"https://metacpan.org/release/Devel-OverloadInfo"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-0.002.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-0.004.tar.gz"
 
-SRC_URI[md5sum] = "bff186962739cd63d303061f2da038b1"
-SRC_URI[sha256sum] = "de6383f6aff1972897993eccd7fcb73a19ebb028c148fc35b8f87a883595ff91"
+SRC_URI[md5sum] = "97a27e31858b073daba54121d57be705"
+SRC_URI[sha256sum] = "83e88450064b0b0bbfd520cc9d7997fc7bed14ae257894eeadda28dc3e94937d"
 RDEPENDS_${PN} += "mro-compat-perl"
 RDEPENDS_${PN} += "package-stash-perl"
 RDEPENDS_${PN} += "sub-identify-perl"
+DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Devel-OverloadInfo-${PV}"
 
