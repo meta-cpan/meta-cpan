@@ -12,18 +12,13 @@ HOMEPAGE=	"https://metacpan.org/release/Perl-Tidy"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/S/SH/SHANCOCK/Perl-Tidy-20140711.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHANCOCK/Perl-Tidy-20150815.tar.gz"
 
-SRC_URI[md5sum] = "b11587646b2252fccec5750ab584036b"
-SRC_URI[sha256sum] = "1576ceb3fd9f592d0285affbe7192685963dc1d0411968cc0587d6ac0d7b3ad8"
+SRC_URI[md5sum] = "2db845ed25151dd86cf45dd7f72a3471"
+SRC_URI[sha256sum] = "0a969d9e6c0428fab394aa66b716ca2ca052fe4aa2ef144f7dacc3355c13ebd7"
 
 S = "${WORKDIR}/Perl-Tidy-${PV}"
 
-inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
+inherit cpan allarch
 
 BBCLASSEXTEND = "native"
