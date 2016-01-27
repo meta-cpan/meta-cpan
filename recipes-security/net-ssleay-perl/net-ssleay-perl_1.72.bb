@@ -2,26 +2,24 @@ DESCRIPTION = "Net::SSLeay module contains perl bindings to openssl \
 (<http://www.openssl.org>) library."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Net-SSLeay"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
 DEPENDS = "zlib openssl"
 RDEPENDS_${PN} += "zlib openssl"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.70.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.72.tar.gz"
 
-SRC_URI[md5sum] = "511cc451a64b0c5051bd9167f37051a0"
-SRC_URI[sha256sum] = "05eaaa29b8f67778040eee53150ba702fc0ce49420ddd0f1ca68d082f4ee9f4a"
+SRC_URI[md5sum] = "a740d7792dbac8ca8c4eb38d3b8fbd01"
+SRC_URI[sha256sum] = "1baac39f0f12cee515d8bec633175bb5916ca542e5356e26420437bd6195d2f4"
 
 S = "${WORKDIR}/Net-SSLeay-${PV}"
-
-INSANE_SKIP_${PN} += "rpaths"
 
 inherit cpan
 
