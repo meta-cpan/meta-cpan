@@ -1,21 +1,21 @@
-DESCRIPTION = "The \"File::LibMagic\" is a simple perl interface to libmagic \
-from the file package (version 4.x or 5.x). You will need both the library \
-(libmagic.so) and the header file (magic.h) to build this Perl module."
+DESCRIPTION = "The "File::LibMagic" is a simple perl interface to libmagic from the file \
+package (version 4.x or 5.x). You will need both the library (libmagic.so) \
+and the header file (magic.h) to build this Perl module."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/File-LibMagic"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.13.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/File-LibMagic-1.15.tar.gz"
 
-SRC_URI[md5sum] = "bbc0d525950aab95be42efd418b7c334"
-SRC_URI[sha256sum] = "61f92c3137a3b86d63e61313b51aa2673991110d655eee792ea11c68bf2c0092"
+SRC_URI[md5sum] = "e5753a9f1e992da5f79fdbe253b02cf9"
+SRC_URI[sha256sum] = "2c7fb54912caf2c22d06b02d6a88edad970e0f8b017634dc30eec46e53763e84"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "perl file"
