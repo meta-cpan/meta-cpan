@@ -1,8 +1,0 @@
---- a/Makefile.PL	2014-09-24 15:12:01.246445539 +0200
-+++ b/Makefile.PL	2014-09-24 15:12:10.492303214 +0200
-@@ -1,4 +1,4 @@
--use ExtUtils::MakeMaker 6.65;
-+use ExtUtils::MakeMaker;
- 
- use 5.008;
- 
