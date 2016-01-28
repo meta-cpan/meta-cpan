@@ -1,24 +1,22 @@
-DESCRIPTION = "This library implements a deserializer for an efficient, \
-compact-output, and feature-rich binary protocol called *Sereal*. Its \
-sister module \
-Sereal::Encoder implements an encoder for this format. The two are \
-released \
+DESCRIPTION = "This library implements a deserializer for an efficient, compact-output, \
+and feature-rich binary protocol called *Sereal*. Its sister module \
+Sereal::Encoder implements an encoder for this format. The two are released \
 separately to allow for independent and safer upgrading."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Sereal-Decoder"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-3.005.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-3.014.tar.gz"
 
-SRC_URI[md5sum] = "21ebee822c1f470629e3bd844c4ecc6f"
-SRC_URI[sha256sum] = "9de58131c6bf12f22366cf50b09c58ac3d2771489c202255a24fffab0bde0930"
+SRC_URI[md5sum] = "d52fb4fbd28acba055e9907bcbc99b47"
+SRC_URI[sha256sum] = "123cf353865549f7c9e87905c401f68e446fd201a7369d00031122db269dc878"
 DEPENDS += "extutils-makemaker-perl-native"
 DEPENDS += "test-longstring-perl-native"
 DEPENDS += "test-warn-perl-native"
