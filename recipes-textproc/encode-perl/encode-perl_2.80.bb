@@ -1,20 +1,20 @@
-DESCRIPTION = "The \"Encode\" module provides the interface between Perl strings and \
-the rest of the system. Perl strings are sequences of *characters*."
+DESCRIPTION = "The "Encode" module provides the interface between Perl strings and the \
+rest of the system. Perl strings are sequences of *characters*."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Encode"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.76.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.80.tar.gz"
 
-SRC_URI[md5sum] = "90ee2160d40ade6cc4c4aa1b1ff4745e"
-SRC_URI[sha256sum] = "0fa01359d34d1d129e9bcacb0b9bb821e36e9fb5f1404cfb557dfa680368f265"
+SRC_URI[md5sum] = "93ea067ba622f2e3e0b6df3368924455"
+SRC_URI[sha256sum] = "b807e5f9c36de6622b6e4cca5630473910b2cf2b08871d6bbae860525b77b2ed"
 
 S = "${WORKDIR}/Encode-${PV}"
 
