@@ -1,8 +1,9 @@
-DESCRIPTION = "Kirill Siminov's \"libyaml\" is arguably the best YAML implementation. \
+DESCRIPTION = "Kirill Siminov's "libyaml" is arguably the best YAML implementation. \
 The C library is written precisely to the YAML 1.1 specification. It \
 was originally bound to Python and was later bound to Ruby."
 
-LICENSE = "Artistic-1.0 | GPL-2.0"
+SECTION = "libs"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 PARALLEL_MAKE = " "
@@ -11,12 +12,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/YAML-LibYAML"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IN/INGY/YAML-LibYAML-0.59.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-LibYAML-0.62.tar.gz"
 
-SRC_URI[md5sum] = "733e63b743088781eb8cad6477cd4905"
-SRC_URI[sha256sum] = "9df424ef5e968054042cacafa2f44354a662329df974d178dffce7529fc99f54"
+SRC_URI[md5sum] = "e8e0ba8c9f589c809ee04bb526ae03d7"
+SRC_URI[sha256sum] = "1a334a7ea9fe444ddb384a378b9f6eb2b77f4564fe481a778b48fb48b82d31db"
 
 S = "${WORKDIR}/YAML-LibYAML-${PV}"
 
