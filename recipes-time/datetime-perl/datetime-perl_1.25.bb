@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/DateTime"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.21.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.25.tar.gz"
 
-SRC_URI[md5sum] = "15ba32ede10465fd8a9c26fbbb5f1945"
-SRC_URI[sha256sum] = "a3a5840cae36d693b1371bd0f615aa8e3ab7f6cc25e06bff40c7010217d3f6b1"
+SRC_URI[md5sum] = "3343f67ebefb3f082a0067dfaee3b3c8"
+SRC_URI[sha256sum] = "d860ce7115802a3555e5dc380fa91c4133d3452b7bdc713011746072a58d1655"
 RDEPENDS_${PN} += "datetime-locale-perl"
 RDEPENDS_${PN} += "datetime-timezone-perl"
 RDEPENDS_${PN} += "params-validate-perl"
