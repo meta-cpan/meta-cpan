@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Path-Tiny"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.076.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.084.tar.gz"
 
-SRC_URI[md5sum] = "495b965187a59af9b99c0f4709013746"
-SRC_URI[sha256sum] = "10bafd96f561f0e811be764d557efffbd53ba9b044a79c82e97db8e27d5cc764"
+SRC_URI[md5sum] = "91de357ef60ba1a86b1c68b6064321a9"
+SRC_URI[sha256sum] = "633f463e380404d4aaa8ebdd1977b5e387256aa2770eb142b169737978749bea"
 RRECOMMENDS_${PN} += "unicode-utf8-perl"
 RECOMMENDS += "test-failwarnings-perl-native"
 RECOMMENDS += "test-mockrandom-perl-native"
