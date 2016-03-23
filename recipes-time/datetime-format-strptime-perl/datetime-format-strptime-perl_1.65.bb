@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/DateTime-Format-Strptime"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.64.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.65.tar.gz"
 
-SRC_URI[md5sum] = "4599cb0b80e4b3bb2d22848b0e540321"
-SRC_URI[sha256sum] = "b7168c3740d39f07d2c7e36797c296184fd1cf20d4d9305c021bd7ee719a5400"
+SRC_URI[md5sum] = "3e20314555438dfde8308c55ad203556"
+SRC_URI[sha256sum] = "621ae39efd1134850b5d47b6cba772a250d7920c268e05cfb9908d993d3cd527"
 RDEPENDS_${PN} += "datetime-locale-perl"
 RDEPENDS_${PN} += "datetime-perl"
 RDEPENDS_${PN} += "datetime-timezone-perl"
