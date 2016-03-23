@@ -10,13 +10,15 @@ HOMEPAGE=	"https://metacpan.org/release/Package-DeprecationManager"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Package-DeprecationManager-0.15.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Package-DeprecationManager-0.16.tar.gz"
 
-SRC_URI[md5sum] = "121b7ab5aa5fe06f79670f4bb78c808e"
-SRC_URI[sha256sum] = "65c871f00849ba6a3369b3e4a5f206504e51bfb8eb2d2631fe2e18483fc29d61"
+SRC_URI[md5sum] = "6d457e26f23daeff18ae74b57ab57274"
+SRC_URI[sha256sum] = "4018a06f7a3ba252c9eccc3fdcad9490cd003dfa6baf261545e96b5a82e784a7"
+RDEPENDS_${PN} += "namespace-autoclean-perl"
 RDEPENDS_${PN} += "package-stash-perl"
 RDEPENDS_${PN} += "params-util-perl"
 RDEPENDS_${PN} += "sub-install-perl"
+RDEPENDS_${PN} += "sub-name-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
