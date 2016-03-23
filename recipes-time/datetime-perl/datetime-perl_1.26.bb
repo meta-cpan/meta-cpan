@@ -26,6 +26,6 @@ DEPENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/DateTime-${PV}"
 
-inherit cpan allarch
+inherit cpan
 
 BBCLASSEXTEND = "native"
