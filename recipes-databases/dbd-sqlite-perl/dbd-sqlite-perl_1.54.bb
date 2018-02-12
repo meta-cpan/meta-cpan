@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/DBD-SQLite"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.50.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.54.tar.gz"
 
-SRC_URI[md5sum] = "d56eebfb5f2a14be9413b025e7dca9fe"
-SRC_URI[sha256sum] = "3ac513ab73944fd7d4b672e1fe885dc522b6369d38f46a68e67e0045bf159ce1"
+SRC_URI[md5sum] = "8f835ddacb9a4a92a52bbe2d24d18a8e"
+SRC_URI[sha256sum] = "3929a6dbd8d71630f0cb57f85dcef9588cd7ac4c9fa12db79df77b9d3a4d7269"
 DEPENDS += "dbi-perl-native"
 RDEPENDS_${PN} += "dbi-perl sqlite3"
 RDEPENDS_${PN} += "perl-module-constant perl-module-locale perl-module-tie-hash"
