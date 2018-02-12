@@ -13,14 +13,15 @@ HOMEPAGE=	"https://metacpan.org/release/Moo"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.001001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.003004.tar.gz"
 
-SRC_URI[md5sum] = "8daed3e18c927d72331c51cbeffda193"
-SRC_URI[sha256sum] = "a68155b642f389cb1cc40139e2663d0c5d15eb71d9ecb0961623a73c10dd8ec0"
+SRC_URI[md5sum] = "d4fcd0f240033198571fcc81ce7c5f15"
+SRC_URI[sha256sum] = "f8bbb625f8e963eabe05cff9048fdd72bdd26777404ff2c40bc690f558be91e1"
 RDEPENDS_${PN} += "class-method-modifiers-perl"
 RDEPENDS_${PN} += "devel-globaldestruction-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "role-tiny-perl"
+RDEPENDS_${PN} += "sub-quote-perl"
 RRECOMMENDS_${PN} += "class-xsaccessor-perl"
 RRECOMMENDS_${PN} += "strictures-perl"
 RRECOMMENDS_${PN} += "sub-name-perl"
