@@ -20,6 +20,7 @@ SRCREV = "6d51ab93f9308ad6ee4d25d9cae1d91573d7a62a"
 RDEPENDS_${PN} += "object-tiny-perl"
 RDEPENDS_${PN} += "libarchive"
 DEPENDS += "libarchive"
+DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "perl"
 
