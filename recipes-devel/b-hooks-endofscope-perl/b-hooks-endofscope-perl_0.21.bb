@@ -2,19 +2,19 @@ DESCRIPTION = "This module allows you to execute code when perl finished compili
 surrounding scope."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/B-Hooks-EndOfScope"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.15.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.21.tar.gz"
 
-SRC_URI[md5sum] = "61dd64e3a05ffb06fee9bee3211d16b8"
-SRC_URI[sha256sum] = "122ee422d3d49d994fa6e1e57c8800acfe6aeae56ce430a06eabc37300c1942e"
+SRC_URI[md5sum] = "df9dacbf55a01d7a444b1ebc616435ae"
+SRC_URI[sha256sum] = "90f3580880f1d68b843c142cc86f58bead1f3e03634c63868ac9eba5eedae02c"
 RDEPENDS_${PN} += "module-implementation-perl"
 RDEPENDS_${PN} += "sub-exporter-progressive-perl"
 
