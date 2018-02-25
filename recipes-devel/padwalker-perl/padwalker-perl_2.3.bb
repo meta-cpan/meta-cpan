@@ -3,19 +3,19 @@ lexical variables in any subroutine which called you. It will only show \
 those variables which are in scope at the point of the call."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/PadWalker"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.2.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.3.tar.gz"
 
-SRC_URI[md5sum] = "6bcc741f77b1831a893b2a22c785e31a"
-SRC_URI[sha256sum] = "fc1df2084522e29e892da393f3719d2c1be0da022fdd89cff4b814167aecfea3"
+SRC_URI[md5sum] = "361ba6079224d6710a2e2c4131875f0b"
+SRC_URI[sha256sum] = "2a6c44fb600861e54568e74081a8d1f121f0060076069ceab34b1ae89d6588cf"
 
 S = "${WORKDIR}/PadWalker-${PV}"
 
