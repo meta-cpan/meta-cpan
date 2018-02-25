@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/File-Which"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Which-1.21.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Which-1.22.tar.gz"
 
-SRC_URI[md5sum] = "115a6efe5d7e9621237fcb655c7a0980"
-SRC_URI[sha256sum] = "9def5f10316bfd944e56b7f8a2501be1d44c288325309462aa9345e340854bcc"
+SRC_URI[md5sum] = "face60fafd220dc83fa581ef6f96d480"
+SRC_URI[sha256sum] = "e8a8ffcf96868c6879e82645db4ff9ef00c2d8a286fed21971e7280f52cf0dd4"
 
 S = "${WORKDIR}/File-Which-${PV}"
 
