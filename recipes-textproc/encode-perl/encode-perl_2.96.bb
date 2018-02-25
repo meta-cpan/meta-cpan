@@ -11,19 +11,14 @@ HOMEPAGE=	"https://metacpan.org/release/Encode"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.82.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.96.tar.gz"
 
-SRC_URI[md5sum] = "5e36c5babb432536f90c51bcab733565"
-SRC_URI[sha256sum] = "be818fc032b014eb209b9ef034bc9f1a6b506c12b2ba90285e8dbd1871904b30"
+SRC_URI[md5sum] = "1b2e915c40f9069325527b3e5514455f"
+SRC_URI[sha256sum] = "5dcb19fa5e62c6ca9294f28e9f4676f36477b1025f7e0dca92479633334b3cb1"
 
 S = "${WORKDIR}/Encode-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 inherit update-alternatives
 
