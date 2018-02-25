@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Data-Munge"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.096.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz"
 
-SRC_URI[md5sum] = "0e98f5c7ff81c54e66b8633e98d1ced6"
-SRC_URI[sha256sum] = "1904f9c3602db07f5981c3f78eea06c8f1db475d5b8bc2a49d1083d46a13d0df"
+SRC_URI[md5sum] = "4c6f56a3af0272ed4509aae646b8c540"
+SRC_URI[sha256sum] = "d63469cab6ceb74247c844301c7d38ecd7d63dc6954a0aa359efbc48353bdd65"
 DEPENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/Data-Munge-${PV}"
