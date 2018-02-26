@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Params-ValidationCompiler"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.26.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.27.tar.gz"
 
-SRC_URI[md5sum] = "4c2ff368615fb7c589f01af0b7a93489"
-SRC_URI[sha256sum] = "6a9ea4895c9288ae4a0a2f5f1309d0dea8ffc46d429263c8f59a83c126c75805"
+SRC_URI[md5sum] = "a6937d7aba4417ad7d4edeb1f9988ac3"
+SRC_URI[sha256sum] = "50a99968359d430e34ea8a12e7f08a669ffd34a3dae4d8ea9ca076c1100af9b2"
 RDEPENDS_${PN} += "eval-closure-perl"
 RDEPENDS_${PN} += "exception-class-perl"
 DEPENDS += "specio-perl-native"
