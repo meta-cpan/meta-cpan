@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Exception-Class"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.40.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz"
 
-SRC_URI[md5sum] = "07cd7a38be5f8134955e943cf666d453"
-SRC_URI[sha256sum] = "d1171f2d03a485e87eb561f34688991c17b939d2689bcda47f3f51b372669a1f"
+SRC_URI[md5sum] = "6b5bb8e4ad2b1f6120fc1d33ae45e91b"
+SRC_URI[sha256sum] = "33f3fbf8b138d3b04ea4ec0ba83fb0df6ba898806bcf4ef393d4cafc1a23ee0d"
 RDEPENDS_${PN} += "class-data-inheritable-perl"
 RDEPENDS_${PN} += "devel-stacktrace-perl"
 
