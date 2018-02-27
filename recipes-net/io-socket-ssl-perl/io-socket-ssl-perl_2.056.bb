@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/IO-Socket-SSL"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.024.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.056.tar.gz"
 
-SRC_URI[md5sum] = "9d1be9159475fe67afa5f2e238808086"
-SRC_URI[sha256sum] = "dab3125b004b24ff8dfc003aa81c00c0f976a1bc34a75e1d8d9de9de837ce6c9"
+SRC_URI[md5sum] = "7f575fd3844263a3401dc6e1fe3ad44c"
+SRC_URI[sha256sum] = "91451ecc28b243a78b438f0a42db24c4b60a86f088879b38e40bdbd697818259"
 RDEPENDS_${PN} += "net-ssleay-perl"
 
 S = "${WORKDIR}/IO-Socket-SSL-${PV}"
