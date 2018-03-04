@@ -13,15 +13,17 @@ HOMEPAGE=	"https://metacpan.org/release/Sereal-Decoder"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-3.014.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.005.tar.gz"
 
-SRC_URI[md5sum] = "d52fb4fbd28acba055e9907bcbc99b47"
-SRC_URI[sha256sum] = "123cf353865549f7c9e87905c401f68e446fd201a7369d00031122db269dc878"
-DEPENDS += "extutils-makemaker-perl-native"
+SRC_URI[md5sum] = "68a7a2220cc9d05585100e4eace9da9f"
+SRC_URI[sha256sum] = "043adad093d1bfdea1e637e1a6fe598291da244d18213e9e5486e313f0c25e9f"
+DEPENDS += "test-deep-perl-native"
+DEPENDS += "test-differences-perl-native"
 DEPENDS += "test-longstring-perl-native"
 DEPENDS += "test-warn-perl-native"
 
 S = "${WORKDIR}/Sereal-Decoder-${PV}"
+PARALLEL_MAKE = " "
 
 inherit cpan
 
