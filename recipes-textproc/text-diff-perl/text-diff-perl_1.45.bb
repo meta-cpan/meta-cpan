@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Text-Diff"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.44.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz"
 
-SRC_URI[md5sum] = "1f0bcd24b64b50a29ad1cf997c2247e9"
-SRC_URI[sha256sum] = "57f7a0bed7d085d34a3ffab3a68140d7b816737c87b831086b4c0945bf483b10"
+SRC_URI[md5sum] = "edf57b6189f7651a6be454062a4e6d9c"
+SRC_URI[sha256sum] = "e8baa07b1b3f53e00af3636898bbf73aec9a0ff38f94536ede1dbe96ef086f04"
 RDEPENDS_${PN} += "algorithm-diff-perl"
 
 S = "${WORKDIR}/Text-Diff-${PV}"
