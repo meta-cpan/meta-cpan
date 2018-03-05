@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Mozilla-CA"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MPL-2.0;md5=815ca599c9df247a0c7f619bab123dad"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-20160104.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-20180117.tar.gz"
 
-SRC_URI[md5sum] = "1b91edb15953a8188f011ab5ff433300"
-SRC_URI[sha256sum] = "27a7069a243162b65ada4194ff9d21b6ebc304af723eb5d3972fb74c11b03f2a"
+SRC_URI[md5sum] = "9c93333e1d9d3fad639e9d4082898de1"
+SRC_URI[sha256sum] = "f2cc9fbe119f756313f321e0d9f1fac0859f8f154ac9d75b1a264c1afdf4e406"
 
 S = "${WORKDIR}/Mozilla-CA-${PV}"
 
