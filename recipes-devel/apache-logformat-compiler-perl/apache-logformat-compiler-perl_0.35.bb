@@ -11,13 +11,13 @@ HOMEPAGE=	"https://metacpan.org/release/Apache-LogFormat-Compiler"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.33.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.35.tar.gz"
 
-SRC_URI[md5sum] = "b0a5d98ceb9381a47fdbd79478ce54d3"
-SRC_URI[sha256sum] = "1bf36d92aa184236fbd9d1f795f273de9d365c6fbe087bfdfbaa800bff98749d"
+SRC_URI[md5sum] = "cbb0bf041ade8a39f65eadbdf8a346c1"
+SRC_URI[sha256sum] = "1654c0000a042a8af052616e30b91c1f0b95a720c8048b59168a8bd99b07271a"
 RDEPENDS_${PN} += "posix-strftime-compiler-perl"
 DEPENDS += "http-message-perl-native"
-DEPENDS += "module-build-perl-native"
+DEPENDS += "module-build-tiny-perl-native"
 DEPENDS += "test-mocktime-perl-native"
 DEPENDS += "test-requires-perl-native"
 DEPENDS += "try-tiny-perl-native"
