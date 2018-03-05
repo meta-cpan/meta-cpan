@@ -12,10 +12,11 @@ HOMEPAGE=	"https://metacpan.org/release/URI"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/URI-1.71.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/URI-1.73.tar.gz"
 
-SRC_URI[md5sum] = "247c3da29a794f72730e01aa5a715daf"
-SRC_URI[sha256sum] = "9c8eca0d7f39e74bbc14706293e653b699238eeb1a7690cc9c136fb8c2644115"
+SRC_URI[md5sum] = "37d44a08e599aa945b32a9434ffe00a5"
+SRC_URI[sha256sum] = "cca7ab4a6f63f3ccaacae0f2e1337e8edf84137e73f18548ec7d659f23efe413"
+DEPENDS += "test-needs-perl-native"
 
 S = "${WORKDIR}/URI-${PV}"
 
