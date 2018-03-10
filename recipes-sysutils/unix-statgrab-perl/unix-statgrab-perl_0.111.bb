@@ -1,22 +1,23 @@
 DESCRIPTION = "Unix::Statgrab is a wrapper for libstatgrab as available from \
 <http://www.i-scream.org/libstatgrab/>. It is a reasonably portable attempt \
-to query interesting stats about your computer. It covers information on the \
-operating system, CPU, memory usage, network interfaces, hard-disks etc."
+to query interesting stats about your computer. It covers information on \
+the operating system, CPU, memory usage, network interfaces, hard-disks \
+etc."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Unix-Statgrab"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.109.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Unix-Statgrab-0.111.tar.gz"
 
-SRC_URI[md5sum] = "e1a084a220d7c7cb46cb1e06957fab3f"
-SRC_URI[sha256sum] = "261a214030b4fc4e0a111742caff603ce4248d369e57359ef45bc72534c03e34"
+SRC_URI[md5sum] = "5e9734ef1f90ae3c085e88426d145e7a"
+SRC_URI[sha256sum] = "566da38d7cc514af9c40e0ff572533f5b30e4e0325c1fec84083df5731b77689"
 DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "libstatgrab"
@@ -35,7 +36,6 @@ do_configure() {
 }
 do_compile() {
 	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	export LD="${CCLD}"
 	cpan_do_compile
 }
 
