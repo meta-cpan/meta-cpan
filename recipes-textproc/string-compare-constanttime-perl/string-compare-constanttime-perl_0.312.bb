@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/String-Compare-ConstantTime"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/F/FR/FRACTAL/String-Compare-ConstantTime-0.311.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/F/FR/FRACTAL/String-Compare-ConstantTime-0.312.tar.gz"
 
-SRC_URI[md5sum] = "1e8e66dd8a1c034fbaa05147b9da2cb0"
-SRC_URI[sha256sum] = "2f2d0fee30e1b3fb3b20f3bdefd0aafe54946e8f0f9410ae07a0931cce9c9a8d"
+SRC_URI[md5sum] = "7cb7d0e93455b826ab8007bd9052d5a6"
+SRC_URI[sha256sum] = "a6aa70df3544d5f8efc2362eae4f7109f0abfb60c00856fc8fe22fbc0d78f2c7"
 
 S = "${WORKDIR}/String-Compare-ConstantTime-${PV}"
 
