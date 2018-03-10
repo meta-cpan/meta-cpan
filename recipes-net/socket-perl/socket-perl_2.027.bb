@@ -16,10 +16,10 @@ HOMEPAGE=	"https://metacpan.org/release/Socket"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.021.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.027.tar.gz"
 
-SRC_URI[md5sum] = "a9b64847ec6d626a1b3ad46b16adb1e4"
-SRC_URI[sha256sum] = "1ef59ca106b7ed3b3481266fe8d98ecc94790dd87f35aa09b8a09202eb01a5ec"
+SRC_URI[md5sum] = "8741e7a55272f5db80c520be43a725a1"
+SRC_URI[sha256sum] = "141c11494d171c13765d972417be731388f6372ffaad619cfc72998e972be2a8"
 
 S = "${WORKDIR}/Socket-${PV}"
 
