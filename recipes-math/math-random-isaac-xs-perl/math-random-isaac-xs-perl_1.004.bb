@@ -16,6 +16,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/J/JA/JAWNSY/Math-Random-ISAAC-XS-
 SRC_URI[md5sum] = "e38d5a1ab12ca251034f89ab5939f758"
 SRC_URI[sha256sum] = "9af790eb92d1c6330d33c6daa8decf8a9c5dcc87b81779d6b12e14b931c3b87b"
 RRECOMMENDS_${PN} += "math-random-isaac-perl"
+DEPENDS += "module-build-perl-native"
 DEPENDS += "test-nowarnings-perl-native"
 
 S = "${WORKDIR}/Math-Random-ISAAC-XS-${PV}"
