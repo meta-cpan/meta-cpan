@@ -16,10 +16,10 @@ HOMEPAGE=	"https://metacpan.org/release/Hash-Merge"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Hash-Merge-0.299.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-Merge-0.300.tar.gz"
 
-SRC_URI[md5sum] = "e186887f0296117fd27430efc1172285"
-SRC_URI[sha256sum] = "a641989276d94124e54bc696c3b4da5d4c2fb6a8bc60c159ee84a310d2bf38e7"
+SRC_URI[md5sum] = "72dc703d3ab3c116b3d29c357fefccb0"
+SRC_URI[sha256sum] = "402fd52191d51415bb7163b7673fb4a108e3156493d7df931b8db4b2af757c40"
 RDEPENDS_${PN} += "clone-choose-perl"
 
 S = "${WORKDIR}/Hash-Merge-${PV}"
