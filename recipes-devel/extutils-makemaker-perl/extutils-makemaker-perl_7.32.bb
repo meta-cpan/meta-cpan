@@ -33,5 +33,12 @@ do_configure_append_class-native() {
 	sed -i -e "s:\(PERLRUN = .*\):\1 \"-Ilib\":" Makefile
 }
 
+do_compile_prepend_class-native() {
+	export PERL5LIB="${PERL_ARCHLIB}"
+}
+
+do_install_prepend_class-native() {
+	export PERL5LIB="${PERL_ARCHLIB}"
+}
 
 BBCLASSEXTEND = "native"
