@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/Time-HiRes"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/J/JH/JHI/Time-HiRes-1.9753.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/J/JH/JHI/Time-HiRes-1.9754.tar.gz"
 
-SRC_URI[md5sum] = "b98099e0cb7702210606776e9746e103"
-SRC_URI[sha256sum] = "0fbfd5f99cdd26011d5c0bc3a8e369dacc4a9e1d1658f4663ac6018f2cec4915"
+SRC_URI[md5sum] = "ed36748e512759845b05585a97f7082f"
+SRC_URI[sha256sum] = "6654c007b2d597f863a0bb2ed69c639f0d552f598e35cf474fc6e89b9225b063"
 
 S = "${WORKDIR}/Time-HiRes-${PV}"
 
