@@ -7,6 +7,8 @@ SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0"
 PR = "r0"
 
+PARALLEL_MAKE = " "
+
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Package-Stash-XS"
 
