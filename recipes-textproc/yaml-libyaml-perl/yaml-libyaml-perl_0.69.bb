@@ -6,6 +6,8 @@ SECTION = "libs"
 LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
+PARALLEL_MAKE = " "
+
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/YAML-LibYAML"
 
