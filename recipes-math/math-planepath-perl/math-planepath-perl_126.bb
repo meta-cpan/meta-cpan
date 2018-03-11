@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Math-PlanePath"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/GPL-3.0;md5=c79ff39f19dfec6d293b95dea7b07891"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KR/KRYDE/Math-PlanePath-122.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KR/KRYDE/Math-PlanePath-126.tar.gz"
 
-SRC_URI[md5sum] = "c0d198e1f8f753ffee63226b33e05056"
-SRC_URI[sha256sum] = "edcf64f5cb9e4cca6dd6ee88c285551ee5151438c041cdeb41a4af88f184452f"
+SRC_URI[md5sum] = "9fba1b4e2d2e37053f1cdf6dca31965c"
+SRC_URI[sha256sum] = "187ec3a80ebf2ff7e6009ebc7b1e141733ef23a32f6ca395ba22a5f7d2c98f04"
 RDEPENDS_${PN} += "constant-defer-perl"
 RDEPENDS_${PN} += "math-libm-perl"
 
