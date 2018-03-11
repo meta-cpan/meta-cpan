@@ -2,27 +2,22 @@ DESCRIPTION = "Cookie::Baker::XS provides cookie string parser that implemented 
 This modules only provides parser, does not have a generator function."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Cookie-Baker-XS"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Cookie-Baker-XS-0.06.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Cookie-Baker-XS-0.09.tar.gz"
 
-SRC_URI[md5sum] = "bfe6557f037456fe5ac8d1a21c080338"
-SRC_URI[sha256sum] = "e26eb3e9db7846d5d47f3f7e43ffeaa15b4d73a61adc8f57d57f46f3db35c970"
+SRC_URI[md5sum] = "cb6b16b552c9f385018a0b300fc0c1bf"
+SRC_URI[sha256sum] = "21a0ccde306e3d90913c368b229641556b47ae037b051c31aa158c693e716a2f"
 
 S = "${WORKDIR}/Cookie-Baker-XS-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
