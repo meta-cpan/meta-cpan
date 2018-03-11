@@ -11,16 +11,14 @@ HOMEPAGE=	"https://metacpan.org/release/Encode"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.96.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-2.97.tar.gz"
 
-SRC_URI[md5sum] = "1b2e915c40f9069325527b3e5514455f"
-SRC_URI[sha256sum] = "5dcb19fa5e62c6ca9294f28e9f4676f36477b1025f7e0dca92479633334b3cb1"
+SRC_URI[md5sum] = "2fac8b7975c72ed5aa9bd0b81edb3552"
+SRC_URI[sha256sum] = "044d2fc743bdf5ce4509a0e717a7adb31d488dafae63fde794f57a9f47b2ecb7"
 
 S = "${WORKDIR}/Encode-${PV}"
 
-inherit cpan
-
-inherit update-alternatives
+inherit cpan update-alternatives
 
 ALTERNATIVE_PRIORITY = "100"
 
