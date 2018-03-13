@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "7bf1e277bd5c886bc18d21eb8423b65f"
 SRC_URI[sha256sum] = "0cc7f079079dcad8293fea36875ef58dd1bfd75ce1a6c244cd73ed9523eb13d4"
 RDEPENDS_${PN} += "http-date-perl"
 RDEPENDS_${PN} += "http-message-perl"
-DEPENDS += "liburi-perl-native"
+DEPENDS += "uri-perl-native"
 
 S = "${WORKDIR}/HTTP-Cookies-${PV}"
 
