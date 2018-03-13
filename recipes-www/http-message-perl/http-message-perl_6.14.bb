@@ -18,8 +18,8 @@ SRC_URI[sha256sum] = "71aab9f10eb4b8ec6e8e3a85fc5acb46ba04db1c93eb99613b184078c5
 RDEPENDS_${PN} += "encode-locale-perl"
 RDEPENDS_${PN} += "http-date-perl"
 RDEPENDS_${PN} += "io-html-perl"
-RDEPENDS_${PN} += "liburi-perl"
 RDEPENDS_${PN} += "lwp-mediatypes-perl"
+RDEPENDS_${PN} += "uri-perl"
 DEPENDS += "try-tiny-perl-native"
 
 S = "${WORKDIR}/HTTP-Message-${PV}"
