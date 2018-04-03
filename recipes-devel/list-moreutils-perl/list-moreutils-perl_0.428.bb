@@ -15,6 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.42
 SRC_URI[md5sum] = "493032a211cdff1fcf45f59ebd680407"
 SRC_URI[sha256sum] = "713e0945d5f16e62d81d5f3da2b6a7b14a4ce439f6d3a7de74df1fd166476cc2"
 RRECOMMENDS_${PN} += "list-moreutils-xs-perl"
+RDEPENDS_${PN} += "exporter-tiny-perl"
 RECOMMENDS += "config-autoconf-perl-native"
 RECOMMENDS += "inc-latest-perl-native"
 RECOMMENDS += "test-leaktrace-perl-native"
