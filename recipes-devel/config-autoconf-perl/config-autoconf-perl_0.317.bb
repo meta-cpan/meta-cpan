@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Config-AutoConf"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.315.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.317.tar.gz"
 
-SRC_URI[md5sum] = "710ca59bc75974b9f4dbc3f1618f5fe1"
-SRC_URI[sha256sum] = "4b3cd1e1a698ba9e5660c047f0a4fe192723d4bc9f768fdea511c2fc73ea6940"
+SRC_URI[md5sum] = "29f87fc7803f1725f6daafcf416089ce"
+SRC_URI[sha256sum] = "01e4b22d2fecb7cfd3cc1f4dabe95cd137cf249cc5e38184f88556e5c98a9ce1"
 RDEPENDS_${PN} += "capture-tiny-perl"
 RRECOMMENDS_${PN} += "extutils-cbuilder-perl"
 RRECOMMENDS_${PN} += "file-slurp-tiny-perl"
