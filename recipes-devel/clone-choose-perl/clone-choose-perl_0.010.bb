@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Clone-Choose"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Clone-Choose-0.008.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Clone-Choose-0.010.tar.gz"
 
-SRC_URI[md5sum] = "4a16eb5694c6cffcae68d9ea6275fafd"
-SRC_URI[sha256sum] = "d32ac724c006250c966592579a97ff0734feac7c51a983d554f8371ade022e3f"
+SRC_URI[md5sum] = "420920f99c01308bcdfb6a731082f04f"
+SRC_URI[sha256sum] = "5623481f58cee8edb96cd202aad0df5622d427e5f748b253851dfd62e5123632"
 RRECOMMENDS_${PN} += "module-runtime-perl"
 RRECOMMENDS_${PN} += "clone-perl"
 
