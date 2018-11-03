@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Compress-Raw-Zlib"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.076.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.081.tar.gz"
 
-SRC_URI[md5sum] = "9571af6b16279ed049b5a07a679e5797"
-SRC_URI[sha256sum] = "361e4ec3c43ea6fe51fc6687d1bae61a49a28a7709b0e2686df4ea6a228082aa"
+SRC_URI[md5sum] = "a22d23bb4f8ce92a41ace1dff29f2bd1"
+SRC_URI[sha256sum] = "e156de345bd224bbdabfcab0eeb3f678a3099a4e86c9d1b6771d880b55aa3a1b"
 
 S = "${WORKDIR}/Compress-Raw-Zlib-${PV}"
 
