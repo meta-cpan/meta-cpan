@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/DBI"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TIMB/DBI-1.640.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TIMB/DBI-1.642.tar.gz"
 
-SRC_URI[md5sum] = "47d37079ba164908a65fb86f8179cb74"
-SRC_URI[sha256sum] = "327e1bd92cd8ca2539b307b6d8c9d9527e5e707da99b87d52020841bc049a14a"
+SRC_URI[md5sum] = "f2ba18b5cea1c8cb322a62be0a847f3d"
+SRC_URI[sha256sum] = "3f2025023a56286cebd15cb495e36ccd9b456c3cc229bf2ce1f69e9ebfc27f5d"
 
 S = "${WORKDIR}/DBI-${PV}"
 
