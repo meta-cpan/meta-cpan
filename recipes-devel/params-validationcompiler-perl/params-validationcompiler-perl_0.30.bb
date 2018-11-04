@@ -11,13 +11,15 @@ HOMEPAGE=	"https://metacpan.org/release/Params-ValidationCompiler"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.27.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz"
 
-SRC_URI[md5sum] = "a6937d7aba4417ad7d4edeb1f9988ac3"
-SRC_URI[sha256sum] = "50a99968359d430e34ea8a12e7f08a669ffd34a3dae4d8ea9ca076c1100af9b2"
+SRC_URI[md5sum] = "f7746a98cab3d7a246372379d4658a4e"
+SRC_URI[sha256sum] = "dc5bee23383be42765073db284bed9fbd819d4705ad649c20b644452090d16cb"
 RDEPENDS_${PN} += "eval-closure-perl"
 RDEPENDS_${PN} += "exception-class-perl"
+RRECOMMENDS_${PN} += "class-xsaccessor-perl"
 DEPENDS += "specio-perl-native"
+DEPENDS += "test-simple-perl-native"
 DEPENDS += "test-without-module-perl-native"
 DEPENDS += "test2-plugin-nowarnings-perl-native"
 DEPENDS += "test2-suite-perl-native"
