@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Devel-MAT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.33.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.40.tar.gz"
 
-SRC_URI[md5sum] = "4772d3578a825afabbd6c052155ca432"
-SRC_URI[sha256sum] = "5b2b8c3d1b5ed57c4e47d75587b056ed4bf1525417a6d8631bd947f8647ce8fe"
+SRC_URI[md5sum] = "707859db81164c307ec526b0eb31528c"
+SRC_URI[sha256sum] = "d4aa55d56056ff7224893bb338b6a84cb3c7885e86a8746f28635fcfe03c5c33"
 RDEPENDS_${PN} += "file-sharedir-perl"
 RDEPENDS_${PN} += "list-utilsby-perl"
 RDEPENDS_${PN} += "module-pluggable-perl"
