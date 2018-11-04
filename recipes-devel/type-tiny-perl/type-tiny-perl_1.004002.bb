@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Type-Tiny"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-1.002001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-1.004002.tar.gz"
 
-SRC_URI[md5sum] = "9a529fd6524d75e6cbfeb33df5237db9"
-SRC_URI[sha256sum] = "93c9eeaaf23016625126794af483bc626a149f7226f9a6ec1081ef896acc13dd"
+SRC_URI[md5sum] = "fad12549fe5b904173e18a05e82e5166"
+SRC_URI[sha256sum] = "e52c7e9593052aed157a15d473b5c25a1dbb3454bf3cd6913df94cc9bb2be707"
 RDEPENDS_${PN} += "exporter-tiny-perl"
 RRECOMMENDS_${PN} += "devel-lexalias-perl"
 RRECOMMENDS_${PN} += "devel-stacktrace-perl"
