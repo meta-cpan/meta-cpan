@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/ExtUtils-MakeMaker"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/B/BI/BINGOS/ExtUtils-MakeMaker-7.32.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/B/BI/BINGOS/ExtUtils-MakeMaker-7.34.tar.gz"
 
-SRC_URI[md5sum] = "ffb0badef42b2727129ef302815c939e"
-SRC_URI[sha256sum] = "9a269f52ab59b125eb80b968271d9f49da0975d43e51363dbfd1695000ed69de"
+SRC_URI[md5sum] = "073c0fb4eebf3953de2a1e94fa189bac"
+SRC_URI[sha256sum] = "95f1eb44de480d00b28d031b574ec868f7aeeee199eb5abe5666f6bcbbf68480"
 
 S = "${WORKDIR}/ExtUtils-MakeMaker-${PV}"
 
