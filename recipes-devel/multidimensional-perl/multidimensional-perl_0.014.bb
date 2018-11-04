@@ -12,12 +12,11 @@ HOMEPAGE=	"https://metacpan.org/release/multidimensional"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/multidimensional-0.013.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/multidimensional-0.014.tar.gz"
 
-SRC_URI[md5sum] = "60113584ddf6daf651998b7f01cf2cc4"
-SRC_URI[sha256sum] = "3d20ce3e2307c3cfb13f2d53ad99bba6f87ea20b53f7ffebb4308d88ccfee50a"
+SRC_URI[md5sum] = "5a030f1fa297ca3c56269fa0c26b7300"
+SRC_URI[sha256sum] = "12eb14317447bd15ab9799677db9eda20e784d8b113e44a5f6f11f529e862c5f"
 RDEPENDS_${PN} += "b-hooks-op-check-perl"
-RDEPENDS_${PN} += "lexical-sealrequirehints-perl"
 DEPENDS += "b-hooks-op-check-perl-native"
 DEPENDS += "extutils-depends-perl-native"
 
