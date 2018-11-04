@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Log-Dispatch"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Log-Dispatch-2.67.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Log-Dispatch-2.68.tar.gz"
 
-SRC_URI[md5sum] = "d68e256e80ca4e1482b86abf6bcee552"
-SRC_URI[sha256sum] = "a94da2a5a24b3519012b69b94d32c558b332fae1a37c773e6e058009e2d0f304"
+SRC_URI[md5sum] = "c273198cd4ffee4bf51b398a45e785ba"
+SRC_URI[sha256sum] = "d07a3039997a6df2fa02849ed5a6a0560c154018bf988c5cc202069be11aadaf"
 RDEPENDS_${PN} += "devel-globaldestruction-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "namespace-autoclean-perl"
