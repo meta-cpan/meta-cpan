@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Log-Any"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PR/PREACTION/Log-Any-1.705.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PR/PREACTION/Log-Any-1.707.tar.gz"
 
-SRC_URI[md5sum] = "df88170c61a569a357b797871a569ee3"
-SRC_URI[sha256sum] = "85c7c5189a8bfc2ffb6f879b4cd04dd77f94bc5abc3800b4330f42f43fb9a696"
+SRC_URI[md5sum] = "610f81b7b74859a105790347472dce34"
+SRC_URI[sha256sum] = "74510f8cbee12637462e7c6020c8943d447a1e8e149a256f8168ee47562c65f1"
 
 S = "${WORKDIR}/Log-Any-${PV}"
 
