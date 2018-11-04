@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Getopt-Long-Descriptive"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.102.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.103.tar.gz"
 
-SRC_URI[md5sum] = "9c13f72cd92a590ded79efb368c76461"
-SRC_URI[sha256sum] = "9ad4b98f294aa0515cc3150a1ae878d39e470762b78d8bd9df055eba9dea2846"
+SRC_URI[md5sum] = "96c1a1f9cfabd50a20da208e8d13a47b"
+SRC_URI[sha256sum] = "70e1bae7404a9dfb638b5d12e5bd4ea97e3bee743a4555909307d68e0111f4b2"
 RDEPENDS_${PN} += "params-validate-perl"
 RDEPENDS_${PN} += "sub-exporter-perl"
 DEPENDS += "cpan-meta-check-perl-native"
