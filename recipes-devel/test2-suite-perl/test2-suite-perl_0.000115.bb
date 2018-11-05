@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test2-Suite"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000106.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000115.tar.gz"
 
-SRC_URI[md5sum] = "ca3711353323de95166d1e5ef6d92428"
-SRC_URI[sha256sum] = "2ce6a850252d6903f71d2c2ac16aa45ef9d2972ee76666027c3a28708414dedd"
+SRC_URI[md5sum] = "eca653c9eda1c4c5ad30b256556bd2ef"
+SRC_URI[sha256sum] = "02be3428a0965aeb21245d44bbadda69b94dc76cd68d5695352c996ac7fc3638"
 RDEPENDS_${PN} += "importer-perl"
 RDEPENDS_${PN} += "module-pluggable-perl"
 RDEPENDS_${PN} += "scope-guard-perl"
