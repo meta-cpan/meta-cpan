@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Script"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Test-Script-1.23.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Test-Script-1.25.tar.gz"
 
-SRC_URI[md5sum] = "1f36aed3debb06034f33b066262ace30"
-SRC_URI[sha256sum] = "33a1e71b9797228c2124eea76831492ca9372e8f8075f3d8cded3ef818af44b1"
+SRC_URI[md5sum] = "cfe966889cc613c043c845395ce2237a"
+SRC_URI[sha256sum] = "b6803312744a192422e06563a3a6902d7f2bffb3415da316e6fc9f03213a3aa5"
 RDEPENDS_${PN} += "capture-tiny-perl"
 RDEPENDS_${PN} += "probe-perl-perl"
 RDEPENDS_${PN} += "test-simple-perl"
