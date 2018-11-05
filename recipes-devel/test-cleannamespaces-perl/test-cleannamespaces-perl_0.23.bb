@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-CleanNamespaces"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-CleanNamespaces-0.22.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-CleanNamespaces-0.23.tar.gz"
 
-SRC_URI[md5sum] = "8c48bb0427f2077edce57c50491468ec"
-SRC_URI[sha256sum] = "862a221994dd413b2f350450f22c96f57cac78784b1aca1a8fc763fc5449aaca"
+SRC_URI[md5sum] = "2eeeb5d382c72010e6a175637e78785c"
+SRC_URI[sha256sum] = "c7bf97f3c786b75f84341135904b492a1a36646aa65db3e0fd15a3cbe0864872"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "package-stash-perl"
 RDEPENDS_${PN} += "sub-identify-perl"
