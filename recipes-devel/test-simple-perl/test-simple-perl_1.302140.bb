@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Simple"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302130.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302140.tar.gz"
 
-SRC_URI[md5sum] = "e14e1f1e3a772c1cd56746ad35417e49"
-SRC_URI[sha256sum] = "3f9e1f54fb7b2f90481f7c0fbc43938a7dc2126ebf45d007a67db84e9ba534c8"
+SRC_URI[md5sum] = "2a3eba9fbafe80a24ce75b604ab045f1"
+SRC_URI[sha256sum] = "73f5440c7ae55e13706e9ebeaa7247df973226470f028344ea3cd21e1642bd1d"
 
 S = "${WORKDIR}/Test-Simple-${PV}"
 
