@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/File-pushd"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-pushd-1.014.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-pushd-1.016.tar.gz"
 
-SRC_URI[md5sum] = "09c03001fb653c35663842191e315f5f"
-SRC_URI[sha256sum] = "b5ab37ffe3acbec53efb7c77b4423a2c79afa30a48298e751b9ebee3fdc6340b"
+SRC_URI[md5sum] = "1480e0d4813a8990c003e78338f00955"
+SRC_URI[sha256sum] = "d73a7f09442983b098260df3df7a832a5f660773a313ca273fa8b56665f97cdc"
 
 S = "${WORKDIR}/File-pushd-${PV}"
 
