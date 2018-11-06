@@ -11,11 +11,12 @@ HOMEPAGE=	"https://metacpan.org/release/Net-DNS"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.15.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.18.tar.gz"
 
-SRC_URI[md5sum] = "daaf39133bb89a31c093510169c228e1"
-SRC_URI[sha256sum] = "1ad46ba6438b846a94b4f50d53ecfda55f504a17e11b94effb087ff9329e61d0"
+SRC_URI[md5sum] = "67af7e5c1c339f60c45c1054374bd8ee"
+SRC_URI[sha256sum] = "52ce1494fc9707fd5a60ed71db5cde727157b7f2363787d730d4d1bd9800a9d3"
 RDEPENDS_${PN} += "digest-hmac-perl"
+RDEPENDS_${PN} += "io-socket-ip-perl"
 
 S = "${WORKDIR}/Net-DNS-${PV}"
 
