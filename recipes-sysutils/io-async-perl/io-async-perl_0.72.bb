@@ -15,18 +15,19 @@ HOMEPAGE=	"https://metacpan.org/release/IO-Async"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.71.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.72.tar.gz"
 
-SRC_URI[md5sum] = "a6925ea309ad98258aadf3fd9f7b0238"
-SRC_URI[sha256sum] = "4d8a5a311551d96e2885a6f58aeb2d547e7b082813bbc82e64a3a6d9268606da"
+SRC_URI[md5sum] = "02fea9c6b45ff54c9b4e0475fbeffd52"
+SRC_URI[sha256sum] = "76420062a5d694de5775f56eaa49b7f56a104dc88459287a032f4a69ebbad964"
 RDEPENDS_${PN} += "future-perl"
 RDEPENDS_${PN} += "struct-dumb-perl"
+DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-refcount-perl-native"
 
 S = "${WORKDIR}/IO-Async-${PV}"
 
-inherit cpan allarch
+inherit cpan_build allarch
 
 BBCLASSEXTEND = "native"
