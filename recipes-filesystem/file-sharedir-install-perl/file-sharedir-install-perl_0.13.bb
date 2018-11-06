@@ -12,11 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/File-ShareDir-Install"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.11.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz"
 
-SRC_URI[md5sum] = "61107e6ce6eee42bf29525b1a4d029e0"
-SRC_URI[sha256sum] = "32bf8772e9fea60866074b27ff31ab5bc3f88972d61915e84cbbb98455e00cc8"
-DEPENDS += "module-build-tiny-perl-native"
+SRC_URI[md5sum] = "5eabd44a5d7d84bf2e8e502491226287"
+SRC_URI[sha256sum] = "45befdf0d95cbefe7c25a1daf293d85f780d6d2576146546e6828aad26e580f9"
 
 S = "${WORKDIR}/File-ShareDir-Install-${PV}"
 
