@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/libwww-perl"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.33.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/libwww-perl-6.36.tar.gz"
 
-SRC_URI[md5sum] = "2e15c1c789ac9036c99d094e47e3da23"
-SRC_URI[sha256sum] = "97417386f11f007ae129fe155b82fd8969473ce396a971a664c8ae6850c69b99"
+SRC_URI[md5sum] = "20062717e4084d2f56d84c7ab4c91ec1"
+SRC_URI[sha256sum] = "75c034ab4b37f4b9506dc644300697505582cf9545bcf2e2079e7263f675290a"
 RDEPENDS_${PN} += "encode-locale-perl"
 RDEPENDS_${PN} += "file-listing-perl"
 RDEPENDS_${PN} += "html-parser-perl"
@@ -32,8 +32,10 @@ RDEPENDS_${PN} += "net-http-perl"
 RDEPENDS_${PN} += "try-tiny-perl"
 RDEPENDS_${PN} += "uri-perl"
 RDEPENDS_${PN} += "www-robotrules-perl"
+DEPENDS += "test-needs-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requiresinternet-perl-native"
+RECOMMENDS += "test-leaktrace-perl-native"
 
 S = "${WORKDIR}/libwww-perl-${PV}"
 
