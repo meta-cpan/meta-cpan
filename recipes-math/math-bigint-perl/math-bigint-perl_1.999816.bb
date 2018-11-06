@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Math-BigInt"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PJ/PJACKLAM/Math-BigInt-1.999811.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PJ/PJACKLAM/Math-BigInt-1.999816.tar.gz"
 
-SRC_URI[md5sum] = "95116cb6c22359f4d5d64abde083376d"
-SRC_URI[sha256sum] = "d4bfa5ad0127b6360ad29971da6fa08bcfb56a471d55db3c7419d05f8a947b8d"
+SRC_URI[md5sum] = "879409c5c62441a675853cabe690b313"
+SRC_URI[sha256sum] = "95a5a1f636a23f66d400d40bffb0d24ad50df00e6e3c7359c9e645c375f40a89"
 
 S = "${WORKDIR}/Math-BigInt-${PV}"
 
