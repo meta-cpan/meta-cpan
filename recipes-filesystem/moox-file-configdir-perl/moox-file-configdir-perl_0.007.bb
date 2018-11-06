@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/MooX-File-ConfigDir"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-File-ConfigDir-0.006.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-File-ConfigDir-0.007.tar.gz"
 
-SRC_URI[md5sum] = "11ccd7b1223ec62d85e3651f80138040"
-SRC_URI[sha256sum] = "7d9ecd9687867ad4216509dd4e198716ec5dc0818fff61dcabfe0833b0460039"
+SRC_URI[md5sum] = "0b1adc9390fbf51611e0fa853827f919"
+SRC_URI[sha256sum] = "1fea3a132d4c19902d4326e948d8a0e1acfc01d28861608387adadcc41099b1c"
 RDEPENDS_${PN} += "file-configdir-perl"
 RDEPENDS_${PN} += "moo-perl"
 
