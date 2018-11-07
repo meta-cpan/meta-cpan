@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/DateTime-TimeZone"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.17.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.21.tar.gz"
 
-SRC_URI[md5sum] = "7300d2c5b1961cbd3ee392c22fc63a84"
-SRC_URI[sha256sum] = "1d0a0adc8a14adc8033b5e5391f1b2b87fe48151d95c019601a390020f9770b2"
+SRC_URI[md5sum] = "9dd88060fe14476454a26b84a85aac66"
+SRC_URI[sha256sum] = "54d685f79df1033c259502cd9c22b1a9d37b627bf815faecebaa27f8e1079e1e"
 RDEPENDS_${PN} += "class-singleton-perl"
 RDEPENDS_${PN} += "module-runtime-perl"
 RDEPENDS_${PN} += "namespace-autoclean-perl"
@@ -27,11 +27,6 @@ DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/DateTime-TimeZone-${PV}"
 
-inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
+inherit cpan allarch
 
 BBCLASSEXTEND = "native"
