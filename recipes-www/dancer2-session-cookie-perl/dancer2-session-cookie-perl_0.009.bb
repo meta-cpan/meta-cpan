@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Dancer2-Session-Cookie"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Dancer2-Session-Cookie-0.008.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Dancer2-Session-Cookie-0.009.tar.gz"
 
-SRC_URI[md5sum] = "8df8e1f3ed4b07e046832d9ff7e04b0f"
-SRC_URI[sha256sum] = "67ac3d9da3828514f76ff6fabff8b1f80ca2c0c130c4ed7e2fd6ccc7c99ddf1a"
+SRC_URI[md5sum] = "4a1d2c83f8d539223afdbe75d86efdd6"
+SRC_URI[sha256sum] = "aef2755db550d22652e145d67459916c83883848b9359d6f03ad5981f26c2826"
 RDEPENDS_${PN} += "dancer2-perl"
 RDEPENDS_${PN} += "moo-perl"
 RDEPENDS_${PN} += "session-storage-secure-perl"
