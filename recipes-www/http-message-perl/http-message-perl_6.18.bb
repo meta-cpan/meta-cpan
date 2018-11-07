@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/HTTP-Message"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.14.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz"
 
-SRC_URI[md5sum] = "e4c6e183860c42cbdff65dcd76c333b0"
-SRC_URI[sha256sum] = "71aab9f10eb4b8ec6e8e3a85fc5acb46ba04db1c93eb99613b184078c5cf2ac9"
+SRC_URI[md5sum] = "9fd400da24e1784f85d32de1705fc795"
+SRC_URI[sha256sum] = "d060d170d388b694c58c14f4d13ed908a2807f0e581146cef45726641d809112"
 RDEPENDS_${PN} += "encode-locale-perl"
 RDEPENDS_${PN} += "http-date-perl"
 RDEPENDS_${PN} += "io-html-perl"
