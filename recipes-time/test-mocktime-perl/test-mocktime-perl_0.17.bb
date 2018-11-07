@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-MockTime"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.16.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz"
 
-SRC_URI[md5sum] = "624d6976d57a79c9cd14237168424f44"
-SRC_URI[sha256sum] = "087493cf235432aa2320ebde468cb81d36f5416be083a7d046351c2b8f3fbbef"
+SRC_URI[md5sum] = "3cd809ebccc72b0701afbba51029ac56"
+SRC_URI[sha256sum] = "3363e118b2606f1d6abc956f22b0d09109772b7086155fb5c9c7f983350602f9"
 
 S = "${WORKDIR}/Test-MockTime-${PV}"
 
