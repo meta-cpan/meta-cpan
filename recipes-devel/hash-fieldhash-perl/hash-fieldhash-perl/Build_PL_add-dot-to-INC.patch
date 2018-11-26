@@ -1,0 +1,11 @@
+--- Hash-FieldHash-0.15/Build.PL.orig	2018-11-23 18:04:38.679905539 +0100
++++ Hash-FieldHash-0.15/Build.PL	2018-11-23 18:05:22.832406865 +0100
+@@ -9,6 +9,8 @@
+ use warnings;
+ use utf8;
+ 
++BEGIN { unshift @INC, '.' }
++
+ use builder::MyBuilder;
+ use File::Basename;
+ use File::Spec;
