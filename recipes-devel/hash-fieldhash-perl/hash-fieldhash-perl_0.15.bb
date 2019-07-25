@@ -24,4 +24,12 @@ S = "${WORKDIR}/Hash-FieldHash-${PV}"
 
 inherit cpan_build
 
+EXTRA_CPAN_BUILD_FLAGS="--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${LD} ${LDFLAGS}""
+
+do_compile() {
+	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
+	export LD="${LD} ${LDFLAGS}"
+	cpan_build_do_compile
+}
+
 BBCLASSEXTEND = "native"
