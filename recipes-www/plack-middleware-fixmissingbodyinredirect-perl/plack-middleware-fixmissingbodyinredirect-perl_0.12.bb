@@ -16,7 +16,6 @@ SRC_URI[md5sum] = "f570ae069684cfafc099283801ad058d"
 SRC_URI[sha256sum] = "6c22d069f5a57ac206d4659b28b8869bb9270640bb955efddd451dcc58cdb391"
 RDEPENDS_${PN} += "html-parser-perl"
 RDEPENDS_${PN} += "plack-perl"
-DEPENDS += "extutils-makemaker-perl-native"
 DEPENDS += "http-message-perl-native"
 
 S = "${WORKDIR}/Plack-Middleware-FixMissingBodyInRedirect-${PV}"

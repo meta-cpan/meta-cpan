@@ -23,7 +23,6 @@ DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "libstatgrab"
 RDEPENDS_${PN} += "perl libstatgrab"
-RECOMMENDS += "extutils-makemaker-perl-native"
 RECOMMENDS += "test-leaktrace-perl-native"
 
 S = "${WORKDIR}/Unix-Statgrab-${PV}"
