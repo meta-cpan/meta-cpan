@@ -20,10 +20,11 @@ S = "${WORKDIR}/Encode-${PV}"
 
 inherit cpan update-alternatives
 
-ALTERNATIVE_PRIORITY = "100"
+ALTERNATIVE_PRIORITY = "90"
 
-ALTERNATIVE_${PN} = "piconv enc2xs"
+ALTERNATIVE_${PN} = "piconv enc2xs encguess"
 ALTERNATIVE_LINK_NAME[piconv] = "${bindir}/piconv"
 ALTERNATIVE_LINK_NAME[enc2xs] = "${bindir}/enc2xs"
+ALTERNATIVE_LINK_NAME[encguess] = "${bindir}/encguess"
 
 BBCLASSEXTEND = "native"
