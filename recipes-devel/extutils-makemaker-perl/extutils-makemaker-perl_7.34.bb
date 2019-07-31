@@ -41,4 +41,11 @@ do_install_prepend_class-native() {
 	export PERL5LIB="${PERL_ARCHLIB}"
 }
 
+inherit update-alternatives
+
+ALTERNATIVE_PRIORITY = "90"
+
+ALTERNATIVE_${PN} = "instmodsh"
+ALTERNATIVE_LINK_NAME[instmodsh] = "${bindir}/instmodsh"
+
 BBCLASSEXTEND = "native"
