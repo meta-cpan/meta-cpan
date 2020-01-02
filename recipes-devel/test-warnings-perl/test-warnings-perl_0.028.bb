@@ -7,7 +7,7 @@ be calculated *before* the warnings test is run, resulting in a TAP error. \
 demonstration.)"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
@@ -16,14 +16,13 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Warnings"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.026.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.028.tar.gz"
 
-SRC_URI[md5sum] = "1a379f7eac4c89155d98e652459593a7"
-SRC_URI[sha256sum] = "ae2b68b1b5616704598ce07f5118efe42dc4605834453b7b2be14e26f9cc9a08"
-RECOMMENDS += "test-simple-perl-native"
+SRC_URI[md5sum] = "cd007342017fedfb02d6fde75602e473"
+SRC_URI[sha256sum] = "26fda9f8d279e943d27e43a4a3a5cea8a6592cd36e7308695f8dc6602262c0e0"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
 inherit cpan allarch
 
-BBCLASSEXTEND = "native"
+BBCLASSEXTEND = "native nativesdk"
