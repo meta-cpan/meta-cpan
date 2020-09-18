@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Sub-Quote"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.005001.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006006.tar.gz"
 
-SRC_URI[md5sum] = "1b0f288ca8c60243f9bc29cfee4c4986"
-SRC_URI[sha256sum] = "d6ab4f0775def015367a05e02024b403f991b2be11d774f3d235fe7e9bdbba07"
+SRC_URI[md5sum] = "1bb9caee697bcfa738f419d40505e506"
+SRC_URI[sha256sum] = "6e4e2af42388fa6d2609e0e82417de7cc6be47223f576592c656c73c7524d89d"
 RRECOMMENDS_${PN} += "sub-name-perl"
 DEPENDS += "test-fatal-perl-native"
 
