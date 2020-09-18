@@ -12,10 +12,12 @@ HOMEPAGE=	"https://metacpan.org/release/Clone"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GARU/Clone-0.41.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.45.tar.gz"
 
-SRC_URI[md5sum] = "4556ca17794f545444836e4d22d443fd"
-SRC_URI[sha256sum] = "e8c056dcf4bc8889079a09412af70194a54a269689ba72edcd91291a46a51518"
+SRC_URI[md5sum] = "b101333499b638658f89e29458cd83c0"
+SRC_URI[sha256sum] = "cbb6ee348afa95432e4878893b46752549e70dc68fe6d9e430d1d2e99079a9e6"
+DEPENDS += "b-cow-perl-native"
+RDEPENDS_${PN} += "b-cow-perl"
 
 S = "${WORKDIR}/Clone-${PV}"
 
