@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/DBD-CSV"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/DBD-CSV-0.54.tgz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/DBD-CSV-0.55.tgz"
 
-SRC_URI[md5sum] = "dc91dbf5e8b4aaa07cb583a4a82a4656"
-SRC_URI[sha256sum] = "bc597cd7195e5a023e2b3413d8dc614602b9b3f279f436027881796464d4f0be"
+SRC_URI[md5sum] = "63b251baebd0c9609f69bf52647a6509"
+SRC_URI[sha256sum] = "4670028e46df9a3c2791740445e8a4c82840b6667cee5dd796bc5a6ad9266ddb"
 RDEPENDS_${PN} += "dbi-perl"
 RDEPENDS_${PN} += "sql-statement-perl"
 RDEPENDS_${PN} += "text-csv-xs-perl"
