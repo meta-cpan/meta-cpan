@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/bareword-filehandles"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/bareword-filehandles-0.006.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/bareword-filehandles-0.007.tar.gz"
 
-SRC_URI[md5sum] = "4d002caea4880ed63ae904c2750f509e"
-SRC_URI[sha256sum] = "ad6c07c0bec2e4eb8d666bdb0d20943cbc68783bd1f3979dbf50bb3b2335bffb"
+SRC_URI[md5sum] = "c74088bd6971c8ec9754ea7492c16e48"
+SRC_URI[sha256sum] = "4134533716d87af8fff56e250c488ad06df0a7bff48e7cf7de63ff6bc8d9c17f"
 RDEPENDS_${PN} += "b-hooks-op-check-perl"
 DEPENDS += "b-hooks-op-check-perl-native"
 DEPENDS += "extutils-depends-perl-native"
