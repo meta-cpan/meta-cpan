@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Class-Tiny"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.006.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.008.tar.gz"
 
-SRC_URI[md5sum] = "fa905646a85a1478b2db1fc9113cb6ac"
-SRC_URI[sha256sum] = "2efcbd31528be51d3022c616768558b78c6172df5f03c5dc698939f65488cb4e"
+SRC_URI[md5sum] = "e3ccfae5f64d443e7e1110be964d7202"
+SRC_URI[sha256sum] = "ee058a63912fa1fcb9a72498f56ca421a2056dc7f9f4b67837446d6421815615"
 RECOMMENDS += "test-failwarnings-perl-native"
 
 S = "${WORKDIR}/Class-Tiny-${PV}"
