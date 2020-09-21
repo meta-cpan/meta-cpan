@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/Devel-StackTrace"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.03.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz"
 
-SRC_URI[md5sum] = "1eb6874d834f3d5d15fa626dd726df77"
-SRC_URI[sha256sum] = "7618cd4ebe24e254c17085f4b418784ab503cb4cb3baf8f48a7be894e59ba848"
+SRC_URI[md5sum] = "a5b09f7be7f2b10b525a9740676906d8"
+SRC_URI[sha256sum] = "cd3c03ed547d3d42c61fa5814c98296139392e7971c092e09a431f2c9f5d6855"
 
 S = "${WORKDIR}/Devel-StackTrace-${PV}"
 
