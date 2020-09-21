@@ -1,21 +1,20 @@
 DESCRIPTION = "This module provides tracking of objects, for the purpose of detecting \
-memory leaks due to circular references or innappropriate caching \
-schemes."
+memory leaks due to circular references or inappropriate caching schemes."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Devel-Leak-Object"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-2.0;md5=801f80980d171dd6425610833a22dbe6"
+file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "http://cpan.metacpan.org/authors/id/A/AD/ADAMK/Devel-Leak-Object-1.01.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Devel-Leak-Object-1.02.tar.gz"
 
-SRC_URI[md5sum] = "f3b74a603e55d63e391750c2a10928f5"
-SRC_URI[sha256sum] = "20b23ca7817b9a7cb44944b9e99b2d2627087b386a108b432a0064c0f2703a88"
+SRC_URI[md5sum] = "69c53688ebf58a708c806147bb8af318"
+SRC_URI[sha256sum] = "4d5226800b72fb64351767a524e811205f5c66623979b2bd7199abd7fac505ee"
 
 S = "${WORKDIR}/Devel-Leak-Object-${PV}"
 
