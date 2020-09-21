@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Class-Inspector"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.32.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
 
-SRC_URI[md5sum] = "db471d6ecf47fa054726553319b7c34f"
-SRC_URI[sha256sum] = "cefadc8b5338e43e570bc43f583e7c98d535c17b196bcf9084bb41d561cc0535"
+SRC_URI[md5sum] = "084c3aeec023639d21ecbaf7d4460b21"
+SRC_URI[sha256sum] = "cc295d23a472687c24489d58226ead23b9fdc2588e522f0b5f0747741700694e"
 
 S = "${WORKDIR}/Class-Inspector-${PV}"
 
