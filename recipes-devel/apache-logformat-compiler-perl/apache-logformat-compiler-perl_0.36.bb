@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/Apache-LogFormat-Compiler"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.35.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz"
 
-SRC_URI[md5sum] = "cbb0bf041ade8a39f65eadbdf8a346c1"
-SRC_URI[sha256sum] = "1654c0000a042a8af052616e30b91c1f0b95a720c8048b59168a8bd99b07271a"
+SRC_URI[md5sum] = "a0cdfcd875cb2ee4dc9a2c24381eb55b"
+SRC_URI[sha256sum] = "94509503ee74ea820183d070c11630ee5bc0fd8c12cb74fae953ed62e4a1ac17"
 RDEPENDS_${PN} += "posix-strftime-compiler-perl"
 DEPENDS += "http-message-perl-native"
 DEPENDS += "module-build-tiny-perl-native"
