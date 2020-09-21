@@ -12,10 +12,17 @@ HOMEPAGE=	"https://metacpan.org/release/Log-Log4perl"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETJ/Log-Log4perl-1.53.tar.gz"
 
-SRC_URI[md5sum] = "8e96fb5e236c92445947eceb903326ba"
-SRC_URI[sha256sum] = "b739187f519146cb6bebcfc427c64b1f4138b35c5f4c96f46a21ed4a43872e16"
+SRC_URI[md5sum] = "48fcd8fa105af31d9e5247cb8e5b6ff1"
+SRC_URI[sha256sum] = "8fbfb48d016eec7344a539f3ad70870b4ac4638e49666bfa70d10f6ffd4ac38e"
+RRECOMMENDS_${PN} += "dbd-csv-perl"
+RRECOMMENDS_${PN} += "dbd-sqlite-perl"
+RRECOMMENDS_${PN} += "dbi-perl"
+RRECOMMENDS_${PN} += "log-dispatch-filerotate-perl"
+RRECOMMENDS_${PN} += "log-dispatch-perl"
+RRECOMMENDS_${PN} += "sql-statement-perl"
+RRECOMMENDS_${PN} += "xml-dom-perl"
 
 S = "${WORKDIR}/Log-Log4perl-${PV}"
 
