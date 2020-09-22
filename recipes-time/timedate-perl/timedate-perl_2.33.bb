@@ -1,5 +1,4 @@
-DESCRIPTION = ""Date::Parse" provides two routines for parsing date strings into time \
-values."
+DESCRIPTION = "miscellaneous timezone manipulations routines"
 
 SECTION = "libs"
 LICENSE = "Artisticv1 | GPLv1+"
@@ -11,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/TimeDate"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/G/GB/GBARR/TimeDate-2.30.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.33.tar.gz"
 
-SRC_URI[md5sum] = "b1d91153ac971347aee84292ed886c1c"
-SRC_URI[sha256sum] = "75bd254871cb5853a6aa0403ac0be270cdd75c9d1b6639f18ecba63c15298e86"
+SRC_URI[md5sum] = "5e5afe22c8d417417283d1f7f4572a57"
+SRC_URI[sha256sum] = "c0b69c4b039de6f501b0d9f13ec58c86b040c1f7e9b27ef249651c143d605eb2"
 
 S = "${WORKDIR}/TimeDate-${PV}"
 
