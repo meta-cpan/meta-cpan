@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/Sub-Name"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.21.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.26.tar.gz"
 
-SRC_URI[md5sum] = "7e7a181e30b3249d0b81585f55e36621"
-SRC_URI[sha256sum] = "bd32e9dee07047c10ae474c9f17d458b6e9885a6db69474c7a494ccc34c27117"
+SRC_URI[md5sum] = "0eb109dfa223e056c07d84c9fbda1762"
+SRC_URI[sha256sum] = "2d2f2d697d516c89547e7c4307f1e79441641cae2c7395e7319b306d390df105"
 
 S = "${WORKDIR}/Sub-Name-${PV}"
 
