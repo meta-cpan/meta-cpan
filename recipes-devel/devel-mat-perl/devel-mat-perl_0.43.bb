@@ -38,7 +38,7 @@ EXTRA_CPAN_BUILD_FLAGS="--config cc="${CC}" --config ccflags="${CFLAGS}" --confi
 inherit cpan_build
 
 do_compile() {
-	export LD="${LD} ${LDFLAGS}"
+	export LD="${CCLD} ${LDFLAGS}"
 	cpan_build_do_compile
 }
 
