@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Commandable-0.04.tar
 SRC_URI[md5sum] = "7a273d5e0534463ebad0e76d926c5e64"
 SRC_URI[sha256sum] = "606b519da0d8f3639259b66de96da0df181023f5c46f300f12e4ad7eaf0bdcab"
 RDEPENDS_${PN} += "module-pluggable-perl"
-DEPENDS += "libmodule-build-perl-native"
+DEPENDS += "module-build-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
 S = "${WORKDIR}/Commandable-${PV}"

@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Syntax-Keyword-Try-0
 
 SRC_URI[md5sum] = "09e9391d67b91fc6a764362feeea7f21"
 SRC_URI[sha256sum] = "24a10e8d6b1c5c1976a54dea2d007c2b60fa3a1e391ee0de0a845d79306a78ec"
-DEPENDS += "libmodule-build-perl-native"
+DEPENDS += "module-build-perl-native"
 
 S = "${WORKDIR}/Syntax-Keyword-Try-${PV}"
 

@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-Dumper-0.4
 
 SRC_URI[md5sum] = "d83519971479872bd585ff7a9d523079"
 SRC_URI[sha256sum] = "bc74191dc39d2331948ce98fe750c5b0064aa71197c1e265c6674e750e64a3bd"
-DEPENDS += "libmodule-build-perl-native"
+DEPENDS += "module-build-perl-native"
 
 S = "${WORKDIR}/Devel-MAT-Dumper-${PV}"
 
