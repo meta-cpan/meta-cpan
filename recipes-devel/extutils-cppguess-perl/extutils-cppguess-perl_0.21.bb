@@ -11,10 +11,10 @@ HOMEPAGE=	"https://metacpan.org/release/ExtUtils-CppGuess"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETJ/ExtUtils-CppGuess-0.12.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETJ/ExtUtils-CppGuess-0.21.tar.gz"
 
-SRC_URI[md5sum] = "28be49072585b25df87e54180f741a4d"
-SRC_URI[sha256sum] = "31c47b5b15e3e9fd5ae7b35881a0fffd26a2983b241e7e3a1bc340d6d446186b"
+SRC_URI[md5sum] = "62bdf731bcbe988d07486836e11585f7"
+SRC_URI[sha256sum] = "ff629178321a1e591b83f809712593eae4408a413aa448654bce59b156f24153"
 RDEPENDS_${PN} += "capture-tiny-perl"
 DEPENDS += "module-build-perl-native"
 
