@@ -16,18 +16,13 @@ HOMEPAGE=	"https://metacpan.org/release/Socket"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.027.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.030.tar.gz"
 
-SRC_URI[md5sum] = "8741e7a55272f5db80c520be43a725a1"
-SRC_URI[sha256sum] = "141c11494d171c13765d972417be731388f6372ffaad619cfc72998e972be2a8"
+SRC_URI[md5sum] = "991eff5f62f94273e5dcd8a0dc3173bb"
+SRC_URI[sha256sum] = "2573571d0db6ab98b5472a371c4acb24fe53d890f920e43aab49a0eeabe6da67"
 
 S = "${WORKDIR}/Socket-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
