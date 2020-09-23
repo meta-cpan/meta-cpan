@@ -7,7 +7,7 @@ be calculated *before* the warnings test is run, resulting in a TAP error. \
 demonstration.)"
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
@@ -16,10 +16,10 @@ HOMEPAGE=	"https://metacpan.org/release/Test-Warnings"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.028.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.030.tar.gz"
 
-SRC_URI[md5sum] = "cd007342017fedfb02d6fde75602e473"
-SRC_URI[sha256sum] = "26fda9f8d279e943d27e43a4a3a5cea8a6592cd36e7308695f8dc6602262c0e0"
+SRC_URI[md5sum] = "d30550a4898499daf351f9cf31602121"
+SRC_URI[sha256sum] = "89a4947ddf1564ae01122275584433d7f6c4370370bcf3768922d796956ae24f"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
