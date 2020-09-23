@@ -12,11 +12,11 @@ HOMEPAGE=	"https://metacpan.org/release/POSIX-strftime-Compiler"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Compiler-0.42.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/POSIX-strftime-Compiler-0.44.tar.gz"
 
-SRC_URI[md5sum] = "c0a5f76b1b0ce9cdb90d627b017e6cf5"
-SRC_URI[sha256sum] = "26582bdd78b254bcc1c56d0b770fa280e8b8f70957c84dc44572ba4cacb0ac11"
-DEPENDS += "module-build-perl-native"
+SRC_URI[md5sum] = "3a5ae7d56a5917410c1b661e01ed1a68"
+SRC_URI[sha256sum] = "dfd3c97398dcfe51c8236b85e3dc28035667b76531f7aa0a6535f3aa5405b35a"
+DEPENDS += "module-build-tiny-perl-native"
 
 S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
 
