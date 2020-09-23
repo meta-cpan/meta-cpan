@@ -12,10 +12,10 @@ HOMEPAGE=	"https://metacpan.org/release/File-Copy-Recursive"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.44.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz"
 
-SRC_URI[md5sum] = "6a89eb075d15df85da1778755c72ba6b"
-SRC_URI[sha256sum] = "ae19a0b58dc1b3cded9ba9cfb109288d8973d474c0b4bfd28b27cf60e8ca6ee4"
+SRC_URI[md5sum] = "e5eee1a3f8ae3aebbac063ea54870e54"
+SRC_URI[sha256sum] = "d3971cf78a8345e38042b208bb7b39cb695080386af629f4a04ffd6549df1157"
 DEPENDS += "path-tiny-perl-native"
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-fatal-perl-native"
