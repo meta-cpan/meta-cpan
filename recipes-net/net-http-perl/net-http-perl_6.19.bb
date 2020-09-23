@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Net-HTTP"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.18.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz"
 
-SRC_URI[md5sum] = "6da11a7db0e933b7684148e1fb32006a"
-SRC_URI[sha256sum] = "7e42df2db7adce3e0eb4f78b88c450f453f5380f120fd5411232e03374ba951c"
+SRC_URI[md5sum] = "6cbebcc76099ce822f0aa7764af11f73"
+SRC_URI[sha256sum] = "52b76ec13959522cae64d965f15da3d99dcb445eddd85d2ce4e4f4df385b2fc4"
 RDEPENDS_${PN} += "uri-perl"
 
 S = "${WORKDIR}/Net-HTTP-${PV}"
