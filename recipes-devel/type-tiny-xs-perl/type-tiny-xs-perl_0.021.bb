@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Type-Tiny-XS"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.014.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.021.tar.gz"
 
-SRC_URI[md5sum] = "e6f54521cfbaf741aabd9326bee4174f"
-SRC_URI[sha256sum] = "828bde64f3c31e1df541ffa0af91fe91e441c9f749e3d465f8a9562e1a7c7bad"
+SRC_URI[md5sum] = "28d17ede97972a033d8954b70f82a6f9"
+SRC_URI[sha256sum] = "f7a9e216d1496744def402aa326620e13e73ad1ee7109cfbaeaac363d8eaf5df"
 
 S = "${WORKDIR}/Type-Tiny-XS-${PV}"
 
