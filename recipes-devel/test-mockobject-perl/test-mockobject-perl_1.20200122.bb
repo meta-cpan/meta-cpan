@@ -13,12 +13,12 @@ HOMEPAGE=	"https://metacpan.org/release/Test-MockObject"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-1.20180705.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-1.20200122.tar.gz"
 
-SRC_URI[md5sum] = "0aa90bfc9c5fc6f36a2d47152047f22c"
-SRC_URI[sha256sum] = "4516058d5d511155c1c462dab4027d762d6a474b99f73bf7da20b5ffbd024518"
-RRECOMMENDS_${PN} += "universal-can-perl"
-RRECOMMENDS_${PN} += "universal-isa-perl"
+SRC_URI[md5sum] = "67a1869d91d2e5d60d8986c13333978a"
+SRC_URI[sha256sum] = "2b7f80da87f5a6fe0360d9ee521051053017442c3a26e85db68dfac9f8307623"
+RDEPENDS_${PN} += "universal-can-perl"
+RDEPENDS_${PN} += "universal-isa-perl"
 DEPENDS += "test-exception-perl-native"
 DEPENDS += "test-warn-perl-native"
 
