@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Filesys-Notify-Simple"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Filesys-Notify-Simple-0.13.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Filesys-Notify-Simple-0.14.tar.gz"
 
-SRC_URI[md5sum] = "6042cd96abcc7bf69f959142d00b8143"
-SRC_URI[sha256sum] = "ade3d3db882ce2137e527201893d4b8c12b2dbd15009bb89c31cb91ba6495ba2"
+SRC_URI[md5sum] = "4a3ca3098b2455346fe24a66c94d2151"
+SRC_URI[sha256sum] = "1fda712d4ba5e1868159ed35f6f8efbfae9d435d6376f5606d533bcb080555a4"
 RDEPENDS_${PN} += "linux-inotify2-perl"
 DEPENDS += "test-sharedfork-perl-native"
 
