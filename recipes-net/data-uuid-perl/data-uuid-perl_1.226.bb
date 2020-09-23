@@ -12,18 +12,13 @@ HOMEPAGE=	"https://metacpan.org/release/Data-UUID"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec5312d6919e203a55f9"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-UUID-1.221.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-UUID-1.226.tar.gz"
 
-SRC_URI[md5sum] = "7619929e8fe205a7fb83bc1c29ecbf99"
-SRC_URI[sha256sum] = "3cc7b2a3a7b74b45a059e013f7fd878078500ea4b7269036f84556b022078667"
+SRC_URI[md5sum] = "13468e0fb65a0b5ce27b8628cb2f0109"
+SRC_URI[sha256sum] = "093d57ffa0d411a94bafafae495697db26f5c9d0277198fe3f7cf2be22996453"
 
 S = "${WORKDIR}/Data-UUID-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
