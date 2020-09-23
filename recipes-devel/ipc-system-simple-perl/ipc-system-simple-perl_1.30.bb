@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/IPC-System-Simple"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PJ/PJF/IPC-System-Simple-1.25.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.30.tar.gz"
 
-SRC_URI[md5sum] = "fb49e674e1d52e8e5646d08507d7fda5"
-SRC_URI[sha256sum] = "f1b6aa1dfab886e8e4ea825f46a1cbb26038ef3e727fef5d84444aa8035a4d3b"
+SRC_URI[md5sum] = "e68341fd958fd013b3521d909904f675"
+SRC_URI[sha256sum] = "22e6f5222b505ee513058fdca35ab7a1eab80539b98e5ca4a923a70a8ae9ba9e"
 
 S = "${WORKDIR}/IPC-System-Simple-${PV}"
 
