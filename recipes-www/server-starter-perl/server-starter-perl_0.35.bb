@@ -17,10 +17,10 @@ HOMEPAGE=	"https://metacpan.org/release/Server-Starter"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Server-Starter-0.34.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Server-Starter-0.35.tar.gz"
 
-SRC_URI[md5sum] = "c1434469726c42fb6830fbe9d99ff62c"
-SRC_URI[sha256sum] = "96a20d4a1f341655bd1b26df5795d57c5d7498d9bcf8ca9d0d6e2ed743608f78"
+SRC_URI[md5sum] = "10cc818382ff22b27d9af37344fbff18"
+SRC_URI[sha256sum] = "676dc0d6cff4648538332c63c32fb88ad09ed868213ea9e62e3f19fad41b9c40"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-requires-perl-native"
 DEPENDS += "test-sharedfork-perl-native"
