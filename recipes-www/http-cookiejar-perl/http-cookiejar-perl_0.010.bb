@@ -10,10 +10,10 @@ HOMEPAGE=	"https://metacpan.org/release/HTTP-CookieJar"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/HTTP-CookieJar-0.008.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/HTTP-CookieJar-0.010.tar.gz"
 
-SRC_URI[md5sum] = "e30a933e9cc0cf6f0b67054cbb01141f"
-SRC_URI[sha256sum] = "9507e039279f4c0deed7fcee8fadec5029b8a933c81eb78e7e8faaccb632dc65"
+SRC_URI[md5sum] = "ee51ecfbce9ea795266d9fc603c1e784"
+SRC_URI[sha256sum] = "56e333e823c5d872a289240482b94cde841eb037b7f2ffd4d1b43aa298c6f5d0"
 RDEPENDS_${PN} += "http-date-perl"
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-requires-perl-native"
