@@ -1,11 +1,10 @@
---- a/inc/Module/Install/PRIVATE/Net/SSLeay.pm	2018-08-27 14:56:24.788544991 +0200
-+++ b/inc/Module/Install/PRIVATE/Net/SSLeay.pm	2018-08-27 15:00:12.847266331 +0200
-@@ -24,20 +24,7 @@
-     $self->requires_external_cc;
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -104,18 +104,7 @@
  
-     my $prefix = $self->find_openssl_prefix;
--    my $exec   = $self->find_openssl_exec($prefix);
--
+ sub ssleay {
+     my $prefix = find_openssl_prefix();
+-    my $exec   = find_openssl_exec($prefix);
 -    unless (-x $exec) {
 -        print <<EOM;
 -*** Could not find OpenSSL
@@ -15,19 +14,18 @@
 -EOM
 -        exit 0; # according http://wiki.cpantesters.org/wiki/CPANAuthorNotes this is best-practice when "missing library"
 -    }
--
--    $self->check_openssl_version($prefix, $exec);
--    my $opts = $self->ssleay_get_build_opts($prefix, $exec);
-+    my $opts = $self->ssleay_get_build_opts($prefix);
- 
-     $self->makemaker_args(
+-    check_openssl_version($prefix, $exec);
+-    my $opts = ssleay_get_build_opts($prefix, $exec);
++    my $opts = ssleay_get_build_opts($prefix);
+     my %args = (
          CCCDLFLAGS => $opts->{cccdlflags},
-@@ -58,7 +45,7 @@
- }
+         OPTIMIZE => $opts->{optimize},
+@@ -133,7 +122,7 @@
+ sub maybe_quote { $_[0] =~ / / ? qq{"$_[0]"} : $_[0] }
  
  sub ssleay_get_build_opts {
--    my ($self, $prefix, $exec) = @_;
-+    my ($self, $prefix) = @_;
+-    my ($prefix, $exec) = @_;
++    my ($prefix) = @_;
  
      my $opts = {
          lib_links  => [],
