@@ -14,10 +14,10 @@ HOMEPAGE=	"https://metacpan.org/release/Text-CSV"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-1.97.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.00.tar.gz"
 
-SRC_URI[md5sum] = "06e9ff3c867fa5ba7f8793ae06ea73ac"
-SRC_URI[sha256sum] = "cc350462efa8d39d5c8a1da5f205bc31620cd52d9865a769c8e3ed1b41640fd5"
+SRC_URI[md5sum] = "435951d381e814b5ce51f570a6a1dc24"
+SRC_URI[sha256sum] = "8ccbd9195805222d995844114d0e595bb24ce188f85284dbf256080311cbb2c2"
 RRECOMMENDS_${PN} += "text-csv-xs-perl"
 
 S = "${WORKDIR}/Text-CSV-${PV}"
