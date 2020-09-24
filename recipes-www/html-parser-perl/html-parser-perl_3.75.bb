@@ -13,20 +13,16 @@ HOMEPAGE=	"https://metacpan.org/release/HTML-Parser"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/HTML-Parser-3.75.tar.gz"
 
-SRC_URI[md5sum] = "eb7505e5f626913350df9dd4a03d54a8"
-SRC_URI[sha256sum] = "ec28c7e1d9e67c45eca197077f7cdc41ead1bb4c538c7f02a3296a4bb92f608b"
+SRC_URI[md5sum] = "65bf65aa8b34b35443e094010f991406"
+SRC_URI[sha256sum] = "ac6b5e25a8df7af54885201e91c45fb9ab6744c08cedc1a38fcc7d95d21193a9"
 RDEPENDS_${PN} += "html-tagset-perl"
-RRECOMMENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "http-message-perl"
+RDEPENDS_${PN} += "uri-perl"
 
 S = "${WORKDIR}/HTML-Parser-${PV}"
 
 inherit cpan
-
-do_compile() {
-       export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-       cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
