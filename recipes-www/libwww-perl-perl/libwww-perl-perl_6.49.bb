@@ -15,10 +15,10 @@ HOMEPAGE=	"https://metacpan.org/release/libwww-perl"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/libwww-perl-6.36.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.49.tar.gz"
 
-SRC_URI[md5sum] = "20062717e4084d2f56d84c7ab4c91ec1"
-SRC_URI[sha256sum] = "75c034ab4b37f4b9506dc644300697505582cf9545bcf2e2079e7263f675290a"
+SRC_URI[md5sum] = "86601652f46b924a26acecad0fe5c110"
+SRC_URI[sha256sum] = "c3e4d0deae254c8b8fdc13e14b7b4b893594c947c43f4b5401e06322c96360a6"
 RDEPENDS_${PN} += "encode-locale-perl"
 RDEPENDS_${PN} += "file-listing-perl"
 RDEPENDS_${PN} += "html-parser-perl"
