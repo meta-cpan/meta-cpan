@@ -12,14 +12,15 @@ HOMEPAGE=	"https://metacpan.org/release/String-Tagged"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-0.15.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-0.16.tar.gz"
 
-SRC_URI[md5sum] = "3557a98e3ae548e9cc773acd64ac2438"
-SRC_URI[sha256sum] = "0f4bb11a80ec54403d3e32a0db3091570c2c7218b5b2a411480e6bb9bd89d3a0"
+SRC_URI[md5sum] = "ca7fe148362c3e26cfda0e6fec2589cb"
+SRC_URI[sha256sum] = "f07c2842aa759a8275b74d7ff625ff49a38fb7942da28d6ab71b70969f7373de"
+DEPENDS += "module-build-perl-native"
 DEPENDS += "test-identity-perl-native"
 
 S = "${WORKDIR}/String-Tagged-${PV}"
 
-inherit cpan allarch
+inherit cpan_build allarch
 
 BBCLASSEXTEND = "native"
