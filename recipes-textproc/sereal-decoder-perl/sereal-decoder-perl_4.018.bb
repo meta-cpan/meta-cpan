@@ -13,10 +13,10 @@ HOMEPAGE=	"https://metacpan.org/release/Sereal-Decoder"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
 file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.005.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.018.tar.gz"
 
-SRC_URI[md5sum] = "68a7a2220cc9d05585100e4eace9da9f"
-SRC_URI[sha256sum] = "043adad093d1bfdea1e637e1a6fe598291da244d18213e9e5486e313f0c25e9f"
+SRC_URI[md5sum] = "1619ac6237f12dae898be1ee25708933"
+SRC_URI[sha256sum] = "2ea4fc5585c2f24d9c1270e50511463eca9aa005941cf2acad24dd516f8fcd71"
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-differences-perl-native"
 DEPENDS += "test-longstring-perl-native"
@@ -26,10 +26,5 @@ S = "${WORKDIR}/Sereal-Decoder-${PV}"
 PARALLEL_MAKE = " "
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
