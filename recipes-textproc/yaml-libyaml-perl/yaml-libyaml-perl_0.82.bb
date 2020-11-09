@@ -4,6 +4,8 @@ SECTION = "libs"
 LICENSE = "Artisticv1 | GPLv1+"
 PR = "r0"
 
+CLEANBROKEN = "1"
+
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/YAML-LibYAML"
 
