@@ -20,7 +20,7 @@ S = "${WORKDIR}/Test-YAML-${PV}"
 
 inherit cpan allarch
 
-do_install_append() {
+do_install:append() {
     rm -f ${D}/${bindir}/test-yaml
     rmdir ${D}/${bindir}
 }
