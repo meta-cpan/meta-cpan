@@ -29,15 +29,15 @@ RDEPENDS_${PN} += "perl-module-extutils-manifest"
 RDEPENDS_${PN} += "perl-module-i18n-langinfo"
 RDEPENDS_${PN} += "perl-module-version"
 
-do_configure_append_class-native() {
+do_configure:append:class-native() {
 	sed -i -e "s:\(PERLRUN = .*\):\1 \"-Ilib\":" Makefile
 }
 
-do_compile_prepend_class-native() {
+do_compile:prepend:class-native() {
 	export PERL5LIB="${PERL_ARCHLIB}"
 }
 
-do_install_prepend_class-native() {
+do_install:prepend:class-native() {
 	export PERL5LIB="${PERL_ARCHLIB}"
 }
 

@@ -19,7 +19,7 @@ S = "${WORKDIR}/git"
 
 inherit cpan
 
-do_configure_append() {
+do_configure:append() {
     oe_runmake manifest
 }
 
