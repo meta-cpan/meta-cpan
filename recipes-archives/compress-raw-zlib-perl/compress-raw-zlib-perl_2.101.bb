@@ -9,12 +9,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Compress-Raw-Zlib"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.096.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.101.tar.gz"
 
-SRC_URI[md5sum] = "4144ecdd901231553447998cf8035e4a"
-SRC_URI[sha256sum] = "cd4cba20c159a7748b8bc91278524a7da70573d9531fde62298609a5f1c65912"
+SRC_URI[md5sum] = "681e24fffbb32c1bde808be584489789"
+SRC_URI[sha256sum] = "9d1b9515e8277c1b007e33fad1fd0f18717d56bf647e3794d61289c45b1aabb2"
 
 DEPENDS += "zlib"
 
