@@ -12,27 +12,22 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/XML-LibXML"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0206.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0207.tar.gz"
 
-SRC_URI[md5sum] = "6d9e4ffb139c26a36eea964dc512ec77"
-SRC_URI[sha256sum] = "010ba395c38711f9c233ee23d0b0b18b761e6d99a762125f7e6180d068851619"
+SRC_URI[md5sum] = "d943c3ff20e19c376f08adcbc4158019"
+SRC_URI[sha256sum] = "903436c9859875bef5593243aae85ced329ad0fb4b57bbf45975e32547c50c15"
 DEPENDS += "libxml2"
 DEPENDS += "libxml-sax-perl-native"
 DEPENDS += "zlib"
-RDEPENDS_${PN} += "libxml2"
-RDEPENDS_${PN} += "xml-sax-base-perl"
-RDEPENDS_${PN} += "xml-sax-perl"
-RDEPENDS_${PN} += "xml-namespacesupport-perl"
+RDEPENDS:${PN} += "libxml2"
+RDEPENDS:${PN} += "xml-sax-base-perl"
+RDEPENDS:${PN} += "xml-sax-perl"
+RDEPENDS:${PN} += "xml-namespacesupport-perl"
 
 S = "${WORKDIR}/XML-LibXML-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
