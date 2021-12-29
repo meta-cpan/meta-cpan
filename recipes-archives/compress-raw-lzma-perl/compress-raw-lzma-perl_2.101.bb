@@ -9,12 +9,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Compress-Raw-Lzma"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Lzma-2.096.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Lzma-2.101.tar.gz"
 
-SRC_URI[md5sum] = "b5079bb43712fcd1e74b80777fa376ed"
-SRC_URI[sha256sum] = "f3afb267b1303b0f125976e9e4a70c6a4a205e35e7c99b408911f5e5c6578217"
+SRC_URI[md5sum] = "7ba205e1761e0feb6a1efed0899a6b2b"
+SRC_URI[sha256sum] = "bb267fd31981eda11f444038f8a0fca4b94a51ae61b2db71246abf6a4d322a36"
 
 DEPENDS += "xz"
 
