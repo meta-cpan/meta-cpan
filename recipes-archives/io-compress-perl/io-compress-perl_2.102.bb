@@ -9,14 +9,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/IO-Compress"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/IO-Compress-2.096.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/IO-Compress-2.102.tar.gz"
 
-SRC_URI[md5sum] = "18ad197cad5ca87bc3a7d2538998e017"
-SRC_URI[sha256sum] = "9d219fd5df4b490b5d2f847921e3cb1c3392758fa0bae9b05a8992b3620ba572"
-RDEPENDS_${PN} += "compress-raw-bzip2-perl"
-RDEPENDS_${PN} += "compress-raw-zlib-perl"
+SRC_URI[md5sum] = "b79ef532ba8b6c1672dc2a401715f5cf"
+SRC_URI[sha256sum] = "d6fa7f9a5beee446452a0fbc43589a0c73fe7e925c075b98628b018048dc72a4"
+RDEPENDS:${PN} += "compress-raw-bzip2-perl"
+RDEPENDS:${PN} += "compress-raw-zlib-perl"
 
 S = "${WORKDIR}/IO-Compress-${PV}"
 
