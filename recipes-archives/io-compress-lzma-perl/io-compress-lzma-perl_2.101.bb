@@ -9,14 +9,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/IO-Compress-Lzma"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/IO-Compress-Lzma-2.096.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PM/PMQS/IO-Compress-Lzma-2.101.tar.gz"
 
-SRC_URI[md5sum] = "6c1b70740605b8073e4fbb5ba1e7bbdb"
-SRC_URI[sha256sum] = "2f29125f19bb41d29c4b5a2467e3560b7bce5d428176a046b7c8a51609dce6e8"
-RDEPENDS_${PN} += "compress-raw-lzma-perl"
-RDEPENDS_${PN} += "io-compress-perl"
+SRC_URI[md5sum] = "74b73b3363875e656070acfba230ef1c"
+SRC_URI[sha256sum] = "1ae686dbe45dbdcf0c7cccf8a0cd81a579a019601f8e35533db93dcdd8282a90"
+RDEPENDS:${PN} += "compress-raw-lzma-perl"
+RDEPENDS:${PN} += "io-compress-perl"
 
 S = "${WORKDIR}/IO-Compress-Lzma-${PV}"
 
