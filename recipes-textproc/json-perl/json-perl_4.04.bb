@@ -16,12 +16,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/JSON"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.02.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.04.tar.gz"
 
-SRC_URI[md5sum] = "63a331b4630d48f8dbbe3758cc03bd21"
-SRC_URI[sha256sum] = "444a88755a89ffa2a5424ab4ed1d11dca61808ebef57e81243424619a9e8627c"
+SRC_URI[md5sum] = "4623b908d3dd5a190180def02a4b94b3"
+SRC_URI[sha256sum] = "66b6c6ea1ed6d609b0b70df29fdcbd281f3fe13c661e5b2847b4e4e8c12b5380"
 
 S = "${WORKDIR}/JSON-${PV}"
 
