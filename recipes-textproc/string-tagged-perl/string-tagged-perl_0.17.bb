@@ -10,12 +10,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/String-Tagged"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-0.16.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-0.17.tar.gz"
 
-SRC_URI[md5sum] = "ca7fe148362c3e26cfda0e6fec2589cb"
-SRC_URI[sha256sum] = "f07c2842aa759a8275b74d7ff625ff49a38fb7942da28d6ab71b70969f7373de"
+SRC_URI[md5sum] = "a51cc8365d3cbf29c1c99a35ed9aabf2"
+SRC_URI[sha256sum] = "2e4f254b8c336e297f007493bfa916688aa9bbf5d4fe534fe0a164dc206ef880"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-identity-perl-native"
 
