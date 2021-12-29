@@ -14,13 +14,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Template-Toolkit"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Template-Toolkit-3.009.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Template-Toolkit-3.010.tar.gz"
 
-SRC_URI[md5sum] = "f1c401067b728337a8a8c0d4ae642af8"
-SRC_URI[sha256sum] = "d6ad23bbf637a59b5dfd1ac006460dfcb185982e4852cde77150fbd085f1f5b6"
-RDEPENDS_${PN} += "appconfig-perl"
+SRC_URI[md5sum] = "352af62d9be343ca97a186b9255772e5"
+SRC_URI[sha256sum] = "f4b65e93364088aa850887820652e467b0bce1493760fd3690268520b37d82cc"
+RDEPENDS:${PN} += "appconfig-perl"
 DEPENDS += "cgi-perl-native"
 DEPENDS += "test-leaktrace-perl-native"
 
