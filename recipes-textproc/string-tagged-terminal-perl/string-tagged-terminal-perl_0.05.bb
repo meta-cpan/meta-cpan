@@ -10,15 +10,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/String-Tagged-Terminal"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-Terminal-0.04.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/String-Tagged-Terminal-0.05.tar.gz"
 
-SRC_URI[md5sum] = "d060e45c87217750e481a5d1b0c8e10c"
-SRC_URI[sha256sum] = "190f49da626becd4cb91ae1e88b52c3d18213e16b795e6df57bb23f87000b337"
-RDEPENDS_${PN} += "convert-color-perl"
-RDEPENDS_${PN} += "convert-color-xterm-perl"
-RDEPENDS_${PN} += "string-tagged-perl"
+SRC_URI[md5sum] = "c7dbad9df5394c2f456b59e7fb6de2ac"
+SRC_URI[sha256sum] = "b41e086689872ce0de32f72f1858575d6e5e2d4ba87ba22588688488f2c0b758"
+RDEPENDS:${PN} += "convert-color-perl"
+RDEPENDS:${PN} += "convert-color-xterm-perl"
+RDEPENDS:${PN} += "string-tagged-perl"
 DEPENDS += "module-build-perl-native"
 
 S = "${WORKDIR}/String-Tagged-Terminal-${PV}"
