@@ -10,14 +10,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/HTTP-Cookies"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz"
 
-SRC_URI[md5sum] = "8c663710244e70c85775393a8f5be443"
-SRC_URI[sha256sum] = "49ebb73576eb41063c04bc079477df094496deec805ae033f3be338c23c3af59"
-RDEPENDS_${PN} += "http-date-perl"
-RDEPENDS_${PN} += "http-message-perl"
+SRC_URI[md5sum] = "b4d7804231b1dfd10999d42283e0cf06"
+SRC_URI[sha256sum] = "e36f36633c5ce6b5e4b876ffcf74787cc5efe0736dd7f487bdd73c14f0bd7007"
+RDEPENDS:${PN} += "http-date-perl"
+RDEPENDS:${PN} += "http-message-perl"
 DEPENDS += "uri-perl-native"
 
 S = "${WORKDIR}/HTTP-Cookies-${PV}"
