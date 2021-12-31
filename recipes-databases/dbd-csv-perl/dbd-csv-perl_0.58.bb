@@ -12,15 +12,16 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/DBD-CSV"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/DBD-CSV-0.55.tgz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/DBD-CSV-0.58.tgz"
 
-SRC_URI[md5sum] = "63b251baebd0c9609f69bf52647a6509"
-SRC_URI[sha256sum] = "4670028e46df9a3c2791740445e8a4c82840b6667cee5dd796bc5a6ad9266ddb"
-RDEPENDS_${PN} += "dbi-perl"
-RDEPENDS_${PN} += "sql-statement-perl"
-RDEPENDS_${PN} += "text-csv-xs-perl"
+SRC_URI[md5sum] = "d81feeae24eca2cea6443f7de01d1312"
+SRC_URI[sha256sum] = "6c26f710453b14d7b3cf5f3e1697e8ddaa48c0a66f5d811f4394bd8c32f287ef"
+RDEPENDS:${PN} += "dbi-perl"
+RDEPENDS:${PN} += "sql-statement-perl"
+RDEPENDS:${PN} += "text-csv-xs-perl"
+RECOMMENDS += "test-simple-perl-native"
 
 S = "${WORKDIR}/DBD-CSV-${PV}"
 
