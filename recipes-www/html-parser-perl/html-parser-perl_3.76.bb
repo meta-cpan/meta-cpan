@@ -11,15 +11,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/HTML-Parser"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/HTML-Parser-3.75.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTML-Parser-3.76.tar.gz"
 
-SRC_URI[md5sum] = "65bf65aa8b34b35443e094010f991406"
-SRC_URI[sha256sum] = "ac6b5e25a8df7af54885201e91c45fb9ab6744c08cedc1a38fcc7d95d21193a9"
-RDEPENDS_${PN} += "html-tagset-perl"
-RDEPENDS_${PN} += "http-message-perl"
-RDEPENDS_${PN} += "uri-perl"
+SRC_URI[md5sum] = "60e266d5a07fbea671a0383dd8af7b6c"
+SRC_URI[sha256sum] = "64d9e2eb2b420f1492da01ec0e6976363245b4be9290f03f10b7d2cb63fa2f61"
+RDEPENDS:${PN} += "html-tagset-perl"
+RDEPENDS:${PN} += "http-message-perl"
+RDEPENDS:${PN} += "uri-perl"
 
 S = "${WORKDIR}/HTML-Parser-${PV}"
 
