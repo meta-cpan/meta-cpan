@@ -12,11 +12,11 @@ HOMEPAGE=	"https://metacpan.org/release/CGI"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/CGI-4.50.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/CGI-4.53.tar.gz"
 
-SRC_URI[md5sum] = "6c7c9d0c272849f3c3c1859cb78962fe"
-SRC_URI[sha256sum] = "d8c7a2143352842a9b4962c314ee7e0385273c8b9d8314dcbd04a09c008eef46"
-RDEPENDS_${PN} += "html-parser-perl"
+SRC_URI[md5sum] = "a0fe86a038de743ac45a0933daa2804f"
+SRC_URI[sha256sum] = "c67e732f3c96bcb505405fd944f131fe5c57b46e5d02885c00714c452bf14e60"
+RDEPENDS:${PN} += "html-parser-perl"
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-nowarnings-perl-native"
 DEPENDS += "test-warn-perl-native"
