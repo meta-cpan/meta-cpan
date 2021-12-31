@@ -12,17 +12,17 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/HTTP-Entity-Parser"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/HTTP-Entity-Parser-0.24.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/HTTP-Entity-Parser-0.25.tar.gz"
 
-SRC_URI[md5sum] = "b5ead58775c2f151f2174651807fdf2d"
-SRC_URI[sha256sum] = "f68e0fc87150cb9241ac23d7226fc2a35324d2e8990830c1e2a7203244f1e612"
-RDEPENDS_${PN} += "hash-multivalue-perl"
-RDEPENDS_${PN} += "http-multipartparser-perl"
-RDEPENDS_${PN} += "json-maybexs-perl"
-RDEPENDS_${PN} += "stream-buffered-perl"
-RDEPENDS_${PN} += "www-form-urlencoded-perl"
+SRC_URI[md5sum] = "09663f9577975587e832e28ba5f5f8af"
+SRC_URI[sha256sum] = "3a8cd0d8cba3d17cd8c04ee82d7341dfaa247dbdd94a49eb94b53f69e483ec3a"
+RDEPENDS:${PN} += "hash-multivalue-perl"
+RDEPENDS:${PN} += "http-multipartparser-perl"
+RDEPENDS:${PN} += "json-maybexs-perl"
+RDEPENDS:${PN} += "stream-buffered-perl"
+RDEPENDS:${PN} += "www-form-urlencoded-perl"
 DEPENDS += "http-message-perl-native"
 DEPENDS += "module-build-tiny-perl-native"
 
