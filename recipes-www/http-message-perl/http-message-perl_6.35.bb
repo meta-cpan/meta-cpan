@@ -9,17 +9,17 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/HTTP-Message"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.26.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.35.tar.gz"
 
-SRC_URI[md5sum] = "3b4b64fff4885429b997390564521db0"
-SRC_URI[sha256sum] = "6ce6c359de75c3bb86696a390189b485ec93e3ffc55326b6d044fa900f1725e1"
-RDEPENDS_${PN} += "encode-locale-perl"
-RDEPENDS_${PN} += "http-date-perl"
-RDEPENDS_${PN} += "io-html-perl"
-RDEPENDS_${PN} += "lwp-mediatypes-perl"
-RDEPENDS_${PN} += "uri-perl"
+SRC_URI[md5sum] = "33110b9295a2e9daae675b4f7d22c08f"
+SRC_URI[sha256sum] = "d77c3a64c2991c58e0694564fea7ed3610ae1790fa9eb32b51972b0a62bc6619"
+RDEPENDS:${PN} += "encode-locale-perl"
+RDEPENDS:${PN} += "http-date-perl"
+RDEPENDS:${PN} += "io-html-perl"
+RDEPENDS:${PN} += "lwp-mediatypes-perl"
+RDEPENDS:${PN} += "uri-perl"
 DEPENDS += "try-tiny-perl-native"
 
 S = "${WORKDIR}/HTTP-Message-${PV}"
