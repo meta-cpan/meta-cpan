@@ -10,20 +10,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Cpanel-JSON-XS"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RU/RURBAN/Cpanel-JSON-XS-4.23.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RU/RURBAN/Cpanel-JSON-XS-4.27.tar.gz"
 
-SRC_URI[md5sum] = "2576a489a136ef165f05738f07e125a7"
-SRC_URI[sha256sum] = "10c4fd4f4575d68ef08eb5912186f2fb23d4c779c1a785c41834c32726dfc8fe"
+SRC_URI[md5sum] = "92d1d9bf10ae344ea8e2224fc2711c28"
+SRC_URI[sha256sum] = "3aca5b346479726c56f197b5c98ff6036eb64590329d0480eb30120eea91044e"
 
 S = "${WORKDIR}/Cpanel-JSON-XS-${PV}"
 
 inherit cpan
-
-do_compile() {
-	export LIBC="$(find ${STAGING_DIR_TARGET}/${base_libdir}/ -name 'libc-*.so')"
-	cpan_do_compile
-}
 
 BBCLASSEXTEND = "native"
