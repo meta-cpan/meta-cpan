@@ -12,22 +12,22 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Devel-MAT"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.43.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Devel-MAT-0.44.tar.gz"
 
-SRC_URI[md5sum] = "05c32c5797e5e07d43e784de84a7c726"
-SRC_URI[sha256sum] = "ffe9f590581782afc1ed529736b059150b6b72bf1dde472c06eda38e24ac7310"
-RDEPENDS_${PN} += "commandable-perl"
-RDEPENDS_${PN} += "devel-mat-dumper-perl"
-RDEPENDS_${PN} += "file-sharedir-perl"
-RDEPENDS_${PN} += "heap-perl"
-RDEPENDS_${PN} += "list-utilsby-perl"
-RDEPENDS_${PN} += "module-pluggable-perl"
-RDEPENDS_${PN} += "string-tagged-perl"
-RDEPENDS_${PN} += "string-tagged-terminal-perl"
-RDEPENDS_${PN} += "struct-dumb-perl"
-RDEPENDS_${PN} += "syntax-keyword-try-perl"
+SRC_URI[md5sum] = "ecf3f79a2c6e95289494a85bbadb80ab"
+SRC_URI[sha256sum] = "602d9282abc031e8990fad9d910dda2241d3017f62323ebd8a12a4b003ee7b20"
+RDEPENDS:${PN} += "commandable-perl"
+RDEPENDS:${PN} += "devel-mat-dumper-perl"
+RDEPENDS:${PN} += "feature-compat-try-perl"
+RDEPENDS:${PN} += "file-sharedir-perl"
+RDEPENDS:${PN} += "heap-perl"
+RDEPENDS:${PN} += "list-utilsby-perl"
+RDEPENDS:${PN} += "module-pluggable-perl"
+RDEPENDS:${PN} += "string-tagged-perl"
+RDEPENDS:${PN} += "string-tagged-terminal-perl"
+RDEPENDS:${PN} += "struct-dumb-perl"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-identity-perl-native"
 
@@ -36,6 +36,11 @@ S = "${WORKDIR}/Devel-MAT-${PV}"
 EXTRA_CPAN_BUILD_FLAGS="--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${LD} ${LDFLAGS}""
 
 inherit cpan_build
+
+do_configure() {
+	export LD="${CCLD} ${LDFLAGS}"
+	cpan_build_do_configure
+}
 
 do_compile() {
 	export LD="${CCLD} ${LDFLAGS}"
