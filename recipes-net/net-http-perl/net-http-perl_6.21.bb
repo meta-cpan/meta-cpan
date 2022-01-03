@@ -11,13 +11,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Net-HTTP"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.21.tar.gz"
 
-SRC_URI[md5sum] = "6cbebcc76099ce822f0aa7764af11f73"
-SRC_URI[sha256sum] = "52b76ec13959522cae64d965f15da3d99dcb445eddd85d2ce4e4f4df385b2fc4"
-RDEPENDS_${PN} += "uri-perl"
+SRC_URI[md5sum] = "dbe27483034a79a7d43f61cc48540641"
+SRC_URI[sha256sum] = "375aa35b76be99f06464089174d66ac76f78ce83a5c92a907bbfab18b099eec4"
+RDEPENDS:${PN} += "uri-perl"
+RRECOMMENDS:${PN} += "io-socket-ssl-perl"
 
 S = "${WORKDIR}/Net-HTTP-${PV}"
 
