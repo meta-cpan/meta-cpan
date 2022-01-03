@@ -8,12 +8,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Net-Server"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RH/RHANDOM/Net-Server-2.009.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RH/RHANDOM/Net-Server-2.010.tar.gz"
 
-SRC_URI[md5sum] = "d45a0700d820b3eebd1e9e14611b1613"
-SRC_URI[sha256sum] = "8267c6560355e2e0f483d3cc16195f342f32fe13cae9dde75a0a1ece5e9a813f"
+SRC_URI[md5sum] = "d97171b4b2f0ebfea1d5fa03207eaaf6"
+SRC_URI[sha256sum] = "95fc380abc32eaef84406ecc4b01612c7215f6375318fdb95901be1babd1a6e1"
 
 S = "${WORKDIR}/Net-Server-${PV}"
 
