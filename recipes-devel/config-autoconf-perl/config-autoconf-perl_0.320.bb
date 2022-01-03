@@ -10,15 +10,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Config-AutoConf"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/Config-AutoConf-0.320.tar.gz"
 
-SRC_URI[md5sum] = "0bea721ad3996e20324b84b3b924ec71"
-SRC_URI[sha256sum] = "33c930feec3003de251ca222abe8bbeb74610ad07f65fc16f27d74d195eeab34"
-RDEPENDS_${PN} += "capture-tiny-perl"
-RRECOMMENDS_${PN} += "extutils-cbuilder-perl"
-RRECOMMENDS_${PN} += "file-slurper-perl"
+SRC_URI[md5sum] = "71664b2864232e265179ac29298e0916"
+SRC_URI[sha256sum] = "bb57a958ef49d3f7162276dae14a7bd5af43fd1d8513231af35d665459454023"
+RDEPENDS:${PN} += "capture-tiny-perl"
+RRECOMMENDS:${PN} += "extutils-cbuilder-perl"
+RRECOMMENDS:${PN} += "file-slurper-perl"
 
 S = "${WORKDIR}/Config-AutoConf-${PV}"
 
