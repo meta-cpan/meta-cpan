@@ -10,14 +10,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Getopt-Long-Descriptive"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.110.tar.gz"
 
-SRC_URI[md5sum] = "847733c6c23f168f679a735818c79bfa"
-SRC_URI[sha256sum] = "a71cdbcf4043588b26a42a13d151c243f6eccf38e8fc0b18ffb5b53651ab8c15"
-RDEPENDS_${PN} += "params-validate-perl"
-RDEPENDS_${PN} += "sub-exporter-perl"
+SRC_URI[md5sum] = "2eee85dd6f78671e101e10800c309cc7"
+SRC_URI[sha256sum] = "025402c0494a5c878038f0666f41ca1230ed0d689467df9211382ff3a355be86"
+RDEPENDS:${PN} += "params-validate-perl"
+RDEPENDS:${PN} += "sub-exporter-perl"
 DEPENDS += "cpan-meta-check-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
