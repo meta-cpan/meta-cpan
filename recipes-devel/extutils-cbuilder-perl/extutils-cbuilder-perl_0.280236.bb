@@ -13,12 +13,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/ExtUtils-CBuilder"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-CBuilder-0.280234.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-CBuilder-0.280236.tar.gz"
 
-SRC_URI[md5sum] = "3f2f188c6e15d3a531df0b5c3be86309"
-SRC_URI[sha256sum] = "d80095ea1f28b4908cbedacead63f61f762472bba898281449dad782deecf1c3"
+SRC_URI[md5sum] = "a4c9654c7344bbec02ced59a6b6027bb"
+SRC_URI[sha256sum] = "abc21827eb8a513171bf7fdecefce9945132cb76db945036518291f607b1491f"
 
 S = "${WORKDIR}/ExtUtils-CBuilder-${PV}"
 
