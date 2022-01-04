@@ -9,13 +9,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/ExtUtils-CppGuess"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETJ/ExtUtils-CppGuess-0.21.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETJ/ExtUtils-CppGuess-0.23.tar.gz"
 
-SRC_URI[md5sum] = "62bdf731bcbe988d07486836e11585f7"
-SRC_URI[sha256sum] = "ff629178321a1e591b83f809712593eae4408a413aa448654bce59b156f24153"
-RDEPENDS_${PN} += "capture-tiny-perl"
+SRC_URI[md5sum] = "41d512881235b2bbce98e5f7b6019df4"
+SRC_URI[sha256sum] = "f96c48984eb6d8efb7d933b34f361d0c8b38335e3e5382e9aeccc0aa519a002c"
+RDEPENDS:${PN} += "capture-tiny-perl"
 DEPENDS += "module-build-perl-native"
 
 S = "${WORKDIR}/ExtUtils-CppGuess-${PV}"
