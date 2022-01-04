@@ -9,12 +9,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/experimental"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/experimental-0.022.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/experimental-0.025.tar.gz"
 
-SRC_URI[md5sum] = "be8915ee924e85ad087ab11911a5b235"
-SRC_URI[sha256sum] = "7a2277606b4b16f08af167f98310459315c2bac0b3da89d3e81dc23c9a2c6fb4"
+SRC_URI[md5sum] = "e0c74e5c2bc651158e349effcaf89f0e"
+SRC_URI[sha256sum] = "d886deeadd2bea6ed2a0d9c127d9a36da817a4e4d5a6ecd04a6b12b234d0664e"
 
 S = "${WORKDIR}/experimental-${PV}"
 
