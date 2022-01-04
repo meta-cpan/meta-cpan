@@ -10,15 +10,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Devel-OverloadInfo"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-0.005.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-0.007.tar.gz"
 
-SRC_URI[md5sum] = "607b65dfe9fdb47df780f3b22dcb7917"
-SRC_URI[sha256sum] = "8bfde2ffa47c9946f8adc8cfc445c2f97b8d1cdd678111bee9f444e82f7aa6e7"
-RDEPENDS_${PN} += "mro-compat-perl"
-RDEPENDS_${PN} += "package-stash-perl"
-RDEPENDS_${PN} += "sub-identify-perl"
+SRC_URI[md5sum] = "3dfb74ac00c25bcd8581e402fa414e19"
+SRC_URI[sha256sum] = "21a184163b90f91f06ffc7f5de0b968356546ae9b400a9d75c573c958c246222"
+RDEPENDS:${PN} += "mro-compat-perl"
+RDEPENDS:${PN} += "package-stash-perl"
 DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Devel-OverloadInfo-${PV}"
