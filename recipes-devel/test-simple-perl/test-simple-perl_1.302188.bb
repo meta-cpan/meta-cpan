@@ -8,12 +8,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-Simple"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302181.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302188.tar.gz"
 
-SRC_URI[md5sum] = "658f1acf5483b3a6b8e7a04ddfc38570"
-SRC_URI[sha256sum] = "9711ab05d6ea457df5a1baa6879fc9e1df15b23dfc62c15262a7eb297e6e69ab"
+SRC_URI[md5sum] = "7d85adce7995c3b390c1d0685057b407"
+SRC_URI[sha256sum] = "0b7a0e304ca24d657d79b73c9ff3f381dc460f356e4044de326ed03ddab16c95"
 
 S = "${WORKDIR}/Test-Simple-${PV}"
 
