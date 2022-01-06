@@ -13,12 +13,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Date-Manip"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/S/SB/SBECK/Date-Manip-6.82.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/S/SB/SBECK/Date-Manip-6.86.tar.gz"
 
-SRC_URI[md5sum] = "13c7600ff8a33d585b753874df85e4ea"
-SRC_URI[sha256sum] = "fa96bcf94c6b4b7d3333f073f5d0faad59f546e5aec13ac01718f2e6ef14672a"
+SRC_URI[md5sum] = "77123a4cc874f72d7188f859626bdd84"
+SRC_URI[sha256sum] = "b5203782d03c79aa5822cf33d1828aaa3b4db93a275d4a428c89f56f4713361f"
 DEPENDS += "test-inter-perl-native"
 
 S = "${WORKDIR}/Date-Manip-${PV}"
