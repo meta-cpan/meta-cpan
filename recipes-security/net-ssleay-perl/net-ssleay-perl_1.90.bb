@@ -1,5 +1,5 @@
-DESCRIPTION = "Net::SSLeay module contains perl bindings to openssl \
-(<http://www.openssl.org>) library."
+DESCRIPTION = "This module provides Perl bindings for libssl (an SSL/TLS API) and \
+libcrypto (a cryptography API)."
 
 SECTION = "libs"
 LICENSE = "Artistic-2.0"
@@ -10,12 +10,12 @@ HOMEPAGE=	"https://metacpan.org/release/Net-SSLeay"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz \
-	   file://no-exec-on-configure.patch \
+SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.90.tar.gz \
+	   file://0001-Makefile.PL-avoid-execution-of-openssl.patch \
 "
 
-SRC_URI[md5sum] = "fcef4985f5f7e0381e3dddd0ee7878d1"
-SRC_URI[sha256sum] = "2000da483c8471a0b61e06959e92a6fca7b9e40586d5c828de977d3d2081cfdd"
+SRC_URI[md5sum] = "00f57f3feb02e4fb7d282f9d6ae2beb2"
+SRC_URI[sha256sum] = "f8696cfaca98234679efeedc288a9398fcf77176f1f515dbc589ada7c650dc93"
 DEPENDS = "zlib openssl"
 
 S = "${WORKDIR}/Net-SSLeay-${PV}"
