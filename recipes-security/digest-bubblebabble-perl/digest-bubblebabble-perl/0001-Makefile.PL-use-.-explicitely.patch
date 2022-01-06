@@ -1,0 +1,31 @@
+From d21c5c8df6637842afc3f4e5a0b27cf604b8a3c0 Mon Sep 17 00:00:00 2001
+From: Jens Rehsack <sno@netbsd.org>
+Date: Thu, 6 Jan 2022 18:57:50 +0100
+Subject: [PATCH] Makefile.PL: use "." explicitely
+
+Fix behavior of old module with modern Perl without '.' in @INC.
+
+Signed-off-by: Jens Rehsack <sno@netbsd.org>
+---
+ Makefile.PL | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/Makefile.PL b/Makefile.PL
+index af538b6..c64e1d2 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -1,3 +1,4 @@
++use lib ".";
+ use inc::Module::Install;
+ name 'Digest-BubbleBabble';
+ all_from 'lib/Digest/BubbleBabble.pm';
+@@ -9,4 +10,4 @@ use_test_base;
+ auto_include_deps;
+ author_tests('xt');
+ auto_set_repository;
+-WriteAll;
+\ No newline at end of file
++WriteAll;
+-- 
+2.34.1
+
