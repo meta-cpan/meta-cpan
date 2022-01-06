@@ -14,12 +14,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Socket"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.030.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.032.tar.gz"
 
-SRC_URI[md5sum] = "991eff5f62f94273e5dcd8a0dc3173bb"
-SRC_URI[sha256sum] = "2573571d0db6ab98b5472a371c4acb24fe53d890f920e43aab49a0eeabe6da67"
+SRC_URI[md5sum] = "bf3d0e13ff6775e0058b8f5ddaad626a"
+SRC_URI[sha256sum] = "20ecb6ad469f4a13c5c7a891abfa12a3cecfdeccc7140ad57b05be12815dd517"
 
 S = "${WORKDIR}/Socket-${PV}"
 
