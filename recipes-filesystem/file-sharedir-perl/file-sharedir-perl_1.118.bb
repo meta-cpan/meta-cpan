@@ -11,15 +11,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/File-ShareDir"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.116.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.118.tar.gz"
 
-SRC_URI[md5sum] = "f2a0eee9f04c93753dd56437175e5bda"
-SRC_URI[sha256sum] = "59d90bfdf98c4656ff4173e62954ea8cf0de66565e35d108ecd7050596cb8328"
-RDEPENDS_${PN} += "class-inspector-perl"
-RRECOMMENDS_${PN} += "list-moreutils-perl"
-RRECOMMENDS_${PN} += "params-util-perl"
+SRC_URI[md5sum] = "0084f730f4e3d4d89703d92b3ea82f54"
+SRC_URI[sha256sum] = "3bb2a20ba35df958dc0a4f2306fc05d903d8b8c4de3c8beefce17739d281c958"
+RDEPENDS:${PN} += "class-inspector-perl"
+RRECOMMENDS:${PN} += "list-moreutils-perl"
+RRECOMMENDS:${PN} += "params-util-perl"
 DEPENDS += "file-sharedir-install-perl-native"
 RECOMMENDS += "inc-latest-perl-native"
 
