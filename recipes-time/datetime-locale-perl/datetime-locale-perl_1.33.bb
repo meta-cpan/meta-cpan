@@ -10,18 +10,17 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/DateTime-Locale"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.28.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.33.tar.gz"
 
-SRC_URI[md5sum] = "6ae492b6efc110d15dd43af8862126ae"
-SRC_URI[sha256sum] = "6c604d8c5c9c2739b78e0538a402283b82b1df419e60bef20b04843e4584bade"
-RDEPENDS_${PN} += "file-sharedir-perl"
-RDEPENDS_${PN} += "namespace-autoclean-perl"
-RDEPENDS_${PN} += "params-validationcompiler-perl"
-RDEPENDS_${PN} += "specio-perl"
-RDEPENDS_${PN} += "scalar-list-utils-perl"
-RDEPENDS_${PN}-dev += "dist-checkconflicts-perl"
+SRC_URI[md5sum] = "514dd9212d56577592ffd8d3119bee02"
+SRC_URI[sha256sum] = "52bfefad9ff39c4d8fd1f5e78642e38b8dcd33363f337d8e89bf19e6ad185cb9"
+RDEPENDS:${PN} += "dist-checkconflicts-perl"
+RDEPENDS:${PN} += "file-sharedir-perl"
+RDEPENDS:${PN} += "namespace-autoclean-perl"
+RDEPENDS:${PN} += "params-validationcompiler-perl"
+RDEPENDS:${PN} += "specio-perl"
 DEPENDS += "cpan-meta-check-perl-native"
 DEPENDS += "file-sharedir-install-perl-native"
 DEPENDS += "ipc-system-simple-perl-native"
@@ -35,5 +34,3 @@ S = "${WORKDIR}/DateTime-Locale-${PV}"
 inherit cpan allarch
 
 BBCLASSEXTEND = "native"
-
-FILES_${PN}-dev += "${PERLLIBDIRS}/vendor_perl/${PERLVERSION}/DateTime/Locale/Conflicts.pm"
