@@ -10,13 +10,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/File-HomeDir"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-HomeDir-1.004.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-HomeDir-1.006.tar.gz"
 
-SRC_URI[md5sum] = "2db6a961960baec790a896b99b46395d"
-SRC_URI[sha256sum] = "45f67e2bb5e60a7970d080e8f02079732e5a8dfc0c7c3cbdb29abfb3f9f791ad"
-RDEPENDS_${PN} += "file-which-perl"
+SRC_URI[md5sum] = "3a59f74d227fdf97b2af908a2d4fee05"
+SRC_URI[sha256sum] = "593737c62df0f6dab5d4122e0b4476417945bb6262c33eedc009665ef1548852"
+RDEPENDS:${PN} += "file-which-perl"
 
 S = "${WORKDIR}/File-HomeDir-${PV}"
 
