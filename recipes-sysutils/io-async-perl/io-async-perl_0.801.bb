@@ -13,14 +13,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/IO-Async"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.77.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-0.801.tar.gz"
 
-SRC_URI[md5sum] = "277006c5047aa684a1c2884723df9db9"
-SRC_URI[sha256sum] = "31dfe86a5b49c7544c536c3425b702e3ddf440763402984ae99b77a197757994"
-RDEPENDS_${PN} += "future-perl"
-RDEPENDS_${PN} += "struct-dumb-perl"
+SRC_URI[md5sum] = "f2b4e83922d2b96b70aaac9229d6690a"
+SRC_URI[sha256sum] = "89e459ba17b76a572bb1b4bb120301541e8cc93242417166236b6c6db0e1c9b9"
+RDEPENDS:${PN} += "future-perl"
+RDEPENDS:${PN} += "struct-dumb-perl"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-identity-perl-native"
