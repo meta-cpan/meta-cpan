@@ -10,18 +10,18 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/DateTime-TimeZone"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.39.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.51.tar.gz"
 
-SRC_URI[md5sum] = "ad84a62ee01dec5efa9af00b596ffc1d"
-SRC_URI[sha256sum] = "65a49083bf465b42c6a65df575efaceb87b5ba5a997d4e91e6ddba57190c8fca"
-RDEPENDS_${PN} += "class-singleton-perl"
-RDEPENDS_${PN} += "module-runtime-perl"
-RDEPENDS_${PN} += "namespace-autoclean-perl"
-RDEPENDS_${PN} += "params-validationcompiler-perl"
-RDEPENDS_${PN} += "specio-perl"
-RDEPENDS_${PN} += "try-tiny-perl"
+SRC_URI[md5sum] = "08ab4f384cf84e31481844608e40916b"
+SRC_URI[sha256sum] = "e376b0fa34a31978a407e7bca4f8cf89fe86103e18d67c6f6f6ce72a5f1e6c6a"
+RDEPENDS:${PN} += "class-singleton-perl"
+RDEPENDS:${PN} += "module-runtime-perl"
+RDEPENDS:${PN} += "namespace-autoclean-perl"
+RDEPENDS:${PN} += "params-validationcompiler-perl"
+RDEPENDS:${PN} += "specio-perl"
+RDEPENDS:${PN} += "try-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
