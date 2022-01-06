@@ -8,12 +8,12 @@ PR = "r0"
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Crypt-Rijndael"
 
-LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/LGPL-3.0;md5=bfccfe952269fff2b407dd11f2f3083b"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/LGPL-3.0-only;md5=bfccfe952269fff2b407dd11f2f3083b"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.14.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.16.tar.gz"
 
-SRC_URI[md5sum] = "6f0f9d96c97a226bfb73dbc2e4c2d5e1"
-SRC_URI[sha256sum] = "6451c3dffe8703523be2bb08d1adca97e77df2a8a4dd46944d18a99330b7850e"
+SRC_URI[md5sum] = "7dccb639178148d6113cf1fc83b02886"
+SRC_URI[sha256sum] = "6540085e3804b82a6f0752c1122cf78cadd221990136dd6fd4c097d056c84d40"
 
 S = "${WORKDIR}/Crypt-Rijndael-${PV}"
 
