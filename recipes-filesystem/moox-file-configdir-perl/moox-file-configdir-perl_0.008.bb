@@ -11,14 +11,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/MooX-File-ConfigDir"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-File-ConfigDir-0.007.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-File-ConfigDir-0.008.tar.gz"
 
-SRC_URI[md5sum] = "0b1adc9390fbf51611e0fa853827f919"
-SRC_URI[sha256sum] = "1fea3a132d4c19902d4326e948d8a0e1acfc01d28861608387adadcc41099b1c"
-RDEPENDS_${PN} += "file-configdir-perl"
-RDEPENDS_${PN} += "moo-perl"
+SRC_URI[md5sum] = "7b1ed222a93e29b6ea83981c0fdc7d61"
+SRC_URI[sha256sum] = "f8d41145e8f865c85b4b0823f194cdf3ae228bbec7dcf828432dcd2f6d1c03ac"
+RDEPENDS:${PN} += "file-configdir-perl"
+RDEPENDS:${PN} += "moo-perl"
 
 S = "${WORKDIR}/MooX-File-ConfigDir-${PV}"
 
