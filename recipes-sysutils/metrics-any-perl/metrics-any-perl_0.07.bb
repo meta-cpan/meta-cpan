@@ -10,12 +10,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Metrics-Any"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.06.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.07.tar.gz"
 
-SRC_URI[md5sum] = "8e2b45a33c8d5b6c65ce854fce374180"
-SRC_URI[sha256sum] = "9c529df8e8a277bb158d6241c73bd1a7ea08aeae9e1edbb5583a1a0748fb9837"
+SRC_URI[md5sum] = "99ab22e40b7a9b13cf371521e93ed45d"
+SRC_URI[sha256sum] = "537ff8c75ddae3accd0be26bd5da01712c4db72d81a6617d934b162e75f63b42"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
