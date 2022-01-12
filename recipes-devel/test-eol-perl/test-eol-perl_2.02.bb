@@ -9,12 +9,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-EOL"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-EOL-2.00.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-EOL-2.02.tar.gz"
 
-SRC_URI[md5sum] = "4278fac962b1015b7c92d8d55dc3f929"
-SRC_URI[sha256sum] = "8e7f7e5d07d3be0f1d7d51bcda8af0962767eb2897fd48994df274c0f5ed6b50"
+SRC_URI[md5sum] = "5d22a042cc7dc92711fd4af833893826"
+SRC_URI[sha256sum] = "283199d7fb27807fe2226af7b12571c6dc2508d8e5c0feb505d089d31720afc4"
 
 S = "${WORKDIR}/Test-EOL-${PV}"
 
