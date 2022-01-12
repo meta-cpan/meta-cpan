@@ -12,14 +12,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Type-Tie"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tie-0.014.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tie-0.015.tar.gz"
 
-SRC_URI[md5sum] = "f3d8639c6cf5a2debda203f9c86455fb"
-SRC_URI[sha256sum] = "b5359514b8ee82d3ee07f65eb22dfe27ad4b2296161294264d65b53c561f22e6"
-RDEPENDS_${PN} += "exporter-tiny-perl"
-RRECOMMENDS_${PN} += "hash-fieldhash-perl"
+SRC_URI[md5sum] = "3b256ada69018146efe0e86065f3b847"
+SRC_URI[sha256sum] = "4e5a3f6737efd59b4e395af2f95d02e564fc57aa723e32a13eb2a1788d6d5434"
+RDEPENDS:${PN} += "exporter-tiny-perl"
+RRECOMMENDS:${PN} += "hash-fieldhash-perl"
 
 S = "${WORKDIR}/Type-Tie-${PV}"
 
