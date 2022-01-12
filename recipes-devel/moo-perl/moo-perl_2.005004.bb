@@ -11,19 +11,16 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Moo"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.004000.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.005004.tar.gz"
 
-SRC_URI[md5sum] = "e542104553d616b15631b5c66ccee904"
-SRC_URI[sha256sum] = "323240d000394cf38ec42e865b05cb8928f625c82c9391cd2cdc72b33c51b834"
-RDEPENDS_${PN} += "class-method-modifiers-perl"
-RDEPENDS_${PN} += "module-runtime-perl"
-RDEPENDS_${PN} += "role-tiny-perl"
-RDEPENDS_${PN} += "sub-quote-perl"
-RRECOMMENDS_${PN} += "class-xsaccessor-perl"
-RRECOMMENDS_${PN} += "strictures-perl"
-RRECOMMENDS_${PN} += "sub-name-perl"
+SRC_URI[md5sum] = "49ecf491b49b9b200e8a5dfd1a42b480"
+SRC_URI[sha256sum] = "e3030b80bd554a66f6b3c27fd53b1b5909d12af05c4c11ece9a58f8d1e478928"
+RDEPENDS:${PN} += "class-method-modifiers-perl"
+RDEPENDS:${PN} += "role-tiny-perl"
+RDEPENDS:${PN} += "sub-quote-perl"
+RRECOMMENDS:${PN} += "class-xsaccessor-perl"
 DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Moo-${PV}"
