@@ -11,12 +11,12 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Type-Tiny-XS"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.021.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.022.tar.gz"
 
-SRC_URI[md5sum] = "28d17ede97972a033d8954b70f82a6f9"
-SRC_URI[sha256sum] = "f7a9e216d1496744def402aa326620e13e73ad1ee7109cfbaeaac363d8eaf5df"
+SRC_URI[md5sum] = "90cf4f630e6526da9206e9ad12602022"
+SRC_URI[sha256sum] = "bcc34a31f7dc1d30cc803889b5c8f90e4773b73b5becbdb3860f5abe7e22ff00"
 
 S = "${WORKDIR}/Type-Tiny-XS-${PV}"
 
