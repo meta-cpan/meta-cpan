@@ -10,17 +10,18 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Package-Stash"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.38.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.39.tar.gz"
 
-SRC_URI[md5sum] = "dc2d802eea2cb0b52ed9c4dd178761dd"
-SRC_URI[sha256sum] = "c58ee8844df2dda38e3bf66fdf443439aaefaef1a33940edf2055f0afd223a7f"
-RDEPENDS_${PN} += "dist-checkconflicts-perl"
-RDEPENDS_${PN} += "module-implementation-perl"
-RRECOMMENDS_${PN} += "package-stash-xs-perl"
+SRC_URI[md5sum] = "287d80c9115c9230912aca684f8ca92e"
+SRC_URI[sha256sum] = "9165f555112e080493ce0e9129de0886da30b2593fb353a2abd1c76b2d2621b5"
+RDEPENDS:${PN} += "dist-checkconflicts-perl"
+RDEPENDS:${PN} += "module-implementation-perl"
+RRECOMMENDS:${PN} += "package-stash-xs-perl"
+DEPENDS += "cpan-meta-check-perl-native"
+DEPENDS += "test-needs-perl-native"
 DEPENDS += "test-fatal-perl-native"
-DEPENDS += "test-requires-perl-native"
 
 S = "${WORKDIR}/Package-Stash-${PV}"
 
