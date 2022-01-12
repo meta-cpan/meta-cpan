@@ -12,14 +12,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Return-MultiLevel"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Return-MultiLevel-0.05.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Return-MultiLevel-0.08.tar.gz"
 
-SRC_URI[md5sum] = "0364afe664e8997ffb2163d565b2d915"
-SRC_URI[sha256sum] = "ff076fbaba653c09953ac53959fe6c64fb52a33db3b5d223a015ab75ac3ed91d"
-RDEPENDS_${PN} += "data-munge-perl"
-RRECOMMENDS_${PN} += "scope-upper-perl"
+SRC_URI[md5sum] = "8633c5f19a261b68e4eaed622da6d770"
+SRC_URI[sha256sum] = "51b1aef30c5c4009f640267a08589212e87dcd101800f0d20f9c635c9ffe88a1"
+RRECOMMENDS:${PN} += "scope-upper-perl"
 DEPENDS += "test-fatal-perl-native"
 
 S = "${WORKDIR}/Return-MultiLevel-${PV}"
