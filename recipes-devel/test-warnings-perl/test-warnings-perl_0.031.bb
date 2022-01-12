@@ -14,15 +14,15 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-Warnings"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.030.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.031.tar.gz"
 
-SRC_URI[md5sum] = "d30550a4898499daf351f9cf31602121"
-SRC_URI[sha256sum] = "89a4947ddf1564ae01122275584433d7f6c4370370bcf3768922d796956ae24f"
+SRC_URI[md5sum] = "f608f7011b0bb8f27d3a27e646a52f60"
+SRC_URI[sha256sum] = "1e542909fef305e45563e9878ea1c3b0c7cef1b28bb7ae07eba2e1efabec477b"
 
 S = "${WORKDIR}/Test-Warnings-${PV}"
 
 inherit cpan allarch
 
-BBCLASSEXTEND = "native nativesdk"
+BBCLASSEXTEND = "native"
