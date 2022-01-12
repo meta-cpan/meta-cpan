@@ -11,14 +11,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Log-Dispatch-FileRotate"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSCHOUT/Log-Dispatch-FileRotate-1.36.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSCHOUT/Log-Dispatch-FileRotate-1.38.tar.gz"
 
-SRC_URI[md5sum] = "d145b9af340d37cb2bb77c3766358573"
-SRC_URI[sha256sum] = "472cb10b0fac6bbd67298bc28f1495859ad85b2df9e88c4a1f7eba734f88956e"
-RDEPENDS_${PN} += "date-manip-perl"
-RDEPENDS_${PN} += "log-dispatch-perl"
+SRC_URI[md5sum] = "eed7814b9d291d5f7267d578e099c102"
+SRC_URI[sha256sum] = "b55d6cede3f0a06426488fbfa554f4561320b014c1023893ced29508e5bce4ec"
+RDEPENDS:${PN} += "date-manip-perl"
+RDEPENDS:${PN} += "log-dispatch-perl"
 DEPENDS += "path-tiny-perl-native"
 DEPENDS += "test-warn-perl-native"
 
