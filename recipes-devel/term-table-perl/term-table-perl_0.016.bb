@@ -9,16 +9,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Term-Table"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.015.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.016.tar.gz"
 
-SRC_URI[md5sum] = "f23274aec9bc43fe46135d37ae1b5927"
-SRC_URI[sha256sum] = "d8a18b2801f91f0e5d747147ce786964a76f91d18568652908a3dc06a9b948d5"
-DEPENDS += "test-simple-perl-native"
-RDEPENDS_${PN} += "importer-perl"
-RRECOMMENDS_${PN} += "scalar-list-utils-perl"
-RRECOMMENDS_${PN} += "unicode-linebreak-perl"
+SRC_URI[md5sum] = "ef0c76824c57eaa7796558060067bb49"
+SRC_URI[sha256sum] = "8fb4fbb8e96a2d6c514949eb8cfd7e66319bcb1cbf7cea0ab19af887a72d97bf"
+RDEPENDS:${PN} += "importer-perl"
+RRECOMMENDS:${PN} += "unicode-linebreak-perl"
 
 S = "${WORKDIR}/Term-Table-${PV}"
 
