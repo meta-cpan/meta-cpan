@@ -5,24 +5,24 @@ script that checks two text documents and then two (trivial) data \
 structures:"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artisticv1 | GPLv1"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-Differences"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-only;md5=e9e36a9de734199567a4d769498f743d"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.68.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.69.tar.gz"
 
-SRC_URI[md5sum] = "e1de5ef0f13fa4c815d8f2574820d661"
-SRC_URI[sha256sum] = "e68547206cb099a2594165ca0adc99fc12adb97c7f02a1222f62961fd775e270"
-RDEPENDS_${PN} += "capture-tiny-perl"
-RDEPENDS_${PN} += "text-diff-perl"
+SRC_URI[md5sum] = "53aa66b927e7ffe612118bec05f8343d"
+SRC_URI[sha256sum] = "18f644fdd4a1fef93ef3f7f67df8e95b593d811899f34bcbbaba4d717222f58f"
+RDEPENDS:${PN} += "capture-tiny-perl"
+RDEPENDS:${PN} += "text-diff-perl"
 
 S = "${WORKDIR}/Test-Differences-${PV}"
 
-inherit cpan allarch
+inherit cpan
 
 BBCLASSEXTEND = "native"
