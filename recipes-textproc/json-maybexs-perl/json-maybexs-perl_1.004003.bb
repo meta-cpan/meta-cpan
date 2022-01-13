@@ -11,13 +11,13 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/JSON-MaybeXS"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
-SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/JSON-MaybeXS-1.004002.tar.gz"
+SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/JSON-MaybeXS-1.004003.tar.gz"
 
-SRC_URI[md5sum] = "2c40209b38b7a569b3bfc4d88e47d98c"
-SRC_URI[sha256sum] = "3b8e2fdc3b36d0c5edbc78121840dced63798ad49cabcf875d5c5e32336d77b5"
-RRECOMMENDS_${PN} += "cpanel-json-xs-perl"
+SRC_URI[md5sum] = "e46181e34588428d317932744597a7ab"
+SRC_URI[sha256sum] = "5bee3b17ff9dcffd6e99ab8cf7f35747650bfce1dc622e3ad10b85a194462fbf"
+RRECOMMENDS:${PN} += "cpanel-json-xs-perl"
 DEPENDS += "test-needs-perl-native"
 
 S = "${WORKDIR}/JSON-MaybeXS-${PV}"
