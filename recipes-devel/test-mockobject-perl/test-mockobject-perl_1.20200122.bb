@@ -11,14 +11,14 @@ MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Test-MockObject"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-1.20200122.tar.gz"
 
 SRC_URI[md5sum] = "67a1869d91d2e5d60d8986c13333978a"
 SRC_URI[sha256sum] = "2b7f80da87f5a6fe0360d9ee521051053017442c3a26e85db68dfac9f8307623"
-RDEPENDS_${PN} += "universal-can-perl"
-RDEPENDS_${PN} += "universal-isa-perl"
+RDEPENDS:${PN} += "universal-can-perl"
+RDEPENDS:${PN} += "universal-isa-perl"
 DEPENDS += "test-exception-perl-native"
 DEPENDS += "test-warn-perl-native"
 
