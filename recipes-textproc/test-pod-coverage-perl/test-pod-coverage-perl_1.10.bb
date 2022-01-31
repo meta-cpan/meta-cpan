@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Test-Pod-Coverage-1.1
 
 SRC_URI[md5sum] = "c9ea5f4182415b13d2db18484a38c01b"
 SRC_URI[sha256sum] = "48c9cca9f7d99eee741176445b431adf09c029e1aa57c4703c9f46f7601d40d4"
-RDEPENDS_${PN} += "pod-coverage-perl"
+RDEPENDS:${PN} += "pod-coverage-perl"
 
 S = "${WORKDIR}/Test-Pod-Coverage-${PV}"
 
