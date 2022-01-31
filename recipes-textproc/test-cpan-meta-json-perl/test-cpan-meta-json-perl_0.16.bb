@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/B/BA/BARBIE/Test-CPAN-Meta-JSON-
 
 SRC_URI[md5sum] = "1d6f3ff573e8b8b3daf89f677b7404bf"
 SRC_URI[sha256sum] = "67ac509adffb1d2b256a8f8c0523e00761d960166192c6070298f7088a9ae9c9"
-RDEPENDS_${PN} += "json-perl"
+RDEPENDS:${PN} += "json-perl"
 RECOMMENDS += "test-cpan-meta-perl-native"
 RECOMMENDS += "test-pod-coverage-perl-native"
 RECOMMENDS += "test-pod-perl-native"
