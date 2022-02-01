@@ -17,8 +17,8 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementati
 
 SRC_URI[md5sum] = "52e3fe0ca6b1eff0488d59b7aacc0667"
 SRC_URI[sha256sum] = "c15f1a12f0c2130c9efff3c2e1afe5887b08ccd033bd132186d1e7d5087fd66d"
-RDEPENDS_${PN} += "module-runtime-perl"
-RDEPENDS_${PN} += "try-tiny-perl"
+RDEPENDS:${PN} += "module-runtime-perl"
+RDEPENDS:${PN} += "try-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
