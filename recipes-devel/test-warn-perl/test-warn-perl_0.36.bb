@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/B/BI/BIGJ/Test-Warn-0.36.tar.gz"
 
 SRC_URI[md5sum] = "3d958f43d36db263994affde5da09b51"
 SRC_URI[sha256sum] = "ecbca346d379cef8d3c0e4ac0c8eb3b2613d737ffaaeae52271c38d7bf3c6cda"
-RDEPENDS_${PN} += "sub-uplevel-perl"
+RDEPENDS:${PN} += "sub-uplevel-perl"
 
 S = "${WORKDIR}/Test-Warn-${PV}"
 
