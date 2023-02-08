@@ -6,7 +6,7 @@ working directory. By storing the object in a lexical variable with a \
 limited scope, this happens automatically at the end of the scope."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

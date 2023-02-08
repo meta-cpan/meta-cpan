@@ -2,7 +2,7 @@ DESCRIPTION = "Perl's global destruction is a little tricky to deal with WRT fin
 because it's not ordered and objects can sometimes disappear."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

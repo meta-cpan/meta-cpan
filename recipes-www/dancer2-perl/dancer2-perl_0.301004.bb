@@ -2,7 +2,7 @@ DESCRIPTION = "Dancer2 is the new generation of Dancer, the lightweight web-fram
 Perl. Dancer2 is a complete rewrite based on Moo."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

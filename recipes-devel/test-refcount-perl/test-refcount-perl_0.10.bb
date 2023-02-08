@@ -6,7 +6,7 @@ constructor ought to be 1. This way, the caller can know the object will be \
 properly DESTROYed when it drops all of its references to it."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

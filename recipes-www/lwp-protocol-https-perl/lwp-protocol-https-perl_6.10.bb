@@ -4,7 +4,7 @@ you don't use it directly. Once the module is installed LWP is able to \
 access sites using HTTP over SSL/TLS."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

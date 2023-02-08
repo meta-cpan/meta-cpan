@@ -3,7 +3,7 @@ of your system from the outside. It implements the widely popular \
 (Java-based) Log4j logging package in pure Perl."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

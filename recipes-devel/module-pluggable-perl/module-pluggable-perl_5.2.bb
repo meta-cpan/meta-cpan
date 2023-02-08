@@ -3,7 +3,7 @@ your module. Obviously this isn't going to be the be all and end all of \
 solutions but it works for me."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

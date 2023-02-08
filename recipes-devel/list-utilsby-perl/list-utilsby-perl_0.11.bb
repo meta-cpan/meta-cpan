@@ -7,7 +7,7 @@ string value. The "sort_by" function sorts them according to the string \
 value returned by the extra function, when given each value."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -5,7 +5,7 @@ representation based upon attributes of the negotiable variants and the \
 value of the various Accept* header fields in the request."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

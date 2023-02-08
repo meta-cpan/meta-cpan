@@ -5,7 +5,7 @@ It supports many different archive formats and compression algorithms and \
 is fast."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+ | BSD-3-Clause | BSD-2-Clause"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later | BSD-3-Clause | BSD-2-Clause"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

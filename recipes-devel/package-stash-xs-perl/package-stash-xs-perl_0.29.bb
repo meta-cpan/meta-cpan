@@ -3,7 +3,7 @@ way that's less buggy and much faster. It will be used by default if it's \
 installed, and should be preferred in all environments with a compiler."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

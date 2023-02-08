@@ -3,7 +3,7 @@ application/octet-stream, application/json, \
 application/x-www-form-urlencoded, and multipart/form-data."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

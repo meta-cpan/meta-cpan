@@ -5,7 +5,7 @@ It supports pretty much every platform Perl runs on, including Unix, \
 Windows, Mac, VMS, Epoc, Cygwin, OS/2, and NetWare."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -3,7 +3,7 @@ GetOptions(). It parses the command line from @ARGV, recognizing and \
 removing specified options and their possible values."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

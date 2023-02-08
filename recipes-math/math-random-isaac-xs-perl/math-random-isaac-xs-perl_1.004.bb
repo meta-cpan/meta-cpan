@@ -1,7 +1,7 @@
 DESCRIPTION = "See Math::Random::ISAAC for the full description."
 
 SECTION = "libs"
-LICENSE = "MIT | Artisticv1 | GPLv1+"
+LICENSE = "MIT | Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

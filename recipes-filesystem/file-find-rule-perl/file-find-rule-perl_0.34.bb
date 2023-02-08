@@ -2,7 +2,7 @@ DESCRIPTION = "File::Find::Rule is a friendlier interface to File::Find. It allo
 build rules which specify the desired files and directories."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

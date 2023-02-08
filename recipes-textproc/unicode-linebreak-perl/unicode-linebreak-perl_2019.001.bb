@@ -3,7 +3,7 @@ Standard Annex #14 [UAX #14]. East_Asian_Width informative property defined \
 by Annex #11 [UAX #11] will be concerned to determine breaking positions."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

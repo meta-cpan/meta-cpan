@@ -8,7 +8,7 @@ the instantiation of a single object. In deriving a class from \
 method and can implement whatever specific functionality is required."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

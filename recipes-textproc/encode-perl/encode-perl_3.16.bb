@@ -2,7 +2,7 @@ DESCRIPTION = "The "Encode" module provides the interface between Perl strings a
 rest of the system. Perl strings are sequences of *characters*."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

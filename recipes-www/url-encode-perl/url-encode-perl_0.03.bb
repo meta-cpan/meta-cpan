@@ -2,7 +2,7 @@ DESCRIPTION = "This module provides functions to encode and decode strings into 
 the "application/x-www-form-urlencoded" encoding."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

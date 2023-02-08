@@ -3,7 +3,7 @@ computer tattled on them, but maybe they'll be even more thankful in the \
 long run. Even if not, perlmodstyle tells you to, so you must obey."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

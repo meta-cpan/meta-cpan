@@ -3,7 +3,7 @@ commandline-based programs I have written, in the hope of trying to find a \
 standard base to build these from in future."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

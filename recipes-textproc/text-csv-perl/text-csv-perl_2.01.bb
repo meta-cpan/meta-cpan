@@ -5,7 +5,7 @@ default, and when Text::CSV_XS is not available, falls back on \
 Text::CSV_PP, which is bundled in the same distribution as this module."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

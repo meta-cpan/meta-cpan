@@ -8,7 +8,7 @@ output of the backend hash). The hash is salted, as any password hash \
 should be, and the salt may also be of arbitrary size."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -2,7 +2,7 @@ DESCRIPTION = "This module defines a few generally useful utility functions. I g
 of redefining or working around them, so I wrote this module."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

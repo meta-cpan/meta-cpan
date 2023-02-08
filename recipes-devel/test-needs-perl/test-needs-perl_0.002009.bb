@@ -4,7 +4,7 @@ missing, the test script will be skipped. Modules that are found but fail \
 to compile will exit with an error rather than skip."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

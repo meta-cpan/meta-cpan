@@ -3,7 +3,7 @@ has recently completed. It can be used in a variety of ways to manage the \
 flow of control, and data, through an asynchronous program."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

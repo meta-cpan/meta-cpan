@@ -4,7 +4,7 @@ uses PerlIO and/or temporary file to save the buffer depending on the \
 length of the size."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

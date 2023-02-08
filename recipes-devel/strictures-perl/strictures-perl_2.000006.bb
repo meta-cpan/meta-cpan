@@ -2,7 +2,7 @@ DESCRIPTION = "I've been writing the equivalent of this module at the top of my 
 about a year now. I figured it was time to make it shorter."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

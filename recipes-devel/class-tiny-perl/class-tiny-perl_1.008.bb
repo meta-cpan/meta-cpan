@@ -2,7 +2,7 @@ DESCRIPTION = "This module offers a minimalist class construction kit in around 
 of code. Here is a list of features:"
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

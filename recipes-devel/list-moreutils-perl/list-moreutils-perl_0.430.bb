@@ -2,7 +2,7 @@ DESCRIPTION = "List::MoreUtils provides some trivial but commonly needed functio
 lists which is not going to go into List::Util."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

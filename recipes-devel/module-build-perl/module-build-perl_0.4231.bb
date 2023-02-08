@@ -5,7 +5,7 @@ also does not require a "make" on your system - most of the "Module::Build" \
 code is pure-perl and written in a very cross-platform way."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -3,7 +3,7 @@ a user (typically your user) and to solve the various issues that arise \
 trying to find them consistently across a wide variety of platforms."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

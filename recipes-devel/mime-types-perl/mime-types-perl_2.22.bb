@@ -3,7 +3,7 @@ and HTTP traffic) to indicate the type of content which is transmitted. or \
 expected. See RFC2045 at https://www.ietf.org/rfc/rfc2045.txt"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -2,7 +2,7 @@ DESCRIPTION = "This module implements the Rijndael cipher, which has just been s
 the Advanced Encryption Standard."
 
 SECTION = "libs"
-LICENSE = "LGPL-3.0"
+LICENSE = "LGPL-3.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

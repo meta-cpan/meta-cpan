@@ -5,7 +5,7 @@ script that checks two text documents and then two (trivial) data \
 structures:"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1"
+LICENSE = "Artistic-1.0 | GPL-1.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

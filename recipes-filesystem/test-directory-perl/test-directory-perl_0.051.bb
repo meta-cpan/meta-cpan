@@ -6,7 +6,7 @@ or tested with this API, making it simple to test both individual files, as \
 well as to verify that there are no missing or unknown files."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

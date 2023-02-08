@@ -5,7 +5,7 @@ uses "refaddr", ensuring that it behaves correctly even if the references \
 under test are objects that overload stringification or numification."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

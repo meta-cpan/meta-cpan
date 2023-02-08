@@ -3,7 +3,7 @@ Makefile.PL. It is based on the Makefile.SH model provided by Andy \
 Dougherty and the perl5-porters."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -3,7 +3,7 @@ file locations. It's intended to work in every supported Perl5 environment \
 and will always try to Do The Right Thing(TM)."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

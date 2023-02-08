@@ -5,7 +5,7 @@ faster than many alternatives on CPAN, while helping people do many common \
 things in consistent and less error-prone ways."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

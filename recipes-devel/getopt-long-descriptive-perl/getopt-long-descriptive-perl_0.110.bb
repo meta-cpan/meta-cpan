@@ -3,7 +3,7 @@ Getopt::Long, and gets a lot of its features, but tries to avoid making you \
 think about its huge array of options."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

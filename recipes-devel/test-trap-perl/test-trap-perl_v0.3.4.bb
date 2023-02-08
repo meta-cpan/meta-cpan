@@ -4,7 +4,7 @@ STDOUT, STDERR, warnings, exceptions, would-be exit codes, and return \
 values from boxed blocks of test code."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

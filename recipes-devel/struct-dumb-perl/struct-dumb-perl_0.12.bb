@@ -5,7 +5,7 @@ references with the given field values. These references all respond to \
 lvalue methods that access or modify the values stored."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

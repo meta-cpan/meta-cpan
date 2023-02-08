@@ -3,7 +3,7 @@ streams conforming to MultiPart types as defined in RFC 2616 \
 <http://tools.ietf.org/html/rfc2616#section-3.7.2>."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

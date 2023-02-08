@@ -3,7 +3,7 @@ But this module will not affected by the system locale. This feature is \
 useful when you want to write loggers, servers and portable applications."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

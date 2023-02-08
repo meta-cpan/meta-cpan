@@ -2,7 +2,7 @@ DESCRIPTION = "This module provides a Perl interface that allows writing lzma co
 data to files or buffer."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

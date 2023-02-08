@@ -7,7 +7,7 @@ parent hashes are merged. Please note that self-referencing hashes, or \
 recursive references, are not handled well by this method."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

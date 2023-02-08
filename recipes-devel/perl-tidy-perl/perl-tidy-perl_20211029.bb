@@ -4,7 +4,7 @@ case the @ARGV array will be used to provide input parameters as described \
 in the perltidy(1) man page."
 
 SECTION = "libs"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

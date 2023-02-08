@@ -2,7 +2,7 @@ DESCRIPTION = "This test module helps write unit tests which assert that the cod
 test reports metrics via Metrics::Any."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

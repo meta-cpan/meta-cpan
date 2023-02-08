@@ -2,7 +2,7 @@ DESCRIPTION = "This is a base class for some mathematical paths which map an int
 position $n to and from coordinates "$x,$y" in the 2D plane."
 
 SECTION = "libs"
-LICENSE = "GPLv3"
+LICENSE = "GPL-3.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

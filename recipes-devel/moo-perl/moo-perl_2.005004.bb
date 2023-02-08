@@ -4,7 +4,7 @@ the details of Perl's object system. "Moo" contains a subset of Moose and \
 is optimised for rapid startup."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

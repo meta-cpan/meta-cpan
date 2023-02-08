@@ -2,7 +2,7 @@ DESCRIPTION = "This documents the internals of the Type::Tiny class. Type::Tiny:
 a better starting place if you're new."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

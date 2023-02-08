@@ -2,7 +2,7 @@ DESCRIPTION = "This module implements a minimalist HTTP user agent cookie jar in
 conformance with RFC 6265 <http://tools.ietf.org/html/rfc6265>."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

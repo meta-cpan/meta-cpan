@@ -4,7 +4,7 @@ block labeled with the "try" keyword, followed by at least one of a "catch" \
 or "finally" block.'
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

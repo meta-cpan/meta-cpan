@@ -2,7 +2,7 @@ DESCRIPTION = "Template::Tiny is a reimplementation of a subset of the functiona
 Template Toolkit in as few lines of code as possible."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

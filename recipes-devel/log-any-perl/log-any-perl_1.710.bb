@@ -4,7 +4,7 @@ consumption, whether screen, file or another logging mechanism like \
 Log::Dispatch or Log::Log4perl."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

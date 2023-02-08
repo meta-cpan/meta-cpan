@@ -4,7 +4,7 @@ List::MoreUtils, it technically depend on "List::MoreUtils". Since it's \
 only a backend, the API is not public and can change without any warning."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -2,7 +2,7 @@ DESCRIPTION = "This module scans your project/distribution for any perl files (s
 modules, etc) for the presence of windows line endings."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

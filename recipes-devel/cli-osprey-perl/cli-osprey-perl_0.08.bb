@@ -8,7 +8,7 @@ have sub-commands (like "git"). Sub-commands can be defined as modules \
 (with options of their own) or as simple coderefs."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

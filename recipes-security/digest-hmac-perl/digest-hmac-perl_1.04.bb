@@ -3,7 +3,7 @@ secret key, and works in combination with some other Digest algorithm, \
 usually MD5 or SHA-1. The HMAC mechanism is described in RFC 2104."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -2,7 +2,7 @@ DESCRIPTION = "The YAML.pm module implements a YAML Loader and Dumper based on t
 1.0 specification. <http://www.yaml.org/spec/>"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

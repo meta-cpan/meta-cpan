@@ -4,7 +4,7 @@ byte based. Programs therefore need to decode byte strings that enter the \
 program from the outside and encode them again on the way out."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

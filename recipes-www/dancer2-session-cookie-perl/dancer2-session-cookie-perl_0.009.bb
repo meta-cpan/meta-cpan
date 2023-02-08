@@ -2,7 +2,7 @@ DESCRIPTION = "This module implements a session factory for Dancer 2 that stores
 state within a browser cookie. Features include:"
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

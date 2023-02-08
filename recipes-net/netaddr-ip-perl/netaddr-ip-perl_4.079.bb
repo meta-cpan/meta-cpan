@@ -4,7 +4,7 @@ NetAddr::IP will work with older versions of Perl and is compatible with \
 Math::BigInt."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv2+"
+LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

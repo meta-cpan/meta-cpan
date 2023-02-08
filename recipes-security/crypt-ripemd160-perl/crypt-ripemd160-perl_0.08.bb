@@ -2,7 +2,7 @@ DESCRIPTION = "The Crypt::RIPEMD160 module allows you to use the RIPEMD160 Messa
 algorithm from within Perl programs."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -5,7 +5,7 @@ the operating system, CPU, memory usage, network interfaces, hard-disks \
 etc."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+ | LGPLv2.1"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later | LGPL-2.1-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

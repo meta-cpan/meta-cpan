@@ -4,7 +4,7 @@ namespace::clean and are therefore available to be called as methods, which \
 usually isn't want you want."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

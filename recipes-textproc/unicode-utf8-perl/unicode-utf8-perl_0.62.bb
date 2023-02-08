@@ -2,7 +2,7 @@ DESCRIPTION = "This module provides functions to encode and decode UTF-8 encodin
 specified by Unicode and ISO/IEC 10646:2011."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

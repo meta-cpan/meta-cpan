@@ -2,7 +2,7 @@ DESCRIPTION = ""Clone::Choose" checks several different modules which provides a
 function and selects an appropriate one. The default preference is"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

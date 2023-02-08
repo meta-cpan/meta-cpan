@@ -3,7 +3,7 @@ role doesn't need to know or care about the details of log configuration, \
 implementation or destination."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -4,7 +4,7 @@ perl extension is treated like a shared library that provides also a C and \
 an XS interface besides the perl one."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

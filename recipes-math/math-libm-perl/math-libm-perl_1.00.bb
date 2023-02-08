@@ -2,7 +2,7 @@ DESCRIPTION = "This module is a translation of the C math.h file. It exports the
 following selected constants and functions."
 
 SECTION = "libs"
-LICENSE = "Artistic-1.0 | GPL-2.0"
+LICENSE = "Artistic-1.0 | GPL-2.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

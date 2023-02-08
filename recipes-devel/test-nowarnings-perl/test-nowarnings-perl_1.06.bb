@@ -6,7 +6,7 @@ of where, when and what the warning was, including a stack trace of what \
 was going on when the it occurred."
 
 SECTION = "libs"
-LICENSE = "LGPLv2.1"
+LICENSE = "LGPL-2.1-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

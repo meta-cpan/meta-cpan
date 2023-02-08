@@ -3,7 +3,7 @@ Mersenne Twister (see Math::Random::MT), this algorithm is designed to take \
 some seed information and produce seemingly random results as output."
 
 SECTION = "libs"
-LICENSE = "PD | MIT-X | Artistic-2.0 | GPL-3.0+"
+LICENSE = "PD | MIT | Artistic-2.0 | GPL-3.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

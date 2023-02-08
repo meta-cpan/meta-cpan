@@ -6,7 +6,7 @@ well as IO handles, the loop also supports timers and signal handlers, and \
 includes more higher-level functionality built on top of these basic parts."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

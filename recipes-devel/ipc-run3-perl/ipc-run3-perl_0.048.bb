@@ -4,7 +4,7 @@ the need for using "system", "qx", and "open3" with a simple, extremely \
 Perlish API."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+ | BSD-2-Clause"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later | BSD-2-Clause"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

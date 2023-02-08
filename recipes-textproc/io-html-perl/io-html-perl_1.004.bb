@@ -3,7 +3,7 @@ automatically determining its encoding. It uses the HTML5 encoding sniffing \
 algorithm specified in section 8.2.2.2 of the draft standard."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

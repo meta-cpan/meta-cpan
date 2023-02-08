@@ -3,7 +3,7 @@ certificates in a form that can be consumed by modules and libraries based \
 on OpenSSL."
 
 SECTION = "libs"
-LICENSE = "MPLv2"
+LICENSE = "MPL-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

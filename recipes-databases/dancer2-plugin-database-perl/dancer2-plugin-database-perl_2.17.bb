@@ -2,7 +2,7 @@ DESCRIPTION = "Provides an easy way to obtain a connected DBI database handle by
 calling the database keyword within your Dancer2 application"
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

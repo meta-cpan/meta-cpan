@@ -3,7 +3,7 @@ outputting the formatting tags embedded in the string as terminal escape \
 sequences, to render the the output in the appropriate style."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

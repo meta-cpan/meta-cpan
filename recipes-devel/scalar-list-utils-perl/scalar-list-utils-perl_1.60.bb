@@ -4,7 +4,7 @@ high enough to warrant the use of a keyword, and the size so small such \
 that being individual extensions would be wasteful."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

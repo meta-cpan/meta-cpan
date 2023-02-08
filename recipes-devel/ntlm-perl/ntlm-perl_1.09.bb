@@ -4,7 +4,7 @@ the challenge/response mechanism for NTLM connections or it can be used on \
 its own for NTLM authentication with other protocols (eg. HTTP)."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

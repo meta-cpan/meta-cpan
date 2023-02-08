@@ -2,7 +2,7 @@ DESCRIPTION = "One recurring problem in modules that use Scalar::Util's "weaken"
 is that it is not present in the pure-perl variant."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

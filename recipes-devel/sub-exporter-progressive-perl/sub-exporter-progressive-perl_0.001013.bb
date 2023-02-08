@@ -6,7 +6,7 @@ try to use "Sub::Exporter"'s more advanced features, like renaming exports, \
 if they try to use them."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
