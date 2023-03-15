@@ -6,7 +6,7 @@ even works on Windows (usually). Stop guessing which of a dozen capturing \
 modules to use in any particular situation and just use this one."
 
 SECTION = "libs"
-LICENSE = "Apachev2"
+LICENSE = "Apache-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -1,18 +1,18 @@
-DESCRIPTION = '"Module::Build" is a system for building, testing, and installing Perl \
+DESCRIPTION = ""Module::Build" is a system for building, testing, and installing Perl \
 modules. It is meant to be an alternative to "ExtUtils::MakeMaker". \
 Developers may alter the behavior of the module through subclassing. It \
 also does not require a "make" on your system - most of the "Module::Build" \
-code is pure-perl and written in a very cross-platform way.'
+code is pure-perl and written in a very cross-platform way."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Module-Build"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz"
 

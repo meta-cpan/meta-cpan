@@ -3,7 +3,7 @@ generates commonly needed regular expressions (see "List of available \
 patterns")."
 
 SECTION = "libs"
-LICENSE = "MIT | MIT | BSD-3-Clause | Artisticv1 | Artistic-2.0"
+LICENSE = "MIT | MIT | BSD-3-Clause | Artistic-1.0 | Artistic-2.0"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

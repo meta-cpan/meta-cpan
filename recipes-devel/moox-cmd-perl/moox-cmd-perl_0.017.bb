@@ -5,28 +5,28 @@ the tree (starting from the toplevel command through to the most specific \
 one) is instanciated."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/MooX-Cmd"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/MooX-Cmd-0.017.tar.gz"
 
 SRC_URI[md5sum] = "51463dcc80fef5bf827392ddfb8ee3ca"
 SRC_URI[sha256sum] = "943ff28daa80897327c7c5fec5a7100cfaac92daf0f9f97c38e3a77d00ae70f5"
-RDEPENDS_${PN} += "list-moreutils-perl"
-RDEPENDS_${PN} += "module-pluggable-perl"
-RDEPENDS_${PN} += "module-runtime-perl"
-RDEPENDS_${PN} += "moo-perl"
-RDEPENDS_${PN} += "package-stash-perl"
-RDEPENDS_${PN} += "params-util-perl"
-RDEPENDS_${PN} += "regexp-common-perl"
-RRECOMMENDS_${PN} += "hash-merge-perl"
-RRECOMMENDS_${PN} += "moox-configfromfile-perl"
+RDEPENDS:${PN} += "list-moreutils-perl"
+RDEPENDS:${PN} += "module-pluggable-perl"
+RDEPENDS:${PN} += "module-runtime-perl"
+RDEPENDS:${PN} += "moo-perl"
+RDEPENDS:${PN} += "package-stash-perl"
+RDEPENDS:${PN} += "params-util-perl"
+RDEPENDS:${PN} += "regexp-common-perl"
+RRECOMMENDS:${PN} += "hash-merge-perl"
+RRECOMMENDS:${PN} += "moox-configfromfile-perl"
 DEPENDS += "capture-tiny-perl-native"
 
 S = "${WORKDIR}/MooX-Cmd-${PV}"

@@ -1,0 +1,48 @@
+From 68cad53258d9da9351053efb3b52de78c5af7064 Mon Sep 17 00:00:00 2001
+From: Jens Rehsack <sno@netbsd.org>
+Date: Thu, 6 Jan 2022 17:23:06 +0100
+Subject: [PATCH] Makefile.PL: avoid execution of openssl
+
+Do not execute openssl in cross compile environments.
+
+Signed-off-by: Jens Rehsack <sno@netbsd.org>
+---
+ Makefile.PL | 15 ++-------------
+ 1 file changed, 2 insertions(+), 13 deletions(-)
+
+diff --git a/Makefile.PL b/Makefile.PL
+index 6dcf155..07b8c7d 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -116,18 +116,7 @@ MAKE
+ 
+ sub ssleay {
+     my $prefix = find_openssl_prefix();
+-    my $exec   = find_openssl_exec($prefix);
+-    unless (defined $exec && -x $exec) {
+-        print <<EOM;
+-*** Could not find OpenSSL
+-    If it's already installed, please set the OPENSSL_PREFIX environment
+-    variable accordingly. If it isn't installed yet, get the latest version
+-    from http://www.openssl.org/.
+-EOM
+-        exit 0; # according https://wiki.cpantesters.org/wiki/CPANAuthorNotes this is best-practice when "missing library"
+-    }
+-    check_openssl_version($prefix, $exec);
+-    my $opts = ssleay_get_build_opts($prefix, $exec);
++    my $opts = ssleay_get_build_opts($prefix);
+     my %args = (
+         CCCDLFLAGS => $opts->{cccdlflags},
+         OPTIMIZE => $opts->{optimize},
+@@ -145,7 +134,7 @@ EOM
+ sub maybe_quote { $_[0] =~ / / ? qq{"$_[0]"} : $_[0] }
+ 
+ sub ssleay_get_build_opts {
+-    my ($prefix, $exec) = @_;
++    my ($prefix) = @_;
+ 
+     my $opts = {
+         lib_links  => [],
+-- 
+2.34.1
+

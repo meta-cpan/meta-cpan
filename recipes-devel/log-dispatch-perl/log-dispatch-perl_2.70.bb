@@ -14,13 +14,13 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Log-Dispatch-2.70.t
 
 SRC_URI[md5sum] = "3369ffd45dc098ef6c74622ceee7ad74"
 SRC_URI[sha256sum] = "a3d91cc52467d3a3c6683103f3df4472d71e405a45f553289448713ac4293f21"
-RDEPENDS_${PN} += "devel-globaldestruction-perl"
-RDEPENDS_${PN} += "module-runtime-perl"
-RDEPENDS_${PN} += "namespace-autoclean-perl"
-RDEPENDS_${PN} += "params-validationcompiler-perl"
-RDEPENDS_${PN} += "specio-perl"
-RDEPENDS_${PN} += "try-tiny-perl"
-RDEPENDS_${PN}-dev += "dist-checkconflicts-perl"
+RDEPENDS:${PN} += "devel-globaldestruction-perl"
+RDEPENDS:${PN} += "module-runtime-perl"
+RDEPENDS:${PN} += "namespace-autoclean-perl"
+RDEPENDS:${PN} += "params-validationcompiler-perl"
+RDEPENDS:${PN} += "specio-perl"
+RDEPENDS:${PN} += "try-tiny-perl"
+RDEPENDS:${PN}-dev += "dist-checkconflicts-perl"
 DEPENDS += "ipc-run3-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-needs-perl-native"
@@ -29,6 +29,6 @@ S = "${WORKDIR}/Log-Dispatch-${PV}"
 
 inherit cpan allarch
 
-BBCLASSEXTEND = "native"
+FILES:${PN}-dev += "${PERLLIBDIRS}/vendor_perl/${PERLVERSION}/Log/Dispatch/Conflicts.pm"
 
-FILES_${PN}-dev += "${PERLLIBDIRS}/vendor_perl/${PERLVERSION}/Log/Dispatch/Conflicts.pm"
+BBCLASSEXTEND = "native"

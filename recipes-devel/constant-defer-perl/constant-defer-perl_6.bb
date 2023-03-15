@@ -4,7 +4,7 @@ returns that value, like a constant. The value code is discarded once \
 run, allowing it to be garbage collected."
 
 SECTION = "libs"
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"

@@ -7,20 +7,20 @@ parent hashes are merged. Please note that self-referencing hashes, or \
 recursive references, are not handled well by this method."
 
 SECTION = "libs"
-LICENSE = "Artisticv1 | GPLv1+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 PR = "r0"
 
 MAINTAINER=	"Poky <poky@yoctoproject.org>"
 HOMEPAGE=	"https://metacpan.org/release/Hash-Merge"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-1.0;md5=cda03bbdc3c1951996392b872397b798 \
-file://${COMMON_LICENSE_DIR}/GPL-1.0;md5=e9e36a9de734199567a4d769498f743d"
+file://${COMMON_LICENSE_DIR}/GPL-1.0-or-later;md5=30c0b8a5048cc2f4be5ff15ef0d8cf61"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Hash-Merge-0.302.tar.gz"
 
 SRC_URI[md5sum] = "6f65d0a4ca2a7bd42975c8869dcc24da"
 SRC_URI[sha256sum] = "ae0522f76539608b61dde14670e79677e0f391036832f70a21f31adde2538644"
-RDEPENDS_${PN} += "clone-choose-perl"
+RDEPENDS:${PN} += "clone-choose-perl"
 
 S = "${WORKDIR}/Hash-Merge-${PV}"
 
